@@ -1,0 +1,260 @@
+ <page>
+    <title>Hlavná stránka</title>
+    <ns>0</ns>
+    <id>1</id>
+    <restrictions>sysop</restrictions>
+    <revision>
+      <id>7070047</id>
+      <parentid>7063669</parentid>
+      <timestamp>2020-08-04T01:15:23Z</timestamp>
+      <contributor>
+        <username>Teslaton</username>
+        <id>12161</id>
+      </contributor>
+      <minor />
+      <comment>+ rubrika Aktuality, obsah editovateľný v [[Šablóna:Hlavná stránka/Aktuality]], v zmysle [[Special:Permalink/7069577#Preview_hlavnej_stránky_s_aktualitami|návrhu]]</comment>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="7213" xml:space="preserve">&lt;templatestyles src=&quot;Šablóna:Hlavná stránka/styles.css&quot; /&gt;
+{{Úvod (Hlavná stránka)}}
+&lt;!---------- ODKAZY ----------&gt;
+{| style=&quot;width:100%; background-color: transparent; margin-top:-.75em; margin-bottom:-.75em;&quot;
+|style=&quot;font-size:95%; text-align:left; white-space: nowrap;color:#333&quot;|[[Wikipédia:O Wikipédii|O Wikipédii]]&amp;nbsp;&lt;span style=&quot;color:#333;&quot;&gt;'''•'''&lt;/span&gt; [[Wikipédia:Príručka|Príručka]]&amp;nbsp;&lt;span style=&quot;color:#333;&quot;&gt;'''•'''&lt;/span&gt; [[Pomoc:Obsah|Pomoc]] 
+|style=&quot;font-size:95%; padding-top:12px; padding-bottom:10px; margin:0px; text-align:right; white-space:nowrap; color:#333&quot;| [[Wikipédia:Zoznam najlepších článkov|Najlepšie články]]&amp;nbsp;&lt;span style=&quot;color:#333;&quot;&gt;'''•'''&lt;/span&gt; [[:Kategória:Wikiportály|Portály]]&amp;nbsp;&lt;span style=&quot;color:#333;&quot;&gt;'''•'''&lt;/span&gt; [[:Kategória:Základné kategórie|Kategórie]]&amp;nbsp;&lt;span style=&quot;color:#333;&quot;&gt;'''•'''&lt;/span&gt; [[Wikipédia:Rýchly index|A{{--}}Z index]]
+|}
+
+&lt;!---------- ĽAVÉ OKNO ----------&gt;
+&lt;!---------- DENNÉ UDALOSTI ----------&gt;
+{| id=&quot;mp-upper&quot; style=&quot;margin:0; background:none;&quot;
+| class=&quot;MainPageBG&quot; style=&quot;width:70%; background:transparent; vertical-align:top; color:#000;&quot; |
+{| id=&quot;mp-left&quot; cellpadding=&quot;0&quot; cellspacing=&quot;0&quot; style=&quot;width:100%; vertical-align:top; background:transparent;&quot;
+|&lt;div style=&quot;border:1px solid #c2dfff; padding:1px; margin-bottom:1px; background-color: #f5faff;&quot;&gt;
+&lt;div style=&quot;position:relative; margin-top:-5px;&quot;&gt;
+[[Súbor:Bluebg.png|link=]]
+&lt;div style=&quot;position:absolute; left:5px; top:4px;&quot;&gt;[[Súbor:Datum{{CURRENTDAY}}.svg|38px|link=]]&lt;/div&gt;
+&lt;div style=&quot;position:absolute; left:50px; top:4px; font-size:145%; color: #0247FE&quot;&gt;'''[[{{CURRENTDAY}}. {{CURRENTMONTHNAME}}]]'''&lt;/font&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;div clear=&quot;all&quot; style=&quot;margin:1em; padding-right:6px; padding-top:5px;overflow:auto;&quot;&gt;{{Denné udalosti/{{CURRENTMONTH}}_{{CURRENTDAY}}}}&lt;/div&gt;
+{{Pätička denných udalostí}}&lt;/div&gt;
+|-
+| height=&quot;5px&quot; |
+|-
+&lt;!---------- AKTUALITY ----------&gt;
+|{{Hlavná stránka/Aktuality}}
+|-
+| height=&quot;5px&quot; |
+|-
+&lt;!---------- ODPORÚČANÝ ČLÁNOK ----------&gt;
+|&lt;div style=&quot;border:1px solid #c2dfff; padding:1px; margin-bottom:1px; background-color: #f5faff;&quot;&gt;
+&lt;div style=&quot;text-align:left; position:relative; margin-top:-5px;&quot;&gt;
+[[Súbor:Bluebg.png|link=]]
+&lt;div style=&quot;position:absolute; left:5px; top:4px;&quot;&gt;[[súbor:HSutvald2.svg|38px|link=]]&lt;/div&gt;
+&lt;div style=&quot;position:absolute; left:50px; top:4px; font-size:145%; color: #0247FE&quot;&gt;'''Odporúčaný článok'''&lt;/font&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;div clear=&quot;all&quot; style=&quot;margin:0.5em; padding-right:6px; padding-top:5px;text-align: justify;overflow:auto;&quot;&gt;{{Wikipédia/Odporúčaný článok/{{CURRENTMONTH}} {{CURRENTYEAR}}}}&lt;/div&gt;
+{{Pätička odporúčaného článku}}&lt;/div&gt;
+|-
+| height=&quot;5px&quot; |
+|-
+&lt;!---------- VEDELI STE? ----------&gt;
+|&lt;div style=&quot;border:1px solid #c2dfff; padding:1px; margin-bottom:1px; background-color: #f5faff;&quot;&gt;
+&lt;div style=&quot;text-align:left; position:relative; margin-top:-5px;&quot;&gt;
+[[Súbor:Bluebg.png|link=]]
+&lt;div style=&quot;position:absolute; left:5px; top:4px;&quot;&gt;[[Súbor:HSVissteduatt.svg|38px|link=]]&lt;/div&gt;
+&lt;div style=&quot;position:absolute; left:50px; top:4px; font-size:145%; color: #0247FE&quot;&gt;'''Vedeli ste, že...'''&lt;/font&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;div clear=&quot;all&quot; style=&quot;margin:1em; padding-right:6px; padding-top:5px;overflow:auto;&quot;&gt;{{Vedeli ste}}&lt;/div&gt;
+{{Pätička zaujímavostí}}&lt;/div&gt;
+|-
+| height=&quot;5px&quot; |
+|-
+&lt;!---------- OBRÁZOK TÝŽDŇA ----------&gt;
+|&lt;div style=&quot;border:1px solid #c2dfff; padding:3px; margin-bottom:3px; background-color: #f5faff;&quot;&gt;
+&lt;div style=&quot;text-align:left; position:relative; margin-top:-5px;&quot;&gt;
+[[Súbor:Bluebg.png|link=]]
+&lt;div style=&quot;position:absolute; left:5px; top:4px;&quot;&gt;[[súbor:HSBild.svg|38px|link=]]&lt;/div&gt;
+&lt;div style=&quot;position:absolute; left:50px; top:4px; font-size:145%; color: #0247FE&quot;&gt;'''Obrázok týždňa'''&lt;/font&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;div clear=&quot;all&quot; style=&quot;margin:1em; padding-top:12px; overflow:auto;&quot;&gt;{{Obrázky týždňa/{{CURRENTWEEK}} {{CURRENTYEAR}}}}&lt;/div&gt;{{Pätička obrázku týždňa}}&lt;/div&gt;&lt;/div&gt;
+|-
+|}
+&lt;!---------- PRAVÉ OKNO ----------&gt;
+&lt;!---------- PORTÁLY----------&gt;
+| style=&quot;border:1px solid transparent;&quot; |
+| class=&quot;MainPageBG&quot; style=&quot;width:30%; border:1px solid #cef2e0; background:#f5faff; vertical-align:top; color:#000;&quot;|
+{|id=&quot;mp-left&quot; cellpadding=&quot;2&quot; cellspacing=&quot;5&quot; style=&quot;width:100%; vertical-align:top; background:#f5fffa;&quot;
+&lt;div style=&quot;position:relative;&quot;&gt;
+[[Súbor:Greenbg_right.png|280px|right|link=]]
+&lt;div style=&quot;font-size:115%; position:absolute; right:45px; top:0px;&quot;&gt;'''Portály'''&lt;/div&gt;
+&lt;div style=&quot;position:absolute; right:10px; top:2px;&quot;&gt;[[Súbor:Portal.svg|26px|link=]]&lt;/div&gt;
+&lt;/div&gt;
+|-
+| style=&quot;background:#f5fffa; font-size:90%;&quot; |
+{| style=&quot;background:none;&quot;
+|-
+| style=&quot;line-height:120%;&quot; | {{Zoznam portálov (Hlavná stránka)}}
+|}
+|-
+&lt;!---------- KATEGÓRIE ----------&gt;
+| height=&quot;5px&quot; |
+|-
+| &lt;div style=&quot;position:relative;&quot;&gt;
+[[Súbor:Greenbg_right.png|280px|right|link=]]
+&lt;div style=&quot;font-size:115%; position:absolute; right:45px; top:0px;&quot;&gt;'''Kategórie'''&lt;/div&gt;
+&lt;div style=&quot;position:absolute; right:10px; top:2px;&quot;&gt;[[Súbor:Vista-xmag.png|30px|link=]]&lt;/div&gt;&lt;/div&gt;
+|-
+| style=&quot;background:#f5fffa; font-size:90%;&quot; |
+{| style=&quot;background:none;&quot;
+|-
+|style=&quot;line-height:120%;&quot; | {{Hlavná stránka/Kategórie}}
+|}
+|-
+&lt;!---------- CUDZOJAZYČNÉ WIKIPÉDIE ----------&gt;
+| height=&quot;5px&quot; |
+|-
+| &lt;div style=&quot;position:relative;&quot;&gt;
+[[Súbor:Greenbg_right.png|280px|right|link=]]
+&lt;div style=&quot;font-size:115%; position:absolute; right:45px; top:0px;&quot;&gt;'''Cudzojazyčné Wikipédie'''&lt;/div&gt;
+&lt;div style=&quot;position:absolute; right:10px; top:2px;&quot;&gt;[[Súbor:Gnome-globe.svg|26px|link=]]&lt;/div&gt;&lt;/div&gt;
+|-
+| style=&quot;background:#f5fffa; font-size:90%;&quot; |
+{| style=&quot;background:none;&quot;
+|-
+| {{Cudzojazyčné wikipédie2}}
+|}
+|-
+&lt;!---------- O PROJEKTE ----------&gt;
+| height=&quot;5px&quot; |
+|-
+| &lt;div style=&quot;position:relative;&quot;&gt;
+[[Súbor:Greenbg_right.png|280px|right|link=]]
+&lt;div style=&quot;font-size:115%; position:absolute; right:45px; top:0px;&quot;&gt;'''O projekte'''&lt;/div&gt;
+&lt;div style=&quot;position:absolute; right:10px; top:2px;&quot;&gt;[[Súbor:Wikipedia-logo.png|26px|link=]]&lt;/div&gt;&lt;/div&gt;
+|-
+| style=&quot;background:#f5fffa; font-size:90%;&quot; |
+{| style=&quot;background:none;&quot;
+|-
+| {{Hlavná stránka/O projekte}}
+|}
+|}
+|}
+&lt;!---------- SESTERSKÉ PROJEKTY ----------&gt;
+{| id=&quot;mp-tfp&quot; style=&quot;margin:4px 0 0 0; width:100%; background:none;&quot;
+| class=&quot;MainPageBG&quot; style=&quot;width:100%; border:1px solid #cef2e0; background:#f5faff; vertical-align:top; color:#000;&quot;|
+{| cellpadding=&quot;2&quot; cellspacing=&quot;5&quot; style=&quot;vertical-align:top; background:#f5faff; color:#000; width:100%&quot;
+|&lt;div style=&quot;text-align:left; position:relative; margin-top:-5px;&quot;&gt;
+[[Súbor:Bluebg.png|link=]]
+&lt;div style=&quot;position:absolute; left:5px; top:4px;&quot;&gt;[[Súbor:Wikimedia-logo.svg|27px|link=]]&lt;/div&gt;
+&lt;div style=&quot;position:absolute; left:50px; top:4px; font-size:120%;&quot;&gt;'''Ďalšie projekty'''&lt;/div&gt;
+&lt;div clear=&quot;all&quot; style=&quot;margin:1em; padding-right:6px; padding-top:12px;overflow:auto;&quot;&gt;{{Sesterské projekty}}
+|}
+|}
+
+&lt;div class=&quot;toccolours&quot; style=&quot;font-size: smaller; text-align: center;&quot;&gt;
+Ak pokladáte Wikipédiu alebo sesterské projekty za užitočné, prosím zvážte [https://donate.wikimedia.org poskytnutie daru]. Dary sú primárne určené na nákup vybavenia serverov.
+&lt;/div&gt;</text>
+      <sha1>c00oehe2jqn4gev0juydp3eyo2imfsm</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Main Page</title>
+    <ns>0</ns>
+    <id>2</id>
+    <redirect title="Hlavná stránka" />
+    <revision>
+      <id>89777</id>
+      <timestamp>2003-08-31T12:01:53Z</timestamp>
+      <contributor>
+        <username>Andre Engels</username>
+        <id>2</id>
+      </contributor>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="30" xml:space="preserve">#REDIRECT [[Hlavná stránka]]</text>
+      <sha1>gj4ij44roeqj42e06ryb2oj86hae6f8</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Wikipédia:Upload log</title>
+    <ns>4</ns>
+    <id>4</id>
+    <restrictions>sysop</restrictions>
+    <revision>
+      <id>89779</id>
+      <timestamp>2004-07-25T20:08:25Z</timestamp>
+      <contributor>
+        <username>Liso</username>
+        <id>40</id>
+      </contributor>
+      <comment>uploaded &quot;550px-Solar_system_scale.jpg&quot;: slnecna sustava 9pomer velkosti0</comment>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="7518" xml:space="preserve">&lt;ul&gt;&lt;li&gt;20:08, 25 Júl 2004 [[Redaktor:Liso|Liso]] uploaded &quot;[[:Obrázok:550px-Solar_system_scale.jpg|550px-Solar_system_scale.jpg]]&quot; &lt;em&gt;(slnecna sustava 9pomer velkosti0)&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;23:02, 22 Júl 2004 [[Redaktor:Valasek|Valasek]] uploaded &quot;[[:Obrázok:Wiki.png|Wiki.png]]&quot; &lt;em&gt;(Wiki logo poslovenčené)&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;09:54, 21 Júl 2004 [[Redaktor:Liso|Liso]] uploaded &quot;[[:Obrázok:Go-small.png|Go-small.png]]&quot; &lt;em&gt;(obrazok go)&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;13:43, 12 Júl 2004 [[Redaktor:Ujo Ivo|Ujo Ivo]] uploaded &quot;[[:Obrázok:Cad.jpg|Cad.jpg]]&quot; &lt;em&gt;(Cad_republik)&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;13:37, 8 Júl 2004 [[Redaktor:Ujo Ivo|Ujo Ivo]] uploaded &quot;[[:Obrázok:Boole.jpg|Boole.jpg]]&quot; &lt;em&gt;(George Boole)&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;14:26, 7 Júl 2004 [[Redaktor:Ujo Ivo|Ujo Ivo]] uploaded &quot;[[:Obrázok:Turing.jpg|Turing.jpg]]&quot; &lt;em&gt;(Alan Turing)&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;17:38, 23 Jún 2004 [[Redaktor:Kuba G|Kuba G]] uploaded &quot;[[:Obrázok:125px-Slovakia_flag_large.png|125px-Slovakia_flag_large.png]]&quot; &lt;em&gt;(Slovensko flag from WP-En)&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;17:37, 23 Jún 2004 [[Redaktor:Kuba G|Kuba G]] uploaded &quot;[[:Obrázok:Slovakia_coa.png|Slovakia_coa.png]]&quot; &lt;em&gt;(Slovensko coat of arms from WP-En)&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;08:20, 25 Feb 2004 [[Redaktor:Valasek|Valasek]] uploaded &quot;[[:Obrázok:Wiki-plain.PNG|Wiki-plain.PNG]]&quot; &lt;em&gt;(Logo Wikipedie bez textu &amp;quot;The Free Encyclopedia&amp;quot;)&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;21:42, 31 Aug 2003 [[User:Beno|Beno]] uploaded &quot;[[:Image:Nb-TableImage.png|Nb-TableImage.png]]&quot;&lt;/li&gt;
+&lt;li&gt;21:42, 31 Aug 2003 [[User:Beno|Beno]] uploaded &quot;[[:Image:Nb-TableImage.png|Nb-TableImage.png]]&quot;&lt;/li&gt;
+&lt;li&gt;21:42, 31 Aug 2003 [[User:Beno|Beno]] uploaded &quot;[[:Image:Be-TableImage.png|Be-TableImage.png]]&quot;&lt;/li&gt;
+&lt;li&gt;21:25, 31 Aug 2003 [[User:Beno|Beno]] uploaded &quot;[[:Image:Zr-TableImage.png|Zr-TableImage.png]]&quot;&lt;/li&gt;
+&lt;li&gt;21:25, 31 Aug 2003 [[User:Beno|Beno]] uploaded &quot;[[:Image:Zn-TableImage.png|Zn-TableImage.png]]&quot;&lt;/li&gt;
+&lt;li&gt;21:25, 31 Aug 2003 [[User:Beno|Beno]] uploaded &quot;[[:Image:Y-TableImage.png|Y-TableImage.png]]&quot;&lt;/li&gt;
+&lt;li&gt;21:25, 31 Aug 2003 [[User:Beno|Beno]] uploaded &quot;[[:Image:Xe-TableImage.png|Xe-TableImage.png]]&quot;&lt;/li&gt;
+&lt;li&gt;21:25, 31 Aug 2003 [[User:Beno|Beno]] uploaded &quot;[[:Image:V-TableImage.png|V-TableImage.png]]&quot;&lt;/li&gt;
+&lt;li&gt;21:25, 31 Aug 2003 [[User:Beno|Beno]] uploaded &quot;[[:Image:Ti-TableImage.png|Ti-TableImage.png]]&quot;&lt;/li&gt;
+&lt;li&gt;21:25, 31 Aug 2003 [[User:Beno|Beno]] uploaded &quot;[[:Image:Te-TableImage.png|Te-TableImage.png]]&quot;&lt;/li&gt;
+&lt;li&gt;21:24, 31 Aug 2003 [[User:Beno|Beno]] uploaded &quot;[[:Image:Tc-TableImage.png|Tc-TableImage.png]]&quot;&lt;/li&gt;
+&lt;li&gt;21:24, 31 Aug 2003 [[User:Beno|Beno]] uploaded &quot;[[:Image:Tc-TableImage.png|Tc-TableImage.png]]&quot;&lt;/li&gt;
+&lt;li&gt;21:24, 31 Aug 2003 [[User:Beno|Beno]] uploaded &quot;[[:Image:S-TableImage.png|S-TableImage.png]]&quot;&lt;/li&gt;
+&lt;li&gt;21:24, 31 Aug 2003 [[User:Beno|Beno]] uploaded &quot;[[:Image:Sr-TableImage.png|Sr-TableImage.png]]&quot;&lt;/li&gt;
+&lt;li&gt;21:24, 31 Aug 2003 [[User:Beno|Beno]] uploaded &quot;[[:Image:Sn-TableImage.png|Sn-TableImage.png]]&quot;&lt;/li&gt;
+&lt;li&gt;21:24, 31 Aug 2003 [[User:Beno|Beno]] uploaded &quot;[[:Image:Si-TableImage.png|Si-TableImage.png]]&quot;&lt;/li&gt;
+&lt;li&gt;21:24, 31 Aug 2003 [[User:Beno|Beno]] uploaded &quot;[[:Image:Se-TableImage.png|Se-TableImage.png]]&quot;&lt;/li&gt;
+&lt;li&gt;21:23, 31 Aug 2003 [[User:Beno|Beno]] uploaded &quot;[[:Image:Sc-TableImage.png|Sc-TableImage.png]]&quot;&lt;/li&gt;
+&lt;li&gt;21:23, 31 Aug 2003 [[User:Beno|Beno]] uploaded &quot;[[:Image:Sb-TableImage.png|Sb-TableImage.png]]&quot;&lt;/li&gt;
+&lt;li&gt;21:23, 31 Aug 2003 [[User:Beno|Beno]] uploaded &quot;[[:Image:Ru-TableImage.png|Ru-TableImage.png]]&quot;&lt;/li&gt;
+&lt;li&gt;21:23, 31 Aug 2003 [[User:Beno|Beno]] uploaded &quot;[[:Image:Rh-TableImage.png|Rh-TableImage.png]]&quot;&lt;/li&gt;
+&lt;li&gt;21:23, 31 Aug 2003 [[User:Beno|Beno]] uploaded &quot;[[:Image:Rb-TableImage.png|Rb-TableImage.png]]&quot;&lt;/li&gt;
+&lt;li&gt;21:23, 31 Aug 2003 [[User:Beno|Beno]] uploaded &quot;[[:Image:P-TableImage.png|P-TableImage.png]]&quot;&lt;/li&gt;
+&lt;li&gt;21:23, 31 Aug 2003 [[User:Beno|Beno]] uploaded &quot;[[:Image:Pd-TableImage.png|Pd-TableImage.png]]&quot;&lt;/li&gt;
+&lt;li&gt;21:23, 31 Aug 2003 [[User:Beno|Beno]] uploaded &quot;[[:Image:O-TableImage.png|O-TableImage.png]]&quot;&lt;/li&gt;
+&lt;li&gt;21:22, 31 Aug 2003 [[User:Beno|Beno]] uploaded &quot;[[:Image:N-TableImage.png|N-TableImage.png]]&quot;&lt;/li&gt;
+&lt;li&gt;21:22, 31 Aug 2003 [[User:Beno|Beno]] uploaded &quot;[[:Image:Ni-TableImage.png|Ni-TableImage.png]]&quot;&lt;/li&gt;
+&lt;li&gt;21:22, 31 Aug 2003 [[User:Beno|Beno]] uploaded &quot;[[:Image:Ne-TableImage.png|Ne-TableImage.png]]&quot;&lt;/li&gt;
+&lt;li&gt;21:22, 31 Aug 2003 [[User:Beno|Beno]] uploaded &quot;[[:Image:Nb-TableImage.png|Nb-TableImage.png]]&quot;&lt;/li&gt;
+&lt;li&gt;21:22, 31 Aug 2003 [[User:Beno|Beno]] uploaded &quot;[[:Image:Na-TableImage.png|Na-TableImage.png]]&quot;&lt;/li&gt;
+&lt;li&gt;21:22, 31 Aug 2003 [[User:Beno|Beno]] uploaded &quot;[[:Image:Mo-TableImage.png|Mo-TableImage.png]]&quot;&lt;/li&gt;
+&lt;li&gt;21:22, 31 Aug 2003 [[User:Beno|Beno]] uploaded &quot;[[:Image:Mn-TableImage.png|Mn-TableImage.png]]&quot;&lt;/li&gt;
+&lt;li&gt;21:22, 31 Aug 2003 [[User:Beno|Beno]] uploaded &quot;[[:Image:Mg-TableImage.png|Mg-TableImage.png]]&quot;&lt;/li&gt;
+&lt;li&gt;21:21, 31 Aug 2003 [[User:Beno|Beno]] uploaded &quot;[[:Image:Li-TableImage.png|Li-TableImage.png]]&quot;&lt;/li&gt;
+&lt;li&gt;21:21, 31 Aug 2003 [[User:Beno|Beno]] uploaded &quot;[[:Image:K-TableImage.png|K-TableImage.png]]&quot;&lt;/li&gt;
+&lt;li&gt;21:21, 31 Aug 2003 [[User:Beno|Beno]] uploaded &quot;[[:Image:Kr-TableImage.png|Kr-TableImage.png]]&quot;&lt;/li&gt;
+&lt;li&gt;21:21, 31 Aug 2003 [[User:Beno|Beno]] uploaded &quot;[[:Image:I-TableImage.png|I-TableImage.png]]&quot;&lt;/li&gt;
+&lt;li&gt;21:21, 31 Aug 2003 [[User:Beno|Beno]] uploaded &quot;[[:Image:In-TableImage.png|In-TableImage.png]]&quot;&lt;/li&gt;
+&lt;li&gt;21:21, 31 Aug 2003 [[User:Beno|Beno]] uploaded &quot;[[:Image:H-TableImage.png|H-TableImage.png]]&quot;&lt;/li&gt;
+&lt;li&gt;21:20, 31 Aug 2003 [[User:Beno|Beno]] uploaded &quot;[[:Image:He-TableImage.png|He-TableImage.png]]&quot;&lt;/li&gt;
+&lt;li&gt;21:20, 31 Aug 2003 [[User:Beno|Beno]] uploaded &quot;[[:Image:Ge-TableImage.png|Ge-TableImage.png]]&quot;&lt;/li&gt;
+&lt;li&gt;21:20, 31 Aug 2003 [[User:Beno|Beno]] uploaded &quot;[[:Image:Ga-TableImage.png|Ga-TableImage.png]]&quot;&lt;/li&gt;
+&lt;li&gt;21:20, 31 Aug 2003 [[User:Beno|Beno]] uploaded &quot;[[:Image:F-TableImage.png|F-TableImage.png]]&quot;&lt;/li&gt;
+&lt;li&gt;21:19, 31 Aug 2003 [[User:Beno|Beno]] uploaded &quot;[[:Image:Fe-TableImage.png|Fe-TableImage.png]]&quot;&lt;/li&gt;
+&lt;li&gt;21:19, 31 Aug 2003 [[User:Beno|Beno]] uploaded &quot;[[:Image:Cu-TableImage.png|Cu-TableImage.png]]&quot;&lt;/li&gt;
+&lt;li&gt;21:19, 31 Aug 2003 [[User:Beno|Beno]] uploaded &quot;[[:Image:C-TableImage.png|C-TableImage.png]]&quot;&lt;/li&gt;
+&lt;li&gt;21:19, 31 Aug 2003 [[User:Beno|Beno]] uploaded &quot;[[:Image:Cs-TableImage.png|Cs-TableImage.png]]&quot;&lt;/li&gt;
+&lt;li&gt;21:19, 31 Aug 2003 [[User:Beno|Beno]] uploaded &quot;[[:Image:Cr-TableImage.png|Cr-TableImage.png]]&quot;&lt;/li&gt;
+&lt;li&gt;21:19, 31 Aug 2003 [[User:Beno|Beno]] uploaded &quot;[[:Image:Co-TableImage.png|Co-TableImage.png]]&quot;&lt;/li&gt;
+&lt;li&gt;21:19, 31 Aug 2003 [[User:Beno|Beno]] uploaded &quot;[[:Image:Cl-TableImage.png|Cl-TableImage.png]]&quot;&lt;/li&gt;
+&lt;li&gt;21:18, 31 Aug 2003 [[User:Beno|Beno]] uploaded &quot;[[:Image:Cd-TableImage.png|Cd-TableImage.png]]&quot;&lt;/li&gt;
+&lt;li&gt;21:18, 31 Aug 2003 [[User:Beno|Beno]] uploaded &quot;[[:Image:Ca-TableImage.png|Ca-TableImage.png]]&quot;&lt;/li&gt;
+&lt;li&gt;21:18, 31 Aug 2003 [[User:Beno|Beno]] uploaded &quot;[[:Image:B-TableImage.png|B-TableImage.png]]&quot;&lt;/li&gt;
+&lt;li&gt;21:18, 31 Aug 2003 [[User:Beno|Beno]] uploaded &quot;[[:Image:Br-TableImage.png|Br-TableImage.png]]&quot;&lt;/li&gt;
+&lt;li&gt;21:18, 31 Aug 2003 [[User:Beno|Beno]] uploaded &quot;[[:Image:Be-TableImage.png|Be-TableImage.png]]&quot;&lt;/li&gt;
+&lt;li&gt;21:17, 31 Aug 2003 [[User:Beno|Beno]] uploaded &quot;[[:Image:As-TableImage.png|As-TableImage.png]]&quot;&lt;/li&gt;
+&lt;li&gt;21:17, 31 Aug 2003 [[User:Beno|Beno]] uploaded &quot;[[:Image:Ar-TableImage.png|Ar-TableImage.png]]&quot;&lt;/li&gt;
+&lt;li&gt;21:17, 31 Aug 2003 [[User:Beno|Beno]] uploaded &quot;[[:Image:Al-TableImage.png|Al-TableImage.png]]&quot;&lt;/li&gt;
+&lt;li&gt;21:16, 31 Aug 2003 [[User:Beno|Beno]] uploaded &quot;[[:Image:Ag-TableImage.png|Ag-TableImage.png]]&quot;&lt;/li&gt;
+
+&lt;/ul&gt;</text>
+      <sha1>89gjj0fok0czn5uo016j9qiat5vzcv2</sha1>
+    </revision>
+  </page>
