@@ -1,260 +1,716 @@
- <page>
-    <title>Hlavná stránka</title>
+
+  <page>
+    <title>Vzdušné sily Slovenskej republiky</title>
     <ns>0</ns>
-    <id>1</id>
-    <restrictions>sysop</restrictions>
+    <id>207726</id>
     <revision>
-      <id>7070047</id>
-      <parentid>7063669</parentid>
-      <timestamp>2020-08-04T01:15:23Z</timestamp>
+      <id>7091333</id>
+      <parentid>7090016</parentid>
+      <timestamp>2020-09-25T10:34:45Z</timestamp>
       <contributor>
-        <username>Teslaton</username>
-        <id>12161</id>
+        <ip>217.67.17.109</ip>
       </contributor>
-      <minor />
-      <comment>+ rubrika Aktuality, obsah editovateľný v [[Šablóna:Hlavná stránka/Aktuality]], v zmysle [[Special:Permalink/7069577#Preview_hlavnej_stránky_s_aktualitami|návrhu]]</comment>
+      <comment>/* Pozemná protivzdušná obrana */</comment>
       <model>wikitext</model>
       <format>text/x-wiki</format>
-      <text bytes="7213" xml:space="preserve">&lt;templatestyles src=&quot;Šablóna:Hlavná stránka/styles.css&quot; /&gt;
-{{Úvod (Hlavná stránka)}}
-&lt;!---------- ODKAZY ----------&gt;
-{| style=&quot;width:100%; background-color: transparent; margin-top:-.75em; margin-bottom:-.75em;&quot;
-|style=&quot;font-size:95%; text-align:left; white-space: nowrap;color:#333&quot;|[[Wikipédia:O Wikipédii|O Wikipédii]]&amp;nbsp;&lt;span style=&quot;color:#333;&quot;&gt;'''•'''&lt;/span&gt; [[Wikipédia:Príručka|Príručka]]&amp;nbsp;&lt;span style=&quot;color:#333;&quot;&gt;'''•'''&lt;/span&gt; [[Pomoc:Obsah|Pomoc]] 
-|style=&quot;font-size:95%; padding-top:12px; padding-bottom:10px; margin:0px; text-align:right; white-space:nowrap; color:#333&quot;| [[Wikipédia:Zoznam najlepších článkov|Najlepšie články]]&amp;nbsp;&lt;span style=&quot;color:#333;&quot;&gt;'''•'''&lt;/span&gt; [[:Kategória:Wikiportály|Portály]]&amp;nbsp;&lt;span style=&quot;color:#333;&quot;&gt;'''•'''&lt;/span&gt; [[:Kategória:Základné kategórie|Kategórie]]&amp;nbsp;&lt;span style=&quot;color:#333;&quot;&gt;'''•'''&lt;/span&gt; [[Wikipédia:Rýchly index|A{{--}}Z index]]
-|}
-
-&lt;!---------- ĽAVÉ OKNO ----------&gt;
-&lt;!---------- DENNÉ UDALOSTI ----------&gt;
-{| id=&quot;mp-upper&quot; style=&quot;margin:0; background:none;&quot;
-| class=&quot;MainPageBG&quot; style=&quot;width:70%; background:transparent; vertical-align:top; color:#000;&quot; |
-{| id=&quot;mp-left&quot; cellpadding=&quot;0&quot; cellspacing=&quot;0&quot; style=&quot;width:100%; vertical-align:top; background:transparent;&quot;
-|&lt;div style=&quot;border:1px solid #c2dfff; padding:1px; margin-bottom:1px; background-color: #f5faff;&quot;&gt;
-&lt;div style=&quot;position:relative; margin-top:-5px;&quot;&gt;
-[[Súbor:Bluebg.png|link=]]
-&lt;div style=&quot;position:absolute; left:5px; top:4px;&quot;&gt;[[Súbor:Datum{{CURRENTDAY}}.svg|38px|link=]]&lt;/div&gt;
-&lt;div style=&quot;position:absolute; left:50px; top:4px; font-size:145%; color: #0247FE&quot;&gt;'''[[{{CURRENTDAY}}. {{CURRENTMONTHNAME}}]]'''&lt;/font&gt;&lt;/div&gt;&lt;/div&gt;
-&lt;div clear=&quot;all&quot; style=&quot;margin:1em; padding-right:6px; padding-top:5px;overflow:auto;&quot;&gt;{{Denné udalosti/{{CURRENTMONTH}}_{{CURRENTDAY}}}}&lt;/div&gt;
-{{Pätička denných udalostí}}&lt;/div&gt;
-|-
-| height=&quot;5px&quot; |
-|-
-&lt;!---------- AKTUALITY ----------&gt;
-|{{Hlavná stránka/Aktuality}}
-|-
-| height=&quot;5px&quot; |
-|-
-&lt;!---------- ODPORÚČANÝ ČLÁNOK ----------&gt;
-|&lt;div style=&quot;border:1px solid #c2dfff; padding:1px; margin-bottom:1px; background-color: #f5faff;&quot;&gt;
-&lt;div style=&quot;text-align:left; position:relative; margin-top:-5px;&quot;&gt;
-[[Súbor:Bluebg.png|link=]]
-&lt;div style=&quot;position:absolute; left:5px; top:4px;&quot;&gt;[[súbor:HSutvald2.svg|38px|link=]]&lt;/div&gt;
-&lt;div style=&quot;position:absolute; left:50px; top:4px; font-size:145%; color: #0247FE&quot;&gt;'''Odporúčaný článok'''&lt;/font&gt;&lt;/div&gt;&lt;/div&gt;
-&lt;div clear=&quot;all&quot; style=&quot;margin:0.5em; padding-right:6px; padding-top:5px;text-align: justify;overflow:auto;&quot;&gt;{{Wikipédia/Odporúčaný článok/{{CURRENTMONTH}} {{CURRENTYEAR}}}}&lt;/div&gt;
-{{Pätička odporúčaného článku}}&lt;/div&gt;
-|-
-| height=&quot;5px&quot; |
-|-
-&lt;!---------- VEDELI STE? ----------&gt;
-|&lt;div style=&quot;border:1px solid #c2dfff; padding:1px; margin-bottom:1px; background-color: #f5faff;&quot;&gt;
-&lt;div style=&quot;text-align:left; position:relative; margin-top:-5px;&quot;&gt;
-[[Súbor:Bluebg.png|link=]]
-&lt;div style=&quot;position:absolute; left:5px; top:4px;&quot;&gt;[[Súbor:HSVissteduatt.svg|38px|link=]]&lt;/div&gt;
-&lt;div style=&quot;position:absolute; left:50px; top:4px; font-size:145%; color: #0247FE&quot;&gt;'''Vedeli ste, že...'''&lt;/font&gt;&lt;/div&gt;&lt;/div&gt;
-&lt;div clear=&quot;all&quot; style=&quot;margin:1em; padding-right:6px; padding-top:5px;overflow:auto;&quot;&gt;{{Vedeli ste}}&lt;/div&gt;
-{{Pätička zaujímavostí}}&lt;/div&gt;
-|-
-| height=&quot;5px&quot; |
-|-
-&lt;!---------- OBRÁZOK TÝŽDŇA ----------&gt;
-|&lt;div style=&quot;border:1px solid #c2dfff; padding:3px; margin-bottom:3px; background-color: #f5faff;&quot;&gt;
-&lt;div style=&quot;text-align:left; position:relative; margin-top:-5px;&quot;&gt;
-[[Súbor:Bluebg.png|link=]]
-&lt;div style=&quot;position:absolute; left:5px; top:4px;&quot;&gt;[[súbor:HSBild.svg|38px|link=]]&lt;/div&gt;
-&lt;div style=&quot;position:absolute; left:50px; top:4px; font-size:145%; color: #0247FE&quot;&gt;'''Obrázok týždňa'''&lt;/font&gt;&lt;/div&gt;&lt;/div&gt;
-&lt;div clear=&quot;all&quot; style=&quot;margin:1em; padding-top:12px; overflow:auto;&quot;&gt;{{Obrázky týždňa/{{CURRENTWEEK}} {{CURRENTYEAR}}}}&lt;/div&gt;{{Pätička obrázku týždňa}}&lt;/div&gt;&lt;/div&gt;
-|-
-|}
-&lt;!---------- PRAVÉ OKNO ----------&gt;
-&lt;!---------- PORTÁLY----------&gt;
-| style=&quot;border:1px solid transparent;&quot; |
-| class=&quot;MainPageBG&quot; style=&quot;width:30%; border:1px solid #cef2e0; background:#f5faff; vertical-align:top; color:#000;&quot;|
-{|id=&quot;mp-left&quot; cellpadding=&quot;2&quot; cellspacing=&quot;5&quot; style=&quot;width:100%; vertical-align:top; background:#f5fffa;&quot;
-&lt;div style=&quot;position:relative;&quot;&gt;
-[[Súbor:Greenbg_right.png|280px|right|link=]]
-&lt;div style=&quot;font-size:115%; position:absolute; right:45px; top:0px;&quot;&gt;'''Portály'''&lt;/div&gt;
-&lt;div style=&quot;position:absolute; right:10px; top:2px;&quot;&gt;[[Súbor:Portal.svg|26px|link=]]&lt;/div&gt;
+      <text bytes="163131" xml:space="preserve">{{Dobrý článok}}
+{{Iný význam|vzdušných silách súčasnej [[Slovensko|Slovenskej republiky]]|vzdušných silách [[Slovenská republika (1939 – 1945)|vojnového Slovenského štátu]] |Slovenské vzdušné zbrane}}
+{{Infobox Vojenská jednotka
+|meno               = Vzdušné sily Ozbrojených síl Slovenskej republiky
+|obrázok            = Slovak Air Force logo.png
+|šírka obrázka      = 200px
+|popis obrázka      = Emblém Vzdušných síl OS SR
+|krajina            = {{minivlajka|Slovensko}} [[Slovensko]]
+|existencia         = 1993 – súčasnosť
+|vznik              = 1. január 1993 (ako ''Letectvo a protivzdušná obrana Veliteľstva Armády Slovenskej republiky'')
+|zánik              =
+|typ                = vzdušné sily a protivzdušná obrana
+|funkcia            = obrana vzdušného priestoru Slovenska, zvrchovanosti Slovenskej republiky, dôležitých politických a hospodárskych centier, regiónov a vojsk pred údermi vzdušného protivníka, priama podpora boja pozemných síl
+|veľkosť            = ~3 200 príslušníkov&lt;ref&gt;{{Citácia periodika | priezvisko = Lang | meno = Pavel | odkaz na autora = | titul = Střežíme vzdušný prostor Slovenska | periodikum = ATM+ Informační příloha MO ČR a AČR | ročník = 46 | číslo = 2/2014 | strany = 81–83 | issn = 1802-4823}}&lt;/ref&gt;&lt;br /&gt;25 lietadiel, 16 vrtuľníkov
+|posádka            =
+|prezývka           = 
+|motto              = 
+|velitelia          = [[generálmajor]] Ing. [[Ľubomír Svoboda]]&lt;ref name=velitelsvoboda&gt;{{Citácia elektronického dokumentu | priezvisko = | meno = | odkaz na autora = | titul = Veľká zmena pre vzdušné sily | url = http://www.vvzs.mil.sk/71703/?pg=1 | dátum vydania = | dátum aktualizácie = | dátum prístupu = 14.07.2017 | vydavateľ = Vzdušné sily Ozbrojených síl Slovenskej republiky | miesto = Zvolen | jazyk = }}&lt;/ref&gt;
+|podriadené jednotky= 
+&lt;div&gt;
+* [[Dopravné krídlo generála Milana Rastislava Štefánika Kuchyňa|Dopravné krídlo generála Milana Rastislava Štefánika]]
+* [[Taktické krídlo generálmajora Otta Smika Sliač|Taktické krídlo generálmajora Otta Smika]]
+* [[Vrtuľníkové krídlo generálplukovníka Jána Ambruša Prešov|Vrtuľníkové krídlo generálplukovníka Jána Ambruša]]
+* [[Protilietadlová raketová brigáda Nitra|Protilietadlová raketová brigáda obrancov Tobruku]]
+* [[Brigáda riadenia vzdušných operácií Zvolen|Brigáda riadenia vzdušných operácií]]
 &lt;/div&gt;
+|nadradené jednotky = [[Súbor:Official-emblem-of-ossr.png|22px]] [[Ozbrojené sily Slovenskej republiky]]
+|vojny              = 
+|bitky              =
+|znak               = &lt;center&gt;[[Súbor:Coat of Arms of Slovakia.svg|75px]]&lt;br /&gt;'''Znak'''&lt;br /&gt;[[Súbor:Roundel of Slovakia – Low Visibility.svg|75px]]&lt;br /&gt;'''Znak v prevedení so zníženou viditeľnosťou'''&lt;/center&gt;
+|útočné lietadlá        = [[Aero L-39 Albatros|L-39ZAM]] 
+|bombardovacie lietadlá = 
+|prieskumné lietadlá    = [[Let L-410 Turbolet|L-410FG]]
+|stíhacie lietadlá      = [[Mikojan-Gurevič MiG-29|MiG-29AS/UBS]]
+|výcvikové lietadlá     = [[Aero L-39 Albatros|L-39CM/ZAM]]
+|dopravné lietadlá      = [[Alenia C-27J Spartan|C-27J]], [[Let L-410 Turbolet|L-410UVP-E14/20]]
+|bezpilotné lietadlá    = 
+|vrtuľníky              = 
+|bojové vrtuľníky       = 
+|dopravné vrtuľníky     = [[Sikorsky UH-60 Black Hawk|UH-60M]], [[Mil Mi-17|Mi-17M/LPZS]]
+|výcvikové vrtuľníky    = 
+}}
+
+'''Vzdušné sily Slovenskej republiky''' (oficiálne: '''''Vzdušné sily Ozbrojených síl Slovenskej republiky'''''; skratka: '''''VzS OS SR''''') sú leteckou zložkou [[Ozbrojené sily Slovenskej republiky|Ozbrojených síl]] [[Slovensko|Slovenskej republiky]], ktorej úlohou je zabezpečenie obrany vzdušného priestoru Slovenska, obrana zvrchovanosti Slovenskej republiky, dôležitých politických a hospodárskych centier, regiónov a vojsk pred údermi vzdušného protivníka, ako aj priama podpora boja pozemných síl.&lt;ref&gt;{{Citácia elektronického dokumentu | priezvisko = | meno = | autor = AGLO solutions (www.aglo.sk) | odkaz na autora = | titul = Veliteľstvo vzdušných síl OS SR | url = http://www.vvzs.mil.sk/86/ | vydavateľ = vvzs.mil.sk | dátum vydania = | dátum aktualizácie = | dátum prístupu = 2017-10-23 | miesto = | jazyk = }}&lt;/ref&gt; Veliteľom Vzdušných síl OS SR je od 1. augusta 2017 [[generálmajor]] Ing. [[Ľubomír Svoboda]].&lt;ref name=&quot;velitelsvoboda&quot; /&gt;&lt;ref&gt;{{Citácia periodika|titul=Svoboda, Ľubomír|periodikum=http://forum.valka.cz|url=http://forum.valka.cz/topic/view/118695/Svoboda-Lubomir|dátum prístupu=2017-07-26}}&lt;/ref&gt;
+
+== Názov ==
+* od 1. januára 1993 do 1. septembra 1994: '''''Letectvo a protivzdušná obrana Veliteľstva Armády Slovenskej republiky'''''
+* od 1. septembra 1994 do 1. januára 2000: '''''Letectvo a protivzdušná obrana Generálneho štábu Armády Slovenskej republiky'''''
+* od 1. januára 2000 do 1. júla 2002: '''''Vzdušné sily Armády Slovenskej republiky'''''
+* od 1. júla 2002: '''''Vzdušné sily Ozbrojených síl Slovenskej republiky'''''
+
+== Velitelia ==
+* od 1. januára 1993 do 1. septembra 1994: genmjr. Ing. [[Štefan Gombík]] (veliteľ Letectva a protivzdušnej obrany Veliteľstva ASR)&lt;ref name=&quot;mosr-vzdusne-sily-os-sr&quot;&gt;{{Citácia elektronického dokumentu | priezvisko = | meno = | autor = | odkaz na autora = | titul = Vzdušné sily OS SR | url = https://www.mosr.sk/vzdusne-sily-os-sr/?mnu=286 | vydavateľ = Ministerstvo obrany SR | dátum vydania = | dátum aktualizácie = | dátum prístupu = 2019-09-30 | miesto = Bratislava | jazyk = }}&lt;/ref&gt;
+* od 1. septembra 1994 do 1. januára 2000: genpor. Ing. Štefan Gombík (náčelník Štábu letectva a protivzdušnej obrany GŠ ASR)&lt;ref name=&quot;mosr-vzdusne-sily-os-sr&quot;/&gt;
+* od 1. januára 2000 do 1. novembra 2005: genmjr. Ing. [[Jozef Dunaj]] (veliteľ vzdušných síl)&lt;ref name=&quot;mosr-vzdusne-sily-os-sr&quot;/&gt;
+* od 1. novembra 2005 do 26. mája 2010: genmjr. Ing. [[Juraj Baránek]] (veliteľ vzdušných síl)&lt;ref name=&quot;mosr-vzdusne-sily-os-sr&quot;/&gt;
+* od 26. mája 2010 do 15. septembra 2012: genmjr. Ing. [[Martin Babiak]] (veliteľ vzdušných síl )&lt;ref name=&quot;mosr-vzdusne-sily-os-sr&quot;/&gt;&lt;ref&gt;{{Citácia elektronického dokumentu | priezvisko = | meno = | autor = | odkaz na autora = | titul = 20 rokov vesmírnej misie Štefánik | url = http://kozmonautika.sk/2019/01/24/20rokovstefanik/ | vydavateľ = kozmonautika.sk | dátum vydania = | dátum aktualizácie = | dátum prístupu = 2020-01-14 | miesto = | jazyk = }}&lt;/ref&gt;
+* od 15. septembra 2012 do 1. augusta 2017: genmjr. Ing. [[Miroslav Korba]] (veliteľ vzdušných síl)&lt;ref name=&quot;mosr-vzdusne-sily-os-sr&quot;/&gt;
+* od 1. augusta 2017: genmjr. Ing. [[Ľubomír Svoboda]] (veliteľ vzdušných síl)&lt;ref name=&quot;mosr-vzdusne-sily-os-sr&quot;/&gt;
+
+== História ==
+=== Vznik ===
+V dôsledku zmenenej geopoliticko-vojenskej situácie po roku [[1989]] sa velenie vtedajšej federálnej [[Česko-slovenská armáda|česko-slovenskej armády]] snažilo posilniť vzdušnú obranu Slovenska. Od [[7. máj]]a [[1991]] tak bola na základni [[Letisko Sliač|Sliač]] dislokovaná 81. samostatná stíhacia letka, ktorá spolu so zabezpečovacím práporom plnila úlohy pohotovostného systému a položila základ súčasných Vzdušných síl OS SR. Neskôr bola zreorganizovaná na 1. stíhací letecký pluk. Dňa [[30. november|30. novembra]] 1991 bolo vo [[Zvolen]]e vytvorené veliteľstvo 1. divízie protivzdušnej obrany. Postupne mu boli podriadené protilietadlové raketové útvary v [[Nitra|Nitre]], [[Rožňava|Rožňave]] a [[Pezinok|Pezinku]], ako aj rôzne zabezpečovacie útvary.&lt;ref name=historia&gt;{{Citácia elektronického dokumentu | priezvisko = | meno = | autor = | odkaz na autora = | titul = Fórum portálu CS PVO 1950-1992 | url = https://forum.presscont.eu/viewtopic.php?f=82&amp;t=303 | vydavateľ = forum.presscont.eu | dátum vydania = | dátum aktualizácie = | dátum prístupu = 2017-10-23 | miesto = | jazyk = }}&lt;/ref&gt;
+
+V [[október|októbri]] [[1992]] bola federálnym ministerstvom obrany [[Česká a Slovenská Federatívna Republika|ČSFR]] vyčlenená skupina pod velením generálmajora Ing. Jána Váňu. Cieľom tejto skupiny bolo vytvoriť organizačné štruktúry budúceho letectva a protivzdušnej obrany SR a zabezpečiť bojaschopnosť letectva a protivzdušnej obrany Slovenska po zániku [[Česko-Slovensko|Česko-Slovenska]]. Postupne sa táto skupina rozrastala a [[1. november|1. novembra]] 1992 vznikla Správa letectva a protivzdušnej obrany pre Slovensko so sídlom v [[Trenčín]]e, ktorej činnosť skončila 31. decembra 1992. Dňom [[1. január]]a [[1993]], spolu so vznikom samostatnej [[Slovensko|Slovenskej republiky]], vzniká ''Letectvo a protivzdušná obrana Veliteľstva Armády Slovenskej republiky'', ktorého veliteľom bol menovaný generálporučík Ing. Štefan Gombík.
+
+=== Obdobie pred vstupom do NATO (1993 – 2004) ===
+[[Súbor:Slovakian Aerobatics Team The Albatrosses (4632150769).jpg|thumb|left|Akrobatická skupina [[Biele Albatrosy]] na [[Royal International Air Tattoo]] 1993 vo [[RAF Fairford|Fairforde]]]]
+
+Zánikom Česko-Slovenska a následným delením majetku Česko-Slovenska Slovensko prevzalo a presunulo na svoje územie 167 lietadiel a 62 vrtuľníkov&lt;ref name=fv&gt;{{Citácia elektronického dokumentu | priezvisko = | meno = | autor = | odkaz na autora = | titul = Prehľad rozdelenia vojenských lietadiel po rozpade ČSFR : Vyhledávací přehledy letounů databáze Naše letadla | url = http://forum.valka.cz/topic/view/91146 | vydavateľ = forum.valka.cz | dátum vydania = | dátum aktualizácie = | dátum prístupu = 2017-10-23 | miesto = | jazyk = }}&lt;/ref&gt;, spolu s príslušným materiálom a niekoľko protilietadlových kompletov. Zároveň sa organizovalo preškoľovanie niekoľko desiatok technikov a pilotov.
+
+Letectvo a protivzdušná obrana Armády SR bolo dislokované na piatich leteckých základniach a malo vo výzbroji 229&lt;ref&gt;brožúra II. Slovenský medzinárodný letecký deň SIAD 1994, str. 8&lt;/ref&gt; lietadiel a vrtuľníkov rôznych typov; stíhačky (9× [[Mikojan-Gurevič MiG-29|MiG-29A]], 1× [[Mikojan-Gurevič MiG-29|MiG-29UB]], 13× [[Mikojan-Gurevič MiG-21|MiG-21MA]], 36× [[Mikojan-Gurevič MiG-21|MiG-21MF]], 8× [[Mikojan-Gurevič MiG-21|MiG-21R]], 11× [[Mikojan-Gurevič MiG-21|MiG-21UM]] a 2× [[Mikojan-Gurevič MiG-21|MiG-21US]]), stíhacie bombardéry (18× [[Suchoj Su-22 (Su-17, Su-20)|Su-22M4]] a 3× [[Suchoj Su-22 (Su-17, Su-20)|Su-22UM-3K]]), bojové (12× [[Suchoj Su-25|Su-25K]] a 1× [[Suchoj Su-25|Su-25UBK]]), cvičné prúdové (16× [[Aero L-29 Delfín|L-29]], 8× [[Aero L-39 Albatros|L-39C]], 2× [[Aero L-39 Albatros|L-39MS]], 2× [[Aero L-39 Albatros|L-39V]] a 9× [[Aero L-39 Albatros|L-39ZA]]), vrtuľníky (17× [[Mil Mi-2|Mi-2]], 1× [[Mil Mi-8|Mi-8PPA]], 2× [[Mil Mi-8|Mi-8PS]], 6× [[Mil Mi-8|Mi-8T]], 15× [[Mil Mi-17|Mi-17]], 2× [[Mil Mi-17|Mi-17Z-2]], 8× [[Mil Mi-24|Mi-24D]], 1× [[Mil Mi-24|Mi-24DU]], 10× [[Mil Mi-24|Mi-24V]]), dopravné (2× [[Let L-410 Turbolet|L-410MA]], 2× [[Let L-410 Turbolet|L-410FG]], 1× [[Let L-410 Turbolet|L-410UVP]], 1× [[Let L-410 Turbolet|L-410UVP-E]], 3× [[Let L-410 Turbolet|L-410UVP-T]], 1× [[Antonov An-12|An-12BP]], 2× [[Antonov An-24|An-24V]], 2× [[Antonov An-26|An-26]] a 1× [[Tupolev Tu-154|Tu-154B-2]]) a bezpilotné prostriedky VR-3 Rejs.&lt;ref name=fv /&gt; V rámci prvej deblokácie ruského dlhu, od [[december|decembra]] [[1993]] do [[január]]a [[1994]], bolo na Slovensko dodaných päť stíhacích MiGov-29A (reg. č. 0619, 0820, 0921, 2022, 2123) a 1 cvičný MiG-29UB (reg. č. 1303). V roku 1994 bol v súlade s Koncepciou výstavby Armády SR do roku 2000 vytvorený Generálny štáb Armády SR a v jeho rámci Štáb letectva a protivzdušnej obrany. V tom istom roku bola zrušená 1. divízia protivzdušnej obrany a letectva a na jej základoch dňa [[1. november|1. novembra]] 1994 vznikol 3. zbor letectva a protivzdušnej obrany (3. zbor LaPVO).&lt;ref name=historia/&gt;
+
+[[Súbor:Slovak Air Force Mikoyan-Gurevich MiG-29A (9-12A) Lofting-1.jpg|thumb|left|[[Mikojan-Gurevič MiG-29|Mikojan-Gurevič MiG-29A]] (reg. č. 6829) na Royal International Air Tattoo 1996]]
+
+Významnou udalosťou v existencii 3. zboru LaPVO sa v roku [[1995]] stali bojové streľby stíhacieho letectva na strelnici [[Ustka]] v [[Poľsko|Poľsku]] a v roku [[1996]] bojové streľby protilietadlových raketových kompletov na strelnici [[Šabla]] v [[Bulharsko|Bulharsku]]. Stíhacie lietadlá [[Mikojan-Gurevič MiG-29|MiG-29A]] a [[Mikojan-Gurevič MiG-21|MiG-21MF]] 31. stíhacieho leteckého krídla zo základne Sliač po prvý raz v histórii slovenského letectva odpálili riadené strely [[K-13 (raketa vzduch-vzduch)|R-3S]], [[K-13 (raketa vzduch-vzduch)|R-13]] a [[R-60 (raketa vzduch-vzduch)|R-60]] na cvičný cieľ SAB-250-200. Podobne vybrané obsluhy protilietadlových raketových kompletov 37. protilietadlovej raketovej brigády Pezinok vykonali ostré bojové streľby raketami [[S-125 Neva/Pečora|S-125]] na cvičný cieľ Koliber. Ďalšou významnou udalosťou v histórii Letectva a protivzdušnej obrany Armády SR bola reprezentácia slovenského stíhacieho pilota pplk. Ing. [[Ivan Hůlek|Ivana Hůleka]], ktorý ako prvý na svete získal dvakrát putovnú cenu ''The Super King Trophy'' pre najlepšieho stíhacieho pilota na [[Royal International Air Tattoo]] vo [[RAF Fairford|Fairforde]] v rokoch 1995 a 1998.&lt;ref name=historia/&gt;
+
+V roku 1995 bolo tiež vyradených 21 stíhačiek MiG-21 v súlade s európskymi dohodami o počte zbraní. Dňa [[15. marec|15. marca]] 1995 havaroval [[Aero L-29 Delfín|L-29 Delfín]] (reg. č. 3302) pri cvičnom lete vo výcvikovom priestore Javorina. Pri nehode zahynul pilot mjr. Ing. Jaroslav Horník †.&lt;ref&gt;{{Citácia elektronického dokumentu | priezvisko = | meno = | autor = | odkaz na autora = | titul = L-29 993302 : L-29 | url = http://forum.valka.cz/topic/view/52319 | vydavateľ = forum.valka.cz | dátum vydania = | dátum aktualizácie = | dátum prístupu = 2017-10-23 | miesto = | jazyk = }}&lt;/ref&gt; Od [[december|decembra]] 1995 do [[január]]a [[1996]], v rámci druhej deblokácie ruského dlhu, bolo na Slovensko dodaných sedem stíhacích MiGov-29A (reg. č. 6124, 6425, 6526, 6627, 6728, 6829, 6930) a 1 cvičný MiG-29UB (reg. č. 5304).
+
+[[Súbor:Slovak Air Force Mikoyan-Gurevich MiG-21MF Kral-2.jpg|thumb|right|Vyradené [[Mikojan-Gurevič MiG-21|MiGy-21MF]] na základni [[Letisko Sliač|Sliač]], 2003]]
+
+Koniec 90. rokov 20. storočia bol charakteristický hlavne nedostatkom finančných prostriedkov prideľovaných na prevádzku celého vojenského letectva, čo bolo príčinou postupného znižovania počtu letuschopných lietadiel. Obdobie rokov [[1998]] až [[1999]] bolo najkritickejšie, pretože financie neboli takmer na nič. Letectvo a protivzdušná obrana Armády SR síce mali 24 stíhačiek [[Mikojan-Gurevič MiG-29|MiG-29]], ale letuschopné boli iba tri stroje.{{#tag:ref|Pravdepodobne z tohto obdobia pochádza fáma o troch letuschopných slovenských stíhačkách, ktorá sa udržuje hlavne medzi laickou verejnosťou. Napriek tomu, že v rokoch 2004 až 2006 bolo čiastočne zmodernizovaných 12 kusov stíhačiek MiG-29, ktoré boli formálne odovzdané vzdušným silám v roku 2008, je táto nepravdivá informácia stále pomerne rozšírená. Jedným z dôvodov je nesprávna interpretácia informácie médiami alebo samotnými ľuďmi ohľadom troch ozbrojených stíhačiek, ktoré sú vyčlenené pre pohotovostný systém ochrany vzdušného priestoru SR v rámci integrovaného systému NATINAMDS. Zvyšné lietadlá MiG-29 slúžia na zabezpečenie výcviku a niektoré sú na pravidelných servisných prácach.|group=pozn.}} K [[1. január]]u [[2000]] vzniká [[Veliteľstvo Vzdušných síl Ozbrojených síl Slovenskej republiky|Veliteľstvo vzdušných síl]] z bývalého 3. zboru letectva a protivzdušnej obrany, čím bola zrealizovaná jedna z úloh reformného procesu rezortu obrany.&lt;ref&gt;{{Citácia elektronického dokumentu | priezvisko = | meno = | odkaz na autora = | titul = Veliteľstvo vzdušných síl OS SR| url = http://www.vvzs.mil.sk/86/ | dátum vydania = | dátum aktualizácie = | dátum prístupu = 14.07.2017 | vydavateľ = Veliteľstvo Vzdušných síl Ozbrojených síl Slovenskej republiky | miesto = Zvolen | jazyk = slovenčina}}&lt;/ref&gt; Bola vytvorená nová organizačná štruktúra veliteľstva podľa vzoru armád NATO a zároveň vypracované základné dokumenty potrebné pre činnosť veliteľstva. Do funkcie veliteľa vzdušných síl bol ustanovený plk. gšt. Ing. [[Jozef Dunaj]]. Dňa [[3. jún]]a 2000 havaroval počas letovej ukážky skupiny [[Biele Albatrosy]] jeden [[Aero L-39 Albatros|L-39C Albatros]] (reg. č. 4355). Pri tejto nehode zahynul pilot mjr. Ing. Ľuboš Novák †. V roku [[2002]] sa uskutočnili ostré bojové streľby letectva a protivzdušnej obrany v Poľsku lietadlami MiG-29 a protilietadlovými raketovými kompletmi [[2K12 Kub]] s výbornými výsledkami. Rok 2002 bol aj tragický, keď sa [[6. november|6. novembra]] o 20:45 [[stredoeurópsky čas|SEČ]] počas nočného cvičného letu zrazil jeden MiG-29A (reg. č. 6829) s druhým MiGom-29A (reg. č. 6930) medzi obcami Hnilčík a Spišské Tomášovce. Pilot mjr. Ing. Martin Hronec sa zo stroja s reg. č. 6930 úspešne katapultoval a nebol vážne zranený. Zrážku neprežil mjr. Ing. Marián Katuška †, ktorý sa nestihol zo svojho MiGu-29A (reg. č. 6829) katapultovať. S blížiacim sa vstupom Slovenska do [[Organizácia Severoatlantickej zmluvy|NATO]] boli z výzbroje do roku [[2003]] vyradené v tom čase už zastarané lietadlá [[Suchoj Su-17 (Su-20, Su-22)|Suchoj Su-22]], [[Suchoj Su-25]], [[Aero L-29 Delfín]] a [[Mikojan-Gurevič MiG-21]].
+
+=== Novšia história (2004 – súčasnosť) ===
+[[Súbor:MiG-29 Slovakia (20933685810).jpg|thumb|right|MiG-29AS (reg. č. 0619) v digitálnej kamufláži po modernizácii]]
+
+Po vstupe Slovenska do NATO bolo potrebné modernizovať lietadlá vzdušných síl, respektíve dosiahnuť kompatibilitu s technikou NATO. V rokoch [[2004]] až [[2006]] bola v leteckých opravovniach Trenčín vykonaná čiastočná modernizácia stíhačiek MiG-29 v spolupráci s výrobcom lietadiel a aj viacerými západnými spoločnosťami. Stroje boli vybavené vyspelejšími komunikačnými prostriedkami a systémami kompatibilnými s technikou NATO (navigačný a komunikačný systém, systém identifikácie vlastný/cudzí, [[Medzinárodná organizácia pre civilné letectvo|ICAO]] normy), pričom morálne a technicky zastaraný zbraňový systém lietadla už nebol modernizovaný. Okrem iného avionika prešla na anglosaský nemetrický systém. Dvanásť modernizovaných strojov (10 jednomiestnych verzie AS a 2 dvojmiestne UBS), z ktorých dva (reg. č. 0619 a 0921) získali aj novú tzv. digitálnu kamufláž, bolo formálne odovzdaných vzdušným silám dňa [[29. február]]a [[2008]] na základni Sliač.
+
+Dňa [[19. január]]a [[2006]] stratili slovenské vzdušné sily jeden [[Antonov An-24]] pri [[Letecké nešťastie slovenského An-24|leteckej katastrofe]]. Pri náraze lietadla zahynulo 41 vojakov a jeden civilný zamestnanec [[Ministerstvo obrany Slovenskej republiky|Ministerstva obrany SR]], jeden vojak prežil. Lietadlo privážalo späť slovenských príslušníkov síl KFOR z polročnej služby v [[Kosovo|Kosove]].
+V [[september|septembri]] [[2011]] boli všetky zostávajúce vrtuľníky [[Mil Mi-24]] vyradené.&lt;ref&gt;{{Citácia periodika | priezvisko = Timková | meno = Ingrid | autor = | odkaz na autora = | titul = Vrtuľníky Mi-24 vzlietli v Prešove naposledy | periodikum = sme.sk | odkaz na periodikum = SME | url = https://presov.korzar.sme.sk/c/6064088/vrtulniky-mi-24-vzlietli-v-presove-naposledy.html | issn = 1335-4418 | vydavateľ = Petit Press | miesto = Bratislava | dátum = 2011-09-21 | dátum prístupu = 2017-10-23 }}&lt;/ref&gt; Dňa 20. decembra 2012 došlo k incidentu&lt;ref&gt;{{Citácia elektronického dokumentu | priezvisko = | meno = | autor = | odkaz na autora = | titul = | url = http://www.telecom.gov.sk/index/open_file.php?file=doprava/uvlni/SKS2012004_web.pdf | vydavateľ = telecom.gov.sk | dátum vydania = | dátum aktualizácie = | dátum prístupu = 2017-10-23 | miesto = | jazyk = }}&lt;/ref&gt;, kedy sa MiG-29AS (reg. č. 0921) slovenských vzdušných síl nebezpečne priblížil k civilnému súkromnému lietadlu [[Beechcraft Super King Air|Beechcraft B200 Super King Air]], na ktorom sa inicializoval protizrážkový systém.&lt;ref name=blizkastihacka&gt;{{Citácia elektronického dokumentu | priezvisko = | meno = | odkaz na autora = |titul = Vojenská stíhačka ohrozila civilné lietadlo | url = http://spravy.pravda.sk/domace/clanok/258939-vojenska-stihacka-ohrozila-civilne-lietadlo/ | dátum vydania = 13.02.2013| dátum aktualizácie = | dátum prístupu = 15.02.2013 | vydavateľ = Pravda.sk | miesto = | jazyk = }}&lt;/ref&gt;
+
+Dňa [[28. júl]]a [[2015]] počas cvičenia pristávania v teréne došlo následkom poveternostných podmienok k zrúteniu vrtuľníka [[Mil Mi-17|Mi-17M]] (reg. č. 0812) pri osade Hradisko (na území obce [[Terňa]]). Krátko po havárii podľahol svojím zraneniam druhý pilot kpt. Ing. Richard Sépi. Kapitán vrtuľníka kpt. Ing. Peter Pavlinský a palubný technik [[podpráporčík|pprap.]] Tibor Šoltés utrpeli ťažké zranenia.&lt;ref&gt;{{Citácia elektronického dokumentu | priezvisko = | meno = | odkaz na autora = |titul = Prehľad nehôd Slovenského vojenského letectva a lietadiel
+Leteckého útvaru Ministerstva vnútra SR. | url = http://forum.valka.cz/topic/view/91981 | dátum vydania = | dátum aktualizácie = | dátum prístupu = 01.09.2017 | vydavateľ = forum.valka.cz | miesto = | jazyk = }}&lt;/ref&gt;
+
+Vzhľadom na zámer komplexného zabezpečenia nedotknuteľnosti vzdušného priestoru Slovenska a vzdušného priestoru Česka prostredníctvom vzájomnej spolupráce, vláda SR vyslovila súhlas s vyslaním príslušníkov Ozbrojených síl Slovenskej republiky na územie Česka a s prítomnosťou príslušníkov [[Armáda Českej republiky|Armády Českej republiky]] na území Slovenska za účelom spolupráce pri vzájomnej ochrane vzdušného priestoru na základe Zmluvy medzi Slovenskou republikou a Českou republikou o spolupráci pri vzájomnej ochrane vzdušného priestoru, ktorá bola podpísaná v Bruseli dňa [[15. február]]a [[2017]].&lt;ref&gt;{{Citácia elektronického dokumentu | priezvisko = | meno = | autor = | odkaz na autora = | titul = vlastnymat.docx | url = http://www.rokovania.sk/File.aspx/ViewDocumentHtml/Mater-Dokum-209083?prefixFile=m_ | vydavateľ = rokovania.sk | dátum vydania = | dátum aktualizácie = | dátum prístupu = 2017-10-23 | miesto = | jazyk = }}&lt;/ref&gt;
+
+Dňa 27. marca 2017 došlo na leteckej základni Sliač k závažnej leteckej nehode, pri ktorej havarovalo súkromné lietadlo [[Aero L-29 Delfín|L-29 Delfín]] (OM-JLP, rok výroby 1965, výrobné číslo 591683, vlastník Ing. Ľudovít Francl, PhD.)&lt;ref&gt;{{Citácia elektronického dokumentu | priezvisko = | meno = | autor = | odkaz na autora = | titul = | url = http://letectvo.nsat.sk/wp-content/uploads/sites/2/2014/07/WEB-03_05_20181.pdf | vydavateľ = letectvo.nsat.sk | dátum vydania = | dátum aktualizácie = | dátum prístupu = 2018-07-06 | miesto = | jazyk = }}&lt;/ref&gt;, pričom sa kĺzalo 755 metrov po vzletovej a pristávacej dráhe (VPD). Následne bola VPD zablokovaná, čo znemožnilo prípadný štart pohotovostných lietadiel MiG-29, a tak celkovo 1 hodinu a 42 minút bola narušená nepretržitá ochrana nedotknuteľnosti vzdušného priestoru Slovenska v rámci integrovaného systému [[NATO Integrated Air and Missile Defence System|NATINAMDS]].&lt;ref&gt;{{Citácia elektronického dokumentu | priezvisko = | meno = | autor = | odkaz na autora = | titul = | url = http://www.telecom.gov.sk/index/open_file.php?file=doprava/uvlni/ZS_SKA2017002_web.pdf | vydavateľ = telecom.gov.sk | dátum vydania = | dátum aktualizácie = | dátum prístupu = 2017-10-23 | miesto = | jazyk = }}&lt;/ref&gt; Súkromné lety lietadlom L-29 (OM-SLK, rok výroby 1972, prevádzkovateľ Slovenské krídla, s. r. o.) z leteckej základne Sliač stále pokračujú, čo potencionálne ohrozuje bezpečnosť a prevádzkyschopnosť LZ Sliač.&lt;ref&gt;{{Citácia elektronického dokumentu | priezvisko = | meno = | autor = | odkaz na autora = | titul = L-29 Delfín / OM-JLP pristál na brucho na Sliači | url = https://www.gonzoaviation.com/clanok/l-29-delfin-om-jlp | vydavateľ = gonzoaviation.com | dátum vydania = | dátum aktualizácie = | dátum prístupu = 2018-04-09 | miesto = | jazyk = }}&lt;/ref&gt;
+
+V oblasti medzi mestom [[Sliač]] a obcou [[Kováčová (okres Zvolen)|Kováčová]] sa 10. októbra 2018 o 14:07 [[stredoeurópsky letný čas|SELČ]] zrútil kvôli zlyhaniu motora [[Aero L-39 Albatros|L-39ZAM Albatros]] (reg. č. 4711), pričom sa piloti úspešne katapultovali a z incidentu vyviazli bez zranení.&lt;ref&gt;{{Citácia elektronického dokumentu | priezvisko = | meno = | autor = | odkaz na autora = | titul = Medzi Sliačom a Kováčovou sa zrútilo vojenské lietadlo L-39, piloti sa katapultovali | url = https://www.mod.gov.sk/42848-sk/medzi-sliacom-a-kovacovou-sa-zrutilo-vojenske-lietadlo-l-39-piloti-sa-katapultovali/ | vydavateľ = Ministerstvo obrany SR | dátum vydania = 2018-10-10 | dátum aktualizácie = | dátum prístupu = 2018-10-10 | miesto = Bratislava | jazyk = }}&lt;/ref&gt;Hlavnou príčinou vzniku nehody bolo presunutie páky ovládania motora (POM) do polohy stop, z dôvodu čiastočného zlyhania kulisy zarážky voľnobehu.&lt;ref&gt;{{Citácia elektronického dokumentu | priezvisko = | meno = | autor = | odkaz na autora = | titul = Piloti z havarovaného lietadla L-39 sú mimo ohrozenia života | url = https://www.mod.gov.sk/42849-sk/piloti-z-havarovaneho-lietadla-l-39-su-mimo-ohrozenia-zivota/ | vydavateľ = Ministerstvo obrany SR | dátum vydania = 2018-10-10 | dátum aktualizácie = | dátum prístupu = 2018-10-10 | miesto = Bratislava | jazyk = }}&lt;/ref&gt;&lt;ref&gt;{{Citácia elektronického dokumentu | priezvisko = | meno = | autor = | odkaz na autora = | titul = Pilotov z havarovaného lietadla L-39 už prepustili z nemocnice do domáceho liečenia | url = https://www.mod.gov.sk/42853-sk/pilotov-z-havarovaneho-lietadla-l-39-uz-prepustili-z-nemocnice-do-domaceho-liecenia/ | vydavateľ = Ministerstvo obrany SR | dátum vydania = 2018-10-10 | dátum aktualizácie = | dátum prístupu = 2018-10-10 | miesto = Bratislava | jazyk = }}&lt;/ref&gt; K udalosti došlo pri plnení cvičných úloh – vzdušných bojov a pri príprave na pristátie na sliačskom letisku. ''„Lietadlo už bolo v pristávacej konfigurácii, malo už vysunutý podvozok a klapky,“'' priblížil veliteľ Vzdušných síl OS SR generálmajor Ing. Ľubomír Svoboda.&lt;ref&gt;{{Citácia periodika | priezvisko = | meno = | autor = TASR | odkaz na autora = | titul = VIDEO: Gajdoš: Vojenské lietadlo sa zrútilo pre poruchu motora | periodikum = teraz.sk | odkaz na periodikum = | url = http://www.teraz.sk/slovensko/brief-p-gajdos-vojenske-lietadlo/353814-clanok.html | issn = | vydavateľ = TASR | miesto = Bratislava | dátum = 2018-10-10 | dátum prístupu = 2018-10-10 }}&lt;/ref&gt;
+
+''„Ministerstvo obrany SR odporučí vláde SR pokračovať v prevádzke lietadiel MiG-29 až do doby dodania stíhacích lietadiel F-16C/D Block 70,“'' informovala o tom hovorkyňa rezortu Danka Capáková s tým, že tento záver vyplynul z podrobnej analýzy alternatív ochrany vzdušného priestoru Slovenska, ktorý rezort obrany spracoval a predloží ho na rokovanie vlády. ''„Na základe posúdenia uvedených možností s prihliadnutím na súčasný technický stav lietadiel MiG-29, platnej legislatívy, potreby zabezpečenia a udržania úrovne výcviku pilotov a príslušníkov pozemného personálu Vzdušných síl Ozbrojených síl SR, vychádza ako najefektívnejšie ekonomické riešenie uzavrieť novú dodatočnú dohodu so spoločnosťou RSK MiG s platnosťou od 16. 11. 2019 do 31. 12. 2023 s možnosťou predĺženia o jeden rok,“'' uviedla Danka Capáková.&lt;ref&gt;{{Citácia periodika | priezvisko = | meno = | autor = TASR | odkaz na autora = | titul = Rezort chce pokračovať v prevádzke lietadiel MiG-29 | periodikum = pravda.sk | odkaz na periodikum = Pravda (slovenský denník) | url = https://spravy.pravda.sk/domace/clanok/491560-rezort-chce-pokracovat-v-prevadzke-lietadiel-mig-29/ | issn = 1336-197X | vydavateľ = Perex | miesto = Bratislava | dátum = 2018-11-13 | dátum prístupu = 2018-11-14 }}&lt;/ref&gt;&lt;ref&gt;{{Citácia elektronického dokumentu | priezvisko = | meno = | autor = | odkaz na autora = | titul = Informácia : Analýza alternatív ochrany vzdušného priestoru Slovenskej republiky do času dodania nových taktických stíhacích lietadiel. | url = http://www.rokovania.sk/File.aspx/ViewDocumentHtml/Mater-Dokum-224881?prefixFile=m_ | vydavateľ = rokovania.sk | dátum vydania = | dátum aktualizácie = | dátum prístupu = 2019-03-05 | miesto = | jazyk = }}&lt;/ref&gt;
+
+[[Súbor:Slovak Air Force Mikoyan-Gurevich MiG-29AS (9-12A) Kral-1.jpg|thumb|right|MiG-29AS (reg. č. 6526), ktorý sa 28. septembra 2019 zrútil pri obci [[Nové Sady (okres Nitra)|Nové Sady]]]]
+
+Dňa 28. septembra 2019 o 20:08 SELČ vzlietla zo základne Sliač dvojica [[Mikojan-Gurevič MiG-29|MiGov-29AS]] na pravidelný [[Quick Reaction Alert|vzlet v ostrej pohotovosti]] (''Quick Reaction Alert'', ''QRA''), ktorý sa uskutočnil na základe výzvy kombinovaného centra vzdušných operácií v [[Combined Air Operations Centre Uedem|Uedeme]] v [[Nemecko|Nemecku]].&lt;ref&gt;https://www.ta3.com/clanok/1187779/tb-j-nada-o-vysledkoch-vysetrovania-nehody-mig-29.html&lt;/ref&gt; Nakoniec išlo o cvičný vzlet. O 21:12 hod. jedno z dvojice lietadiel QRA pristálo na Sliači. Pilot, ktorému sa podarilo na druhý pokus úspešne pristáť na základni Sliač, bol podplukovník Ing. Marián Bukovský, ktorý pôsobil ako zástupca veliteľa stíhacej letky. Ministerstvo obrany jeho meno oficiálne nepotvrdilo, na tlačovej konferencii ho označovalo len skratkou &quot;SK-01&quot;.&lt;ref&gt;{{Citácia periodika | priezvisko = Šnídl | meno = Vladimír | autor = | odkaz na autora = | titul = Pilot dostal nesprávne pokyny a došlo mu palivo, ukázalo vyšetrovanie pádu stíhačky | periodikum = dennikn.sk | odkaz na periodikum = Denník N | url = https://dennikn.sk/1965761/pilot-dostal-nespravne-pokyny-a-doslo-mu-palivo-ukazalo-vysetrovanie-padu-stihacky/ | issn = 1339-844X | vydavateľ = N Press | miesto = Bratislava | dátum = 2020-07-13 | dátum prístupu = 2020-07-14 }}&lt;/ref&gt;&lt;ref&gt;{{Citácia elektronického dokumentu | priezvisko = | meno = | autor = | odkaz na autora = | titul = Videovizitka pplk. Marian “BUKER” Bukovský | url = https://www.siaf.sk/aktuality/archiv/2012/videovizitka-pplk-marian-buker-bukovsky.html | vydavateľ = siaf.sk | dátum vydania = | dátum aktualizácie = | dátum prístupu = 2020-07-14 | miesto = | jazyk = }}&lt;/ref&gt; Druhý MiG-29AS (reg. č. 6526), ktorý pilotoval major Ing. Ján Kurtík, označovaný skratkou &quot;SK-02&quot; sa trikrát pokúsil pristáť na základni Sliač. Nakoniec musel byť z dôvodu zhoršenia počasia navigovaný na záložné [[Letisko M. R. Štefánika|letisko v Bratislave]]. Približne o 21:30 hod. sa však zrútil pri obci [[Nové Sady (okres Nitra)|Nové Sady]] v miestnej časti Ceroviny (okres [[Nitra (okres)|Nitra]]).&lt;ref&gt;https://dennikn.sk/1965761/pilot-dostal-nespravne-pokyny-a-doslo-mu-palivo-ukazalo-vysetrovanie-padu-stihacky/&lt;/ref&gt; Lietadlo začalo po páde horieť a na miestne zasahovalo 12 hasičov z Nitry. Pilot sa úspešne katapultoval a po pristátí na padáku v priestore obce [[Podhorany (okres Nitra)|Podhorany]] si aj s pomocou miestneho občana privolal sanitku, ktorá ho previezla do nitrianskej nemocnice. ''„Predtým, ako sa stihol katapultovať, nasmeroval pád lietadla do neobývanej oblasti, kde nevznikli škody na životoch ani majetku civilnému obyvateľstvu,“'' skonštatoval vtedajší minister obrany [[Peter Gajdoš]]. Príčinou nehody bol nedostatok paliva a následné rozhodnutie pilota o katapultáži.&lt;ref&gt;{{Citácia periodika | priezvisko = | meno = | autor = TASR | odkaz na autora = | titul = Príčinou nehody MiG-29 bol nedostatok paliva | periodikum = pravda.sk | odkaz na periodikum = Pravda (slovenský denník) | url = https://spravy.pravda.sk/domace/clanok/557181-pricinou-nehody-mig-29-bol-nedostatok-paliva/? | issn = 1336-197X | vydavateľ = Perex | miesto = Bratislava | dátum = 2020-07-13 | dátum prístupu = 2020-07-14 }}&lt;/ref&gt;&lt;ref&gt;{{Citácia periodika | priezvisko = Cuprik | meno = Roman | autor = | odkaz na autora = | titul = Piloti neodhadli palivo. Skončilo sa vyšetrovanie pádu MiG-29 | periodikum = sme.sk | odkaz na periodikum = SME | url = https://domov.sme.sk/c/22445774/skoncilo-sa-vysetrovanie-padu-stihacky-mig-29.html | issn = 1335-4418 | vydavateľ = Petit Press | miesto = Bratislava | dátum = 2020-07-13 | dátum prístupu = 2020-07-14 }}&lt;/ref&gt; Minister obrany [[Jaroslav Naď]] zdôraznil, že nehodu nezapríčinil stav lietadla, ani nedostatok kompetencie zo strany pilota.&lt;ref&gt;{{Citácia periodika | priezvisko = | meno = | autor = TASR/TERAZ.sk | odkaz na autora = | titul = VIDEO: Pri Nových Sadoch spadlo stíhacie lietadlo MiG-29 | periodikum = teraz.sk | odkaz na periodikum = | url = http://www.teraz.sk/slovensko/pri-zlatych-moravciach-spadlo-stihacie/421224-clanok.html | issn = | vydavateľ = TASR | miesto = Bratislava | dátum = 2019-09-28 | dátum prístupu = 2019-09-29 }}&lt;/ref&gt;&lt;ref&gt;{{Citácia periodika | priezvisko = | meno = | autor = TASR | odkaz na autora = | priezvisko2 = Cuprik | meno2 = Roman | autor2 = | odkaz na autora2 = | titul = Pri Nových Sadoch v nitrianskom okrese spadlo stíhacie lietadlo MiG-29 | periodikum = sme.sk | odkaz na periodikum = SME | url = https://domov.sme.sk/c/22223927/pri-zlatych-moravciach-spadlo-stihacie-lietadlo-mig-29.html | issn = 1335-4418 | vydavateľ = Petit Press | miesto = Bratislava | dátum = 2019-09-28 | dátum prístupu = 2019-09-29 }}&lt;/ref&gt;
+
+V roku 2019 sa priemerný ročný nálet na operačného pilota MiG-29 znížil na 40:55 letových hodín (základná kvalifikácia na plnenie úloh – 75 letových hodín, štandard NATO – 180 letových hodín) najmä v dôsledku nízkej prevádzkyschopnosti lietadiel MiG-29. Na prevádzkyschopnosti lietadiel v prvom polroku 2019 sa napriek zásobovaniu náhradnými dielcami odrazil, okrem ďalších faktorov, dlhodobo neriešený problém otázky náhrady motorov RD-33 po vyčerpaní ich technického života. Aby nedošlo ku kolapsu prevádzky, Ministerstvo obrany SR na vlastné náklady opravilo 9 motorov RD-33, ktoré boli dodané z opravy 30. júla 2019. Časť z nich bola zaradená do prevádzky z dôvodu náhrady motorov poškodených nasatím cudzích predmetov.&lt;ref&gt;{{Citácia elektronického dokumentu | priezvisko = | meno = | autor = | odkaz na autora = | titul = Komplexné hodnotenie obrany Slovenskej republiky za rok 2019 | url = https://rokovania.gov.sk/download.dat?id=E39A744C4DA14B1593D75C60FDDF2AC2-CC24FB99522A36CEE7E18A9BA90DCAC6 | vydavateľ = rokovania.gov.sk | dátum vydania = | dátum aktualizácie = | dátum prístupu = 2020-07-01 | miesto = | jazyk = }}&lt;/ref&gt;&lt;ref&gt;{{Citácia elektronického dokumentu | priezvisko = | meno = | autor = | odkaz na autora = | titul = Revízia výdavkov na obranu - Záverečná správa | url = https://www.mfsr.sk/files/archiv/63/revizia_obrana_20200701.pdf | vydavateľ = mfsr.sk | dátum vydania = | dátum aktualizácie = | dátum prístupu = 2020-07-02 | miesto = | jazyk = }}&lt;/ref&gt;V roku 2019 sa celkovo zaznamenalo 43 leteckých udalostí, čo je nárast oproti predchádzajúcemu roku o 15 udalostí. Ale nálet na jednu leteckú udalosť klesol z minuloročných 152 letových hodín (LH) na 96 LH, pričom požadovaná hodnota je 160 LH. Tento hlavný ukazovateľ je meradlom bezpečnosti letov. Opätovne sme nedosiahli hlavný ukazovateľ, čo spôsobilo predovšetkým prevádzkové opotrebenie techniky, ktorá je na konci svojej životnosti. Týka sa to predovšetkým lietadiel MiG-29, pričom bezpečnosť letov a nízky nálet pilotov silno ovplyvňuje nízka dostupnosť leteckej techniky, ktorá je spôsobená najmä zdĺhavým a nepružným obstarávaním náhradných dielov a služieb, napriek jestvujúcej abonentnej zmluve. (zdroj: Ročenka MOSR 2019)&lt;ref&gt;https://www.mosr.sk/data/files/4075_rocenka_2019_web-redux.pdf&lt;/ref&gt;
+
+V čase [[pandémia koronavírusu SARS-CoV-2|pandémie koronavírusu SARS-CoV-2]] pristálo 1. mája 2020 vo večerných hodinách na základni [[Letecká základňa Malacky|Malacky-Kuchyňa]] [[dopravné lietadlo]] [[Alenia C-27J Spartan|C-27J Spartan]] slovenských vzdušných síl, ktoré dopravilo repatriantov z [[Libanon]]u a hneď na druhý deň leteckým mostom zabezpečilo prepravu 15 slovenským občanom a ďalším občanom [[Česko|Česka]], [[Maďarsko|Maďarska]] a [[Rakúsko|Rakúska]] z [[Cyprus|Cypru]].&lt;ref&gt;{{Citácia elektronického dokumentu | priezvisko = | meno = | autor = | odkaz na autora = | titul = Vojenskými lietadlami sme zabezpečili ďalšiu repatriáciu našich občanov zo zahraničia - aktualizované | url = https://lzkuchyna.mil.sk/89658/?pg=1 | vydavateľ = Ozbrojené sily SR | dátum vydania = | dátum aktualizácie = | dátum prístupu = 2020-05-11 | miesto = | jazyk = }}&lt;/ref&gt;&lt;ref&gt;{{Citácia elektronického dokumentu | priezvisko = | meno = | autor = | odkaz na autora = | titul = Spartan opäť repatriuje | url = https://www.mil.sk/89764/?pg=1 | vydavateľ = Ozbrojené sily SR | dátum vydania = | dátum aktualizácie = | dátum prístupu = 2020-05-21 | miesto = | jazyk = }}&lt;/ref&gt;
+
+V súvislosti s nákupom novej leteckej techniky F-16C/D Block 70 je potrebné vybudovať, rekonštruovať a modernizovať nevyhnutnú infraštruktúru na základni Sliač, nakoľko súčasný stav nezodpovedá technickým požiadavkám na prevádzkovanie novej leteckej techniky. Cieľom projektu je zabezpečenie prevádzky stavby, leteckej základne Sliač, pre novú leteckú techniku a technológiu a vytvorenie korektných podmienok nevyhnutnej logistickej podpory. Nesplnenie požiadaviek dodávateľa leteckej techniky na infraštruktúru by mohlo spôsobiť, že letecká technika nebude dodaná do Slovenskej republiky v súlade so zmluvným harmonogramom. Odhadované náklady na projektovú prípravu a realizáciu stavby vrátane projektového manažmentu NSPA (agentúra NATO) a rezervy na nepredvídané okolnosti 1. a 2. časť stavby na leteckej základni Sliač v súvislosti s nákupom novej leteckej techniky F-16C/D Block 70 predstavujú sumu vo výške 67 868 420,61 € bez DPH.&lt;ref&gt;{{Citácia elektronického dokumentu | priezvisko = | meno = | autor = | odkaz na autora = | titul = | url = https://rokovania.gov.sk/download.dat?id=9D4CA375BA784534844F1D446BBB944C-BA21FA1D7FAD39669E0FC701C46A4D80 | vydavateľ = rokovania.gov.sk | dátum vydania = | dátum aktualizácie = | dátum prístupu = 2020-07-15 | miesto = | jazyk = }}&lt;/ref&gt;
+
+== Modernizácia ==
+=== Stíhacie lietadlá ===
+Cieľom vlády SR bolo vybrať nové [[stíhacie lietadlo|stíhacie lietadlá]], ktoré sú v plnej miere schopné nahradiť stíhačky [[Mikojan-Gurevič MiG-29|MiG-29]] a zároveň rozšíriť operačné spôsobilosti taktického letectva v súlade so súčasnými aj budúcimi operačnými požiadavkami a možnými typmi úloh vyplývajúcimi z bezpečnostného prostredia a členstva Slovenska v [[Organizácia Severoatlantickej zmluvy|NATO]].&lt;ref name=&quot;leteckymagazin-vlada-schvalila-nakup-f-16&quot;&gt;{{Citácia elektronického dokumentu | priezvisko = | meno = | autor = | odkaz na autora = | titul = Vláda schválila nákup F-16 | url = https://www.leteckymagazin.sk/l/vlada-schvalila-nakup-f-16/ | vydavateľ = leteckymagazin.sk | dátum vydania = | dátum aktualizácie = | dátum prístupu = 2018-07-12 | miesto = | jazyk = }}&lt;/ref&gt;
+
+V [[január]]i [[2014]] tak Slovensko začalo rokovania so [[švédsko]]u vládou ohľadom prenájmu alebo nákupu stíhačiek [[Saab JAS 39 Gripen|JAS 39 Gripen]], ktoré mali nahradiť MiGy-29.&lt;ref&gt;{{Citácia elektronického dokumentu | priezvisko = | meno = | autor = | odkaz na autora = | titul = | url = https://www.defensenews.com/article/20140113/DEFREG01/301130017/Slovakia-Plans-Acquire-Fighter-Jets/ | vydavateľ = defensenews.com | dátum vydania = | dátum aktualizácie = | dátum prístupu = 2017-10-23 | miesto = | jazyk = }}&lt;/ref&gt;&lt;ref&gt;{{Citácia elektronického dokumentu | priezvisko = | meno = | autor = TT | odkaz na autora = | titul = Slovakien intresserat av Gripen | url = https://www.svd.se/slovakien-intresserat-av-gripen | vydavateľ = svd.se | dátum vydania = | dátum aktualizácie = | dátum prístupu = 2017-10-23 | miesto = | jazyk = }}&lt;/ref&gt; Dňa 21. apríla 2014 Slovensko podpísalo s výrobcom [[MiG|RSK MiG]] zmluvu na tri roky programu údržby a opráv MiGov-29.&lt;ref&gt;http://www.janes.com/article/26739/russia-to-upgrade-slovakian-mig-29s&lt;/ref&gt;&lt;ref&gt;{{Citácia elektronického dokumentu | priezvisko = | meno = | autor = | odkaz na autora = | titul = Minister Glváč odpísal sovietske Migy, opravy by stáli veľa | url = https://www.webnoviny.sk/minister-glvac-odpisal-sovietske-migy-opravy-by-stali-vela/ | vydavateľ = webnoviny.sk | dátum vydania = 2014-04-22 | dátum aktualizácie = | dátum prístupu = 2017-10-23 | miesto = | jazyk = }}&lt;/ref&gt;&lt;ref&gt;{{Citácia periodika | priezvisko = Onuferová | meno = Marianna | autor = | odkaz na autora = | titul = Slovenská armáda je závislá od ruských dodávok | periodikum = sme.sk | odkaz na periodikum = SME | url = https://ekonomika.sme.sk/c/7195940/slovenska-armada-je-zavisla-od-ruskych-dodavok.html | issn = 1335-4418 | vydavateľ = Petit Press | miesto = Bratislava | dátum = 2014-05-08 | dátum prístupu = 2017-10-23 }}&lt;/ref&gt;&lt;ref&gt;{{Citácia periodika | priezvisko = Krbatová | meno = Lucia | autor = | odkaz na autora = | titul = Nové stíhačky si armáda prenajme | periodikum = pravda.sk | odkaz na periodikum = Pravda (slovenský denník) | url = https://spravy.pravda.sk/domace/clanok/315452-armada-si-planuje-prenajat-stihacky/ | issn = 1336-197X | vydavateľ = Perex | miesto = Bratislava | dátum = 2014-04-22 | dátum prístupu = 2017-10-23 }}&lt;/ref&gt; V [[júl]]i 2014 slovenský minister obrany [[Martin Glváč]] potvrdil, že JAS 39 Gripen bol vybraný ako nové [[stíhacie lietadlo]] pre Vzdušné sily Slovenskej republiky.&lt;ref&gt;{{Citácia elektronického dokumentu | priezvisko = | meno = | autor = | odkaz na autora = | titul = Slovakia “wants Gripen” from 2016 | url = http://airheadsfly.com/2014/07/28/slovakia-wants-gripen-from-2016/ | vydavateľ = airheadsfly.com | dátum vydania = 2014-07-28 | dátum aktualizácie = | dátum prístupu = 2017-10-23 | miesto = | jazyk = }}&lt;/ref&gt;&lt;ref&gt;http://en.rsi.rtvs.sk/clanok/rubriky/news/top-deal-of-the-slovak-army-goes-to-sweden?currentPage=1&lt;/ref&gt;&lt;ref&gt;{{Citácia elektronického dokumentu | priezvisko = | meno = | autor = | odkaz na autora = | titul = Uppgifter: Slovakien väljer Jas Gripen | url = https://www.expressen.se/nyheter/uppgifter-slovakien-valjer-jas-gripen/ | vydavateľ = expressen.se | dátum vydania = | dátum aktualizácie = | dátum prístupu = 2017-10-23 | miesto = | jazyk = }}&lt;/ref&gt;&lt;ref&gt;{{Citácia elektronického dokumentu | priezvisko = | meno = | autor = Netky.sk | odkaz na autora = | titul = Nové stíhačky pre našu armádu zabezpečia Švédi! | url = http://www.netky.sk/clanok/nove-stihacky-pre-nasu-armadu-zabezpecia-svedi | vydavateľ = netky.sk | dátum vydania = | dátum aktualizácie = | dátum prístupu = 2017-10-23 | miesto = | jazyk = }}&lt;/ref&gt;&lt;ref&gt;{{Citácia elektronického dokumentu | priezvisko = | meno = | autor = | odkaz na autora = | titul = | url = https://www.defensenews.com/article/20140728/DEFREG01/307280009/Saab-Eyes-Other-Markets-After-Dropping-Denmark-Bid/ | vydavateľ = defensenews.com | dátum vydania = | dátum aktualizácie = | dátum prístupu = 2017-10-23 | miesto = | jazyk = }}&lt;/ref&gt;&lt;ref&gt;http://www.defensenews.com/apps/pbcs.dll/article?AID=2014307200012&lt;/ref&gt;&lt;ref&gt;{{Citácia periodika | priezvisko = Bednár | meno = Vladimír | autor = | odkaz na autora = | titul = Gripeny podľa súčasného MO, ďalšie znižovanie obranyschopnosti SR | periodikum = blog.sme.sk | odkaz na periodikum = | url = https://vladimirbednar.blog.sme.sk/c/359915/gripeny-podla-sucasneho-mo-dalsie-znizovanie-obranyschopnosti-sr.html | issn = | vydavateľ = Petit Press | miesto = Bratislava | dátum = 2014-06-26 | dátum prístupu = 2017-10-23 }}&lt;/ref&gt;
+
+Vláda Slovenskej republiky svojím uznesením č. 139 zo dňa [[18. marec|18. marca]] [[2015]] súhlasila so začatím priamych rokovaní so švédskou stranou (zastúpenou FXM – obrannou a bezpečnostnou exportnou agentúrou Ministerstva obrany Švédska)&lt;ref&gt;{{Citácia elektronického dokumentu | priezvisko = | meno = | autor = | odkaz na autora = | titul = FXM | url = http://fxm.se/en/ | vydavateľ = fxm.se | dátum vydania = | dátum aktualizácie = | dátum prístupu = 2017-10-23 | miesto = | jazyk = }}&lt;/ref&gt;, ktorých cieľom bolo uzatvorenie potrebných zmluvných dokumentov na prenájom stíhacích lietadiel [[Saab JAS 39 Gripen|JAS 39 Gripen]] ako náhrady za lietadlá MiG-29 v zmysle schválenej koncepcie rozvoja vzdušných síl. Ďalej súhlasila so začatím priamych rokovaní s Vládou Spojených štátov amerických cestou [[Foreign Military Sales|FMS]] (Foreign Military Sales), ktorých cieľom bola príprava a uzatvorenie zmluvy na dodávku zbraňových systémov, prostriedkov elektronickej ochrany a komunikačných prostriedkov pre lietadlá JAS 39 Gripen.&lt;ref&gt;{{Citácia elektronického dokumentu | priezvisko = | meno = | autor = | odkaz na autora = | titul = 139_2015.doc | url = http://www.rokovania.sk/File.aspx/ViewDocumentHtml/Uznesenie-14730?listName=Uznesenia&amp;prefixFile=m_ | vydavateľ = rokovania.sk | dátum vydania = | dátum aktualizácie = | dátum prístupu = 2017-10-23 | miesto = | jazyk = }}&lt;/ref&gt;
+
+Švédska strana ale ''„počas celých rozhovorov deklarovala iný právny výklad pojmu ,prenájom‘ než slovenská strana. Švédska strana požadovala zmluvu podľa verejného medzinárodného práva, požadovala absenciu sankcií, švédske rozhodné právo a neuplatnenie zrážkovej dane.“''&lt;ref name=&quot;armadninoviny-udalosti&quot;&gt;{{Citácia elektronického dokumentu | priezvisko = Grohmann | meno = Jan | autor = | odkaz na autora = | titul = Potvrzeno: Slovensko kupuje stíhačky F-16 Block 70/72 | url = http://www.armadninoviny.cz/potvrzeno-slovensko-kupuje-stihacky-f-16-block-7072.html | vydavateľ = armadninoviny.cz | dátum vydania = | dátum aktualizácie = | dátum prístupu = 2018-07-12 | miesto = | jazyk = }}&lt;/ref&gt;
+
+V roku [[2016]] preto slovenská vláda prehodnotila svoje pôvodné stanovisko (jednať iba so Švédmi o prenájme) a požiadala Švédsko a [[Spojené štáty|USA]] o zaslanie návrhu (vrátane cenovej ponuky) k dodávkam stíhacích lietadiel pre slovenské vzdušné sily. Vláda SR požadovala uzavretie zmluvy na úrovni vláda – vláda. [[Rusko]] ponúklo svoje stíhačky [[MiG-35]], ale Slovensko ruskú ponuku z geopolitických dôvodov finálne neposudzovalo. Ruská ponuka nakoniec poslúžila len na cenové porovnanie podobných typov lietadiel.&lt;ref name=&quot;leteckymagazin-vlada-schvalila-nakup-f-16&quot;/&gt;&lt;ref name=&quot;armadninoviny-udalosti&quot;/&gt;
+
+Slovenskí odborníci pri vyhodnocovaní ponúk viedli diskusie so zástupcami štátov, ktoré prevádzkujú stíhačky JAS 39 Gripen a F-16 Fighting Falcon. V prípade JAS 39 išlo o [[Švédsko]], [[Maďarsko]] a [[Česko]], pričom svoje skúsenosti s prevádzkou F-16 potom slovenskej strane oznámili zástupcovia [[Poľsko|Poľska]], [[Taliansko|Talianska]] a [[Grécko|Grécka]].&lt;ref name=&quot;armadninoviny-udalosti&quot;/&gt;
+
+Dňa [[4. apríl]]a [[2018]] [[Ministerstvo zahraničných vecí Spojených štátov]], resp. Agentúra pre obrannú a bezpečnostnú spoluprácu (Defense Security Cooperation Agency) odsúhlasila potenciálny predaj 14 stíhačiek [[General Dynamics F-16 Fighting Falcon|F-16C/D Block 70]] Vzdušným silám OS SR. Ide o najmodernejšiu verziu stíhačky typu F-16, nad ktorou sú už len „neviditeľné“ stíhačky [[Lockheed Martin F-35 Lightning II|F-35 Lightning II]] a [[Lockheed Martin F-22 Raptor|F-22 Raptor]]. ''„Slovenskému ministerstvu sme ponúkli nacenenie a informácie o dostupnosti lietadiel F-16, a to konkrétne verzie F-16C/D Block 70,“''&lt;ref&gt;{{cite web|url=http://lockheedmartin.com/us/products/f16/F-16-Block-70.html|title=F-16V Viper|website=lockheedmartin.com}}&lt;/ref&gt; potvrdil hovorca americkej ambasády Griffin Rozell. Verzia s označením „V“ má špičkový radar i elektroniku.&lt;ref&gt;{{Citácia elektronického dokumentu | priezvisko = | meno = | autor = | odkaz na autora = | titul = Government of Bahrain – F-16V Aircraft with Support: The Official Home of the Defense Security Cooperation Agency | url = http://www.dsca.mil/major-arms-sales/government-bahrain-f-16v-aircraft-support | vydavateľ = dsca.mil | dátum vydania = | dátum aktualizácie = | dátum prístupu = 2017-11-03 | miesto = | jazyk = }}&lt;/ref&gt; Počítače v nej vychádzajú z technológií, ktoré USA inštalujú aj do supermoderných stíhačiek F-35.&lt;ref&gt;{{Citácia periodika | priezvisko = | meno = | autor = TASR | odkaz na autora = | titul = Americké stíhačky sú pridrahé, znie z Belgicka. Šancu cítia Francúzi, prišli so zaujímavou ponukou | periodikum = pravda.sk | odkaz na periodikum = Pravda (slovenský denník) | url = https://spravy.pravda.sk/svet/clanok/455572-americke-stihacky-su-pridrahe-znie-z-belgicka-sancu-citia-francuzi-prisli-so-zaujimavou-ponukou/ | issn = 1336-197X | vydavateľ = Perex | miesto = Bratislava | dátum = 2018-01-22 | dátum prístupu = 2018-07-02 }}&lt;/ref&gt; Táto verzia umožňuje pilotovi, napríklad rýchlejšie zamerať viac cieľov naraz a na väčšiu vzdialenosť.&lt;ref&gt;{{Citácia periodika | priezvisko = Šnídl | meno = Vladimír | autor = | odkaz na autora = | titul = Dankovi úradníci rokujú o špičkovej verzii stíhačky F-16, ktorú zatiaľ kúpil len Bahrajn | periodikum = dennikn.sk | odkaz na periodikum = Denník N | url = https://dennikn.sk/914663/dankovi-uradnici-rokuju-o-spickovej-verzii-stihacky-f-16-ktoru-zatial-kupil-len-bahrajn/ | issn = 1339-844X | vydavateľ = N Press | miesto = Bratislava | dátum = 2017-10-19 | dátum prístupu = 2017-10-23 }}&lt;/ref&gt;&lt;ref&gt;{{Citácia elektronického dokumentu | priezvisko = | meno = | autor = | odkaz na autora = | titul = Dankovi úradníci rokujú o najmodernejšej verzii stíhačky F-16 | url = https://www.webnoviny.sk/dankovi-uradnici-rokuju-o-spickovej-verzii-stihacky-f-16/ | vydavateľ = webnoviny.sk | dátum vydania = 2017-10-20 | dátum aktualizácie = | dátum prístupu = 2017-10-23 | miesto = | jazyk = }}&lt;/ref&gt;
+
+''„JAS 39 Gripen je dobré lietadlo, ale je lepšie sa orientovať na Spojené štáty americké z dôvodu geopolitiky,“'' povedal bývalý šéf českej vojenskej kontrarozviedky Ándor Sándor.&lt;ref&gt;{{Citácia periodika | priezvisko = Kubovič | meno = Ondrej | autor = | odkaz na autora = | titul = Dilema slovenského letectva: Gripeny majú navrch v cene, F-16 v skúsenostiach | periodikum = aktuálne.sk | odkaz na periodikum = | url = https://aktualne.centrum.sk/dilema-slovenskeho-letectva-gripeny-maju-navrch-v-cene-f-16-v-skusenostiach/slovensko/spolocnost/ | issn = | vydavateľ = News and Media Holding | miesto = Bratislava | dátum = 2014-06-16 | dátum prístupu = 2017-10-23 }}&lt;/ref&gt;&lt;ref&gt;{{Citácia periodika | priezvisko = | meno = | autor = TASR | odkaz na autora = | titul = Česko nereagovalo na ponuku Američanov na prenájom stíhačiek F-16 | periodikum = teraz.sk | odkaz na periodikum = | url = http://www.teraz.sk/zahranicie/usa-cr-sr-stihacky-f-16/79118-clanok.html | issn = | vydavateľ = TASR | miesto = Bratislava | dátum = 2014-03-27 | dátum prístupu = 2017-10-23 }}&lt;/ref&gt;
+
+O type nového stíhacieho lietadla pre Vzdušné sily OS SR rozhodla vláda SR na rokovaní vlády dňa [[11. júl]]a 2018.&lt;ref&gt;{{Citácia elektronického dokumentu | priezvisko = | meno = | autor = | odkaz na autora = | titul = Lockheed F-16V, Saab Gripen Compete for Slovakian Order | url = http://www.defense-aerospace.com/articles-view/feature/5/192342/lockheed-f_16v%2C-saab-gripen-compete-for-slovakian-order.html | vydavateľ = defense-aerospace.com | dátum vydania = | dátum aktualizácie = | dátum prístupu = 2018-07-02 | miesto = | jazyk = }}&lt;/ref&gt;&lt;ref&gt;{{Citácia periodika | priezvisko = Hutko | meno = Dominik | autor = | odkaz na autora = | titul = Atašé USA na Slovensku Jon Dunn: F16 je schopné lietadlo | periodikum = pravda.sk | odkaz na periodikum = Pravda (slovenský denník) | url = https://spravy.pravda.sk/domace/clanok/470454-atase-jon-dunn-f16-je-schopne-lietadlo/ | issn = 1336-197X | vydavateľ = Perex | miesto = Bratislava | dátum = 2018-05-22 | dátum prístupu = 2018-07-02 }}&lt;/ref&gt;&lt;ref name=&quot;gov-vlada-prijala-historicke-rozhodnutie&quot;&gt;{{Citácia elektronického dokumentu | priezvisko = | meno = | autor = | odkaz na autora = | titul = Vláda prijala historické rozhodnutie, slovenské nebo budú vzdušné sily chrániť s americkými stíhacími lietadlami F-16 | url = https://www.mod.gov.sk/42280-sk/vlada-prijala-historicke-rozhodnutie-slovenske-nebo-budu-vzdusne-sily-chranit-s-americkymi-stihacimi-lietadlami-f-16/ | vydavateľ = Ministerstvo obrany SR | dátum vydania = 2018-07-11 | dátum aktualizácie = | dátum prístupu = 2018-07-11 | miesto = Bratislava | jazyk = }}&lt;/ref&gt; Podľa ostatných verejných informácií Švédsko ponúklo Slovensku iba starší model stíhačky [[Saab JAS 39 Gripen|JAS 39C/D Gripen]].
+
+V prípade USA ide o strategického spojenca (Bezpečnostná stratégia SR 2005), pričom aj vládou SR na jeseň 2017 schválená Bezpečnostná stratégia SR 2017&lt;ref&gt;{{Citácia elektronického dokumentu | priezvisko = | meno = | autor = | odkaz na autora = | titul = BEZPEČNOSTNÁ STRATÉGIA SLOVENSKEJ REPUBLIKY | url = http://mepoforum.sk/wp-content/uploads/2017/09/Návrh-Bezpečnostnej-stratégie-SR.pdf | vydavateľ = mepoforum.sk | dátum vydania = | dátum aktualizácie = | dátum prístupu = 2019-11-22 | miesto = | jazyk = }}&lt;/ref&gt; hovorí, že ''„Osobitné postavenie z hľadiska presadzovania bezpečnostných záujmov Slovenskej republiky majú vzťahy so Spojenými štátmi americkými (USA), ktoré sú kľúčové pre bezpečnosť Európy.“'' Obstaranie ďalšej veľkej platformy (po vrtuľníkoch UH-60M Black Hawk) od USA prehĺbi toto spojenectvo a vytvorí silnejšie puto pre rozvoj v oblasti ekonomiky i bezpečnosti, čo je veľkou devízou v prípade zhoršenia bezpečnostného prostredia v susedstve Slovenska.&lt;ref&gt;{{Citácia elektronického dokumentu | priezvisko = | meno = | autor = | odkaz na autora = | titul = | url = http://www.mosr.sk/data/files/3669_navrh-na-obstaranie-novych-taktickych-stihacich-lietadiel.pdf | vydavateľ = Ministerstvo obrany SR | dátum vydania = | dátum aktualizácie = | dátum prístupu = 2018-07-20 | miesto = Bratislava | jazyk = }}&lt;/ref&gt;
+
+Z analýzy obmeny taktických stíhacích lietadiel pri zohľadnení všetkých faktorov: nákup lietadiel, munícia, náklady na výcvik na pilotov a pozemný personál, logistické zabezpečenie, dobudovanie infraštruktúry, dodacie lehoty a ďalších nákladov na prevádzkovanie a pripadnú modernizáciu, s perspektívou používania nového taktického stíhacieho lietadla za horizont rokov 2040 vyplynulo, že je výhodnejšie obstaranie 14 kusov lietadiel F-16C/D Block 70. Ministerstvo obrany SR tak navrhlo v rámci obmeny stíhacích lietadiel MiG-29 realizovať americkú ponuku a uzatvoriť príslušné zmluvné vzťahy s vládou Spojených štátov amerických.&lt;ref&gt;{{Citácia elektronického dokumentu | priezvisko = | meno = | autor = | odkaz na autora = | titul = | url = https://rokovania.gov.sk/RPO/Material/Download?id=1702&amp;version=1 | vydavateľ = rokovania.gov.sk | dátum vydania = | dátum aktualizácie = | dátum prístupu = 2018-07-11 | miesto = | jazyk = }}&lt;/ref&gt; V prospech stíhačky F-16 boli rozhodujúcim faktorom jej väčšie operačné možnosti a väčší taktický dolet.&lt;ref&gt;{{Citácia elektronického dokumentu | priezvisko = | meno = | autor = | odkaz na autora = | titul = | url = http://www.finance.gov.sk/LoadDocument.aspx?categoryId=11154&amp;documentId=16577 | vydavateľ = finance.gov.sk | dátum vydania = | dátum aktualizácie = | dátum prístupu = 2018-07-12 | miesto = | jazyk = }}&lt;/ref&gt;&lt;ref&gt;{{Citácia periodika | priezvisko = Světnička | meno = Lubomír | autor = | odkaz na autora = | titul = Slováci si v F-16 vybrali osvědčeného bojovníka, asi posledního svého druhu | periodikum = iDNES.cz | odkaz na periodikum = | url = https://zpravy.idnes.cz/slovensko-nato-f-16-nadzvuk-stihacka-gripen-usa-fqj-/zpr_nato.aspx?c=A180724_125128_zpr_nato_inc | issn = | vydavateľ = MAFRA | miesto = Praha | dátum = 2018-07-26 | dátum prístupu = 2018-09-07 }}&lt;/ref&gt;
+
+Prvé štyri lietadlá F-16C/D Block 70 môžu Vzdušné sily OS SR prevziať postupne od septembra do decembra [[2022]], pričom prvé dva stroje sú určené na výcvik slovenského vojenského personálu v USA.&lt;ref name=&quot;leteckymagazin-vlada-schvalila-nakup-f-16&quot;/&gt;&lt;ref name=&quot;armadninoviny-udalosti&quot;/&gt; Zvyšných 10 zo 14 stíhačiek by mali postupne vyrobiť v [[Greenville]] v [[Južná Karolína|Južnej Karolíne]] do januára [[2024]].&lt;ref&gt;{{Citácia elektronického dokumentu | priezvisko = | meno = | autor = | odkaz na autora = | titul = Why it matters that Lockheed Martin is set to launch production of F-16s in Greenville | url = https://eu.greenvilleonline.com/story/money/2019/04/23/up-400-jobs-lockheed-martin-ready-make-f-16-s-greenville-sc/3509180002/ | vydavateľ = eu.greenvilleonline.com | dátum vydania = | dátum aktualizácie = | dátum prístupu = 2019-04-25 | miesto = | jazyk = }}&lt;/ref&gt;&lt;ref&gt;https://www.janes.com/article/93267/lm-begins-f-16v-production-for-bahrain&lt;/ref&gt; Prvé štyri F-16 vyrobené pre SR majú na leteckú základňu Sliač priletieť v apríli 2023. Na Slovensko by mali všetky lietadlá priletieť do 31. januára 2024.&lt;ref&gt;{{Citácia periodika | priezvisko = | meno = | autor = TASR | odkaz na autora = | titul = Výrobca F-16: Letecké opravovne Trenčín budú naším partnerom | periodikum = teraz.sk | odkaz na periodikum = | url = http://www.teraz.sk/slovensko/vyrobca-f-16-opravovne-trencin-budu/342903-clanok.html | issn = | vydavateľ = TASR | miesto = Bratislava | dátum = 2018-08-15 | dátum prístupu = 2018-08-15 }}&lt;/ref&gt; MiGy-29 tak zostanú vo Vzdušných silách OS SR lietať na LZ Malacky-Kuchyňa do konca roku 2023, čiže do dosiahnutia počiatočných operačných spôsobilostí (IOC) nových F-16.&lt;ref name=&quot;leteckymagazin-vlada-schvalila-nakup-f-16&quot;/&gt;&lt;ref&gt;{{Citácia elektronického dokumentu | priezvisko = | meno = | autor = | odkaz na autora = | titul = Slovensko potrebuje 14 stíhacích lietadiel a nie silné reči | url = http://www.mosr.sk/42333-sk/slovensko-potrebuje-14-stihacich-lietadiel-a-nie-silne-reci/ | vydavateľ = Ministerstvo obrany SR | dátum vydania = 2018-07-19 | dátum aktualizácie = | dátum prístupu = 2018-07-20 | miesto = Bratislava | jazyk = }}&lt;/ref&gt;
+
+Jazyková príprava a letecký výcvik pilotov potrvá 40 mesiacov a bude prebiehať v USA na [[Medzinárodné letisko Tucson|Morrisovej základni Leteckej národnej gardy]],&lt;ref name=&quot;janes.com&quot;&gt;{{Citácia elektronického dokumentu | priezvisko = | meno = | autor = | odkaz na autora = | titul = Slovak Air Force seeks training aircraft | url = https://www.janes.com/article/90382/slovak-air-force-seeks-training-aircraft | vydavateľ = janes.com | dátum vydania = | dátum aktualizácie = | dátum prístupu = 2019-08-14 | miesto = | jazyk = }}&lt;/ref&gt; ktorá sa nachádza pri meste [[Tucson]] v [[Arizona|Arizone]].&lt;ref&gt;{{Citácia periodika | priezvisko = Kováč | meno = Peter | autor = | odkaz na autora = | titul = Americký výrobca F-16: Stíhačky vám dodáme začiatkom roku 2023 | periodikum = sme.sk | odkaz na periodikum = SME | url = https://domov.sme.sk/c/20907378/americky-vyrobca-f-16-stihacky-vam-dodame-zaciatkom-roku-2023.html | issn = 1335-4418 | vydavateľ = Petit Press | miesto = Bratislava | dátum = 2018-09-05 | dátum prístupu = 2018-09-06 }}&lt;/ref&gt; Základný výcvik prebehol na lietadle T-6A na leteckej základni Laughlin v [[Texas|Texase]]&lt;ref name=&quot;af-video&quot;&gt;{{Citácia elektronického dokumentu | priezvisko = | meno = | autor = | odkaz na autora = | titul = Video | url = https://www.aetc.af.mil/News/Video/videoid/764301/ | vydavateľ = aetc.af.mil | dátum vydania = 2020-08-20 | dátum aktualizácie = | dátum prístupu = 2020-09-11 | miesto = | jazyk = }}&lt;/ref&gt; a pokračovací výcvik na lietadle T-38C na leteckej základni [[Columbus]] v [[Mississippi]].&lt;ref name=&quot;af-video-ohio&quot;&gt;{{Citácia elektronického dokumentu | priezvisko = | meno = | autor = | odkaz na autora = | titul = Video | url = https://www.aetc.af.mil/News/Video/videoid/764303/dvpcc/false/#DVIDSVideoPlayer20345 | vydavateľ = aetc.af.mil | dátum vydania = | dátum aktualizácie = | dátum prístupu = 2020-09-11 | miesto = | jazyk = }}&lt;/ref&gt;Neskôr, po absolvovaní výcviku na T-6A resp. T-38C, bude prebiehať výcvik na stíhačkách F-16 na leteckej základni Luke AFB v Arizone.&lt;ref&gt;https://www.luke.af.mil/Portals/58/Luke%20One%20Pager%20Jun%202020.pdf&lt;/ref&gt;
+Slovensko má v súčasnosti iba päť operačných pilotov, ktorí majú na vojenských prúdových lietadlách nalietaných viac ako 500 letových hodín (zvyšných 6 pilotov má nálet na prúdových lietadlách menej ako 250 hodín).&lt;ref&gt;{{Citácia periodika | priezvisko = | meno = | autor = TASR | odkaz na autora = | titul = Zvýšenie rozpočtu armády sa týka rozsiahlej modernizácie | periodikum = sme.sk | odkaz na periodikum = SME | url = https://domov.sme.sk/c/20933356/zvysenie-rozpoctu-armady-sa-tyka-rozsiahlej-modernizacie.html | issn = 1335-4418 | vydavateľ = Petit Press | miesto = Bratislava | dátum = 2018-10-09 | dátum prístupu = 2018-10-15 }}&lt;/ref&gt;
+
+Ministerstvo financií SR v týchto dňoch (december 2018) posudzuje technické podklady na nákup amerických stíhačiek F-16.&lt;ref&gt;{{Citácia periodika | priezvisko = | meno = | autor = hdm | odkaz na autora = | titul = Ministerstvo financií už posudzuje podklady na nákup amerických stíhačiek | periodikum = pravda.sk | odkaz na periodikum = Pravda (slovenský denník) | url = https://spravy.pravda.sk/domace/clanok/494825-ministerstvo-financii-uz-posudzuje-podklady-na-nakup-americkych-stihaciek/? | issn = 1336-197X | vydavateľ = Perex | miesto = Bratislava | dátum = 2018-12-11 | dátum prístupu = 2018-12-12 }}&lt;/ref&gt;
+
+Viceprezidentka spoločnosti Lockheed Martin Ana Wugofski a minister obrany [[Peter Gajdoš]] dňa [[12. december|12. decembra]] 2018 slávnostne podpísali tri „Dohody o podmienkach predaja“ (Letter of Offer and Acceptance LO-D-TAA, LO-P-LAH a LO-D-SAA) stíhačiek F-16C/D Block 70.&lt;ref&gt;{{Citácia periodika | priezvisko = Turček | meno = Martin | autor = | odkaz na autora = | titul = Bol to najväčší nákup v dejinách armády. Obrana zverejnila utajované zmluvy na F-16 | periodikum = Aktuality.sk | odkaz na periodikum = | url = https://www.aktuality.sk/clanok/792338/bol-to-najvacsi-nakup-v-dejinach-armady-obrana-zverejnila-utajovane-zmluvy-na-f-16/ | issn = | vydavateľ = Ringier Axel Springer Slovakia | miesto = Bratislava | dátum = Domáce správy | dátum prístupu = 2020-05-26 }}&lt;/ref&gt; Najväčšia investícia v celkovej výške 1 872 568 591 USD&lt;ref&gt;{{Citácia elektronického dokumentu | priezvisko = | meno = | autor = | odkaz na autora = | titul = | url = https://rokovania.gov.sk/download.dat?id=D9E89A965585428F88969FD49CF8F83F-30FCB2B2486BD63E87D509008566396B | vydavateľ = rokovania.gov.sk | dátum vydania = | dátum aktualizácie = | dátum prístupu = 2020-07-06 | miesto = | jazyk = }}&lt;/ref&gt; do slovenskej armády v ére samostatnosti dostala zelenú.&lt;ref&gt;{{Citácia periodika | priezvisko = | meno = | autor = Česká pozice | odkaz na autora = | titul = Slováci budou mít 14 stíhaček F-16. Za 1,589 miliardy eur | periodikum = Lidovky.cz | odkaz na periodikum = | url = http://ceskapozice.lidovky.cz/slovaci-budou-mit-14-stihacek-f-16-za-1-589-miliardy-eur-fs2-/tema.aspx?c=A180821_180134_pozice-tema_lube | issn = 1213-1385 | vydavateľ = MAFRA | miesto = Praha | dátum = 2018-08-24 | dátum prístupu = 2019-03-29 }}&lt;/ref&gt;
+
+Predseda vlády SR [[Peter Pellegrini]] vyzdvihol význam podpísaného kontraktu. ''„Ide o významný moment v histórii Slovenskej republiky, pretože ide o investíciu v objeme viac ako 1,6 miliardy eur. Je to počin, ktorým sa Slovenská republika hlási k svojim záväzkom navyšovať výdavky na vyzbrojovanie a dosiahnuť žiadaný cieľ 2% HDP a ide o počin, ktorý bude aj naďalej garantovať suverenitu a ochranu vzdušného priestoru Slovenskej republiky. Slovenská republika chce vyslať jasný signál, že svoje budúce postavenie vidí aj naďalej tak v Európskej únii, ako aj Severoatlantickej aliancii,“'' povedal.&lt;ref&gt;{{Citácia elektronického dokumentu | priezvisko = | meno = | autor = | odkaz na autora = | titul = Najväčší modernizačný projekt ozbrojených síl v histórii sa stáva realitou, minister obrany podpísal zmluvy k obstaraniu lietadiel F-16 | url = http://www.mosr.sk/43306-sk/najvacsi-modernizacny-projekt-ozbrojenych-sil-v-historii-sa-stava-realitou-minister-obrany-podpisal-zmluvy-k-obstaraniu-lietadiel-f-16/ | vydavateľ = Ministerstvo obrany SR | dátum vydania = 2018-12-12 | dátum aktualizácie = | dátum prístupu = 2018-12-12 | miesto = Bratislava | jazyk = }}&lt;/ref&gt;&lt;ref&gt;{{Citácia periodika | priezvisko = | meno = | autor = Pravda.sk | odkaz na autora = | titul = Slovensko podpísalo najväčšiu investíciu do obrany v ére samostatnosti | periodikum = pravda.sk | odkaz na periodikum = Pravda (slovenský denník) | url = https://spravy.pravda.sk/domace/clanok/494902-vlada-odobrila-podpis-zmluv-na-nakup-stihaciek-za-1-6-miliardy-eur/ | issn = 1336-197X | vydavateľ = Perex | miesto = Bratislava | dátum = 2018-12-12 | dátum prístupu = 2018-12-12 }}&lt;/ref&gt;&lt;ref&gt;{{Citácia periodika | priezvisko = | meno = | autor = TASR | odkaz na autora = | titul = Vláda schválila nákup stíhačiek F-16 za 1,6 miliardy eur | periodikum = sme.sk | odkaz na periodikum = SME | url = https://domov.sme.sk/c/22006931/vlada-schvalila-nakup-stihaciek-f-16-za-16-miliardy-eur.html | issn = 1335-4418 | vydavateľ = Petit Press | miesto = Bratislava | dátum = 2018-12-12 | dátum prístupu = 2018-12-12 }}&lt;/ref&gt; Súčasťou podpísaného kontraktu je aj komplexný výcvik 22 pilotov a 160 technikov pozemného personálu v USA. USA nám vyprodukujú hotového pilota, ktorý po príchode lietadiel F-16C/D v roku 2022/23 bude spôsobilý zabezpečovať pohotovostný systém a ochranu vzdušného priestoru, čiže plnenie záväzku [[NATINAMDS]] a Renegát.&lt;ref&gt;{{Citácia elektronického dokumentu | priezvisko = | meno = | autor = | odkaz na autora = | titul = Prvé stíhačky F-16 dorazia v roku 2022: Pilotov pripravia v USA | url = https://www.dnes24.sk/prve-stihacky-f-16-dorazia-v-roku-2022-pilotov-pripravia-v-usa-319042 | vydavateľ = dnes24.sk | dátum vydania = | dátum aktualizácie = | dátum prístupu = 2019-01-31 | miesto = | jazyk = }}&lt;/ref&gt; Slovensko má voľbou stíhačky F-16C/D vystarané minimálne do roku 2060 a potom si môže objednať stíhačku 5. generácie. Minister zahraničných vecí USA [[Mike Pompeo]] pri návšteve Bratislavy dňa [[12. február]]a [[2019]] poďakoval Slovensku za nákup amerických stíhačiek F-16. ''„USA sú hrdé na to, že sú súčasťou úspechu vašej krajiny,“'' povedal Mike Pompeo.&lt;ref&gt;{{Citácia elektronického dokumentu | priezvisko = | meno = | autor = | odkaz na autora = | titul = Press Availability With Slovak Foreign Minister Miroslav Lajcak | url = https://www.state.gov/press-availability-with-slovak-foreign-minister-miroslav-lajcak/ | vydavateľ = state.gov | dátum vydania = | dátum aktualizácie = | dátum prístupu = 2019-08-14 | miesto = | jazyk = }}&lt;/ref&gt;&lt;ref&gt;{{Citácia periodika | priezvisko = | meno = | autor = maho | odkaz na autora = | titul = Uvedomujeme si, akú agresívnu rolu hrá Rusko vo vašom regióne, povedal Pompeo v Bratislave | periodikum = hnonline.sk | odkaz na periodikum = Hospodárske noviny | url = https://slovensko.hnonline.sk/1889663-slovensko-nikdy-nebolo-nezavislejsie-a-prosperujucejsie-ako-dnes-hovori-pompeo | issn = 1336-1996 | vydavateľ = MAFRA Slovakia | miesto = Bratislava | dátum = 2019-02-12 | dátum prístupu = 2019-02-13 }}&lt;/ref&gt;&lt;ref&gt;{{Citácia periodika | priezvisko = Novotný | meno = Pavel | autor = | odkaz na autora = | titul = Americký expert na letectvo pre HN: So stíhačkami F-16 získate okamžité benefity | periodikum = hnonline.sk | odkaz na periodikum = Hospodárske noviny | url = https://finweb.hnonline.sk/ekonomika/1902938-s-f-16-ziskate-okamzite-benefity | issn = 1336-1996 | vydavateľ = MAFRA Slovakia | miesto = Bratislava | dátum = 2019-03-08 | dátum prístupu = 2019-03-11 }}&lt;/ref&gt;
+
+Do konca marca roku 2020 Slovenská republika uhradila USA za stíhačky sumu vo výške 1 miliardy USD. Tretiu splátku vo výške 175 miliónov USD uhradí v septembri roku 2020. Poslednú splátku vo výške 600 miliónov USD uhradí v roku 2021.&lt;ref&gt;{{Citácia periodika | priezvisko = | meno = | autor = SITA | odkaz na autora = | titul = Slovensko zaplatilo druhú splátku za stíhačky F-16 | periodikum = sme.sk | odkaz na periodikum = SME | url = https://domov.sme.sk/c/22089041/slovensko-v-marci-zaplatilo-prvu-splatku-za-stihacky-f-16.html | issn = 1335-4418 | vydavateľ = Petit Press | miesto = Bratislava | dátum = 2019-04-01 | dátum prístupu = 2019-04-02 }}&lt;/ref&gt; Nákup stíhačiek F-16 bude dokončený, potvrdil nový minister obrany [[Jaroslav Naď]].&lt;ref&gt;{{Citácia periodika | priezvisko = | meno = | autor = TASR | odkaz na autora = | titul = Naď: Nákup stíhačiek F-16 by sa mal dokončiť, vyplatená miliarda by sa už nevrátila | periodikum = pravda.sk | odkaz na periodikum = Pravda (slovenský denník) | url = https://spravy.pravda.sk/domace/clanok/549093-nad-nakup-stihaciek-f-16-by-sa-mal-dokoncit-vyplatena-miliarda-by-sa-uz-nevratila/ | issn = 1336-197X | vydavateľ = Perex | miesto = Bratislava | dátum = 2020-04-19 | dátum prístupu = 2020-05-21 }}&lt;/ref&gt;&lt;ref&gt;{{Citácia periodika | priezvisko = | meno = | autor = TASR | odkaz na autora = | titul = USA naznačili Naďovi, že znížia budúcoročnú splátku za stíhačky | periodikum = pravda.sk | odkaz na periodikum = Pravda (slovenský denník) | url = https://spravy.pravda.sk/domace/clanok/551365-usa-naznacili-nadovi-ze-znizia-buducorocnu-splatku-za-stihacky/ | issn = 1336-197X | vydavateľ = Perex | miesto = Bratislava | dátum = 2020-05-13 | dátum prístupu = 2020-05-21 }}&lt;/ref&gt;
+
+USA oceňujú, že Slovensko sa rozhodlo modernizovať ozbrojené sily, prejsť zo sovietskej techniky na modernú. ''„Taktiež, že sme strategicky prijali rozhodnutie orientovať sa na americkú výzbroj, či už sú to stíhačky F-16 alebo vrtuľníky Black Hawk. V Spojených štátoch amerických to samozrejme nezostalo bez povšimnutia,“'' konštatoval minister zahraničných vecí [[Miroslav Lajčák]].&lt;ref&gt;{{Citácia periodika | priezvisko = | meno = | autor = TASR | odkaz na autora = | titul = Lajčák: Cítili sme, že USA už o nás nemajú záujem. Zmenilo sa to až príchodom Trumpa | periodikum = hnonline.sk | odkaz na periodikum = Hospodárske noviny | url = https://slovensko.hnonline.sk/1934330-lajcak-citili-sme-ze-usa-uz-o-nas-nemaju-zaujem-zmenilo-sa-to-az-prichodom-trumpa | issn = 1336-1996 | vydavateľ = MAFRA Slovakia | miesto = Bratislava | dátum = 2019-05-02 | dátum prístupu = 2019-05-03 }}&lt;/ref&gt; Slovensko dosiahlo tú výhodu, že po podpise zmluvy s USA, je už u výrobcu na schedule liste, pričom na porovnanie iné krajiny stále váhajú, čím oddiaľujú zavedenie nových stíhačiek do výzbroje.&lt;ref&gt;{{Citácia elektronického dokumentu | priezvisko = Adamowski | meno = Jaroslaw | autor = | odkaz na autora = | titul = Bulgaria reveals why it might stop talks to buy F-16 fighter jets | url = https://www.defensenews.com/air/2019/05/16/bulgaria-reveals-why-it-might-stop-talks-to-buy-f-16-fighter-jets/ | vydavateľ = defensenews.com | dátum vydania = 2019-05-16 | dátum aktualizácie = | dátum prístupu = 2019-05-21 | miesto = | jazyk = }}&lt;/ref&gt;&lt;ref&gt;{{Citácia elektronického dokumentu | priezvisko = | meno = | autor = | odkaz na autora = | titul = Bulgaria – F-16C/D Block 70/72 Aircraft with Support | url = http://www.defense-aerospace.com/article-view/release/203131/us-drops-price-of-f_16s-for-bulgaria%2C-now-asks-%241.2bn-for-8-jets.html | vydavateľ = defense-aerospace.com | dátum vydania = | dátum aktualizácie = | dátum prístupu = 2019-06-04 | miesto = | jazyk = }}&lt;/ref&gt; Pre kúpu nových stíhačiek F-16C/D Block 70 sa nakoniec rozhodlo aj Bulharsko, pričom termín dodania lietadiel je rok 2023. Bulharsko nakúpi 8 kusov stíhačiek, pričom celú sumu kontraktu vo výške 1,26 miliardy USD uhradilo jednou platbou vopred. Bulharsko plánuje doobjednať ďalších 8 kusov stíhačiek F-16 Block 70.&lt;ref&gt;{{Citácia elektronického dokumentu | priezvisko = | meno = | autor = | odkaz na autora = | titul = Bulgaria approves $1.26 billion deal with US to buy F-16 aircraft | url = https://nationalpost.com/pmn/news-pmn/politics-news-pmn/bulgaria-approves-1-26-billion-deal-with-us-to-buy-f-16-aircraft | vydavateľ = nationalpost.com | dátum vydania = 2019-07-10 | dátum aktualizácie = | dátum prístupu = 2019-07-10 | miesto = | jazyk = }}&lt;/ref&gt;&lt;ref&gt;{{Citácia elektronického dokumentu | priezvisko = | meno = | autor = | odkaz na autora = | titul = Bulgaria Agrees to Buy F-16 Jets From U.S. in $1.25-Billion Deal | url = https://www.bloomberg.com/news/articles/2019-07-10/bulgaria-agrees-to-buy-f-16-jets-from-u-s-in-1-25-billion-deal | vydavateľ = bloomberg.com | dátum vydania = 2019-07-10 | dátum aktualizácie = | dátum prístupu = 2019-07-10 | miesto = | jazyk = }}&lt;/ref&gt;
+
+Ministerstvo obrany SR vybralo prvých šesť kandidátov na pilotov stíhačiek F-16C/D Block 70. Celkovo ich bude 22.&lt;ref&gt;{{Citácia periodika | priezvisko = | meno = | autor = TASR | odkaz na autora = | titul = Do USA pôjdu ďalší slovenskí piloti cvičiť sa na F-16 | periodikum = pravda.sk | odkaz na periodikum = Pravda (slovenský denník) | url = https://spravy.pravda.sk/domace/clanok/557006-do-usa-pojdu-dalsi-slovenski-piloti-cvicit-sa-na-f-16/ | issn = 1336-197X | vydavateľ = Perex | miesto = Bratislava | dátum = 2020-07-11 | dátum prístupu = 2020-07-14 }}&lt;/ref&gt; Ministerstvo deklarovalo, že sa stihnú pripraviť, kým prídu nové stíhačky. Predpokladaný začiatok zahraničnej prípravy pre prvú skupinu je november 2019.&lt;ref&gt;{{Citácia periodika | priezvisko = | meno = | autor = SITA | odkaz na autora = | titul = Slovenskí piloti začnú s výcvikom na stíhačkách F-16, do USA odcestujú v novembri | periodikum = sme.sk | odkaz na periodikum = SME | url = https://domov.sme.sk/c/22233970/slovenski-piloti-zacnu-s-vycvikom-na-stihackach-f-16.html | issn = 1335-4418 | vydavateľ = Petit Press | miesto = Bratislava | dátum = 2019-10-11 | dátum prístupu = 2019-10-25 }}&lt;/ref&gt; Letecký výcvik v USA potrvá tri roky. Rezort momentálne vyberá ďalších kandidátov na pilotov. Medzi kritériami sú napríklad úspešné absolvovanie leteckej lekárskej prehliadky pre nadzvukové lietadlá, letecká prax v odbore pilot, jazykové znalosti, úspešné absolvovanie psychodiagnostického vyšetrenia a fyzických testov.&lt;ref&gt;{{Citácia periodika | priezvisko = | meno = | autor = TASR | odkaz na autora = | titul = Ministerstvo vybralo prvých šesť kandidátov na pilotov stíhačiek F-16 | periodikum = sme.sk | odkaz na periodikum = SME | url = https://domov.sme.sk/c/22175483/ministerstvo-vybralo-prvych-sest-kandidatov-na-pilotov-stihaciek-f-16.html | issn = 1335-4418 | vydavateľ = Petit Press | miesto = Bratislava | dátum = 2019-07-25 | dátum prístupu = 2019-07-26 }}&lt;/ref&gt;&lt;ref&gt;{{Citácia periodika | priezvisko = | meno = | autor = TASR | odkaz na autora = | titul = Ozbrojené sily vybrali dvanásť kandidátov na pilotov stíhačiek F-16 | periodikum = sme.sk | odkaz na periodikum = SME | url = https://domov.sme.sk/c/22202522/ozbrojene-sily-vybrali-dvanast-kandidatov-na-pilotov-stihaciek-f-16.html | issn = 1335-4418 | vydavateľ = Petit Press | miesto = Bratislava | dátum = 2019-09-02 | dátum prístupu = 2019-09-02 }}&lt;/ref&gt;
+
+USA pridelili spoločnosti Lockheed Martin zákazku (contract FA8615-19-C-6053) na výrobu štrnástich stíhačiek F-16C/D Block 70 určených pre Slovensko. Potvrdilo to americké ministerstvo obrany dňa 31. júla 2019. Zákazka bude dokončená do 31. januára 2024.&lt;ref&gt;{{Citácia elektronického dokumentu | priezvisko = | meno = | autor = | odkaz na autora = | titul = Share Contracts | url = https://dod.defense.gov/News/Contracts/Contract-View/Article/1922486/ | vydavateľ = dod.defense.gov | dátum vydania = | dátum aktualizácie = | dátum prístupu = 2019-08-01 | miesto = | jazyk = }}&lt;/ref&gt;&lt;ref&gt;{{Citácia elektronického dokumentu | priezvisko = | meno = | autor = | odkaz na autora = | titul = Lockheed awarded $800 million Slovakia F-16 fighter jet contract | url = https://thedefensepost.com/2019/08/01/lockheed-slovakia-f-16-contract/ | vydavateľ = thedefensepost.com | dátum vydania = 2019-08-01 | dátum aktualizácie = | dátum prístupu = 2019-08-01 | miesto = | jazyk = }}&lt;/ref&gt;&lt;ref&gt;{{Citácia periodika | priezvisko = | meno = | autor = ČTK | odkaz na autora = | titul = Americké letectvo pridelilo zákazku na výrobu F-16 pre Slovensko | periodikum = pravda.sk | odkaz na periodikum = Pravda (slovenský denník) | url = https://spravy.pravda.sk/svet/clanok/521059-americke-letectvo-pridelilo-zakazku-na-vyrobu-f-16-pre-slovensko/ | issn = 1336-197X | vydavateľ = Perex | miesto = Bratislava | dátum = 2019-08-01 | dátum prístupu = 2019-08-01 }}&lt;/ref&gt;&lt;ref&gt;{{Citácia elektronického dokumentu | priezvisko = | meno = | autor = | odkaz na autora = | titul = F-16 Fighting Falcon News | url = http://www.f-16.net/f-16-news-article5153.html | vydavateľ = f-16.net | dátum vydania = | dátum aktualizácie = | dátum prístupu = 2019-08-14 | miesto = | jazyk = }}&lt;/ref&gt;&lt;ref&gt;{{Citácia elektronického dokumentu | priezvisko = | meno = | autor = | odkaz na autora = | titul = DoD awards Lockheed Martin Slovak F-16V fighter contract | url = https://www.janes.com/article/90215/dod-awards-lockheed-martin-slovak-f-16v-fighter-contract | vydavateľ = janes.com | dátum vydania = | dátum aktualizácie = | dátum prístupu = 2019-08-14 | miesto = | jazyk = }}&lt;/ref&gt;&lt;ref&gt;{{Citácia elektronického dokumentu | priezvisko = Hoyle | meno = Craig | autor = | odkaz na autora = | titul = Lockheed gets production contract for Slovak F-16s | url = https://www.flightglobal.com/news/articles/lockheed-gets-production-contract-for-slovak-f-16s-460090/ | vydavateľ = flightglobal.com | dátum vydania = 05 August, 2019 | dátum aktualizácie = | dátum prístupu = 2019-08-14 | miesto = | jazyk = }}&lt;/ref&gt;
+
+Slovensko bude kvôli nákupu nových amerických stíhačiek F-16C/D Block 70 výrazne rekonštruovať leteckú základňu Sliač. Zámer počíta okrem iného s výstavbou nových rolovacích dráh, ale aj s modernizáciou existujúcej infraštruktúry základne. Práce na modernizácii vojenského letiska, ktoré ministerstvo obrany chce financovať z vlastných zdrojov vo výške 67,8 miliónov eur, by mali byť hotové do konca roku 2022, kedy Slovensko dostane prvé americké stíhačky F-16C/D.&lt;ref&gt;{{Citácia periodika | priezvisko = | meno = | autor = ČTK | odkaz na autora = | titul = Štát dá 55 miliónov na modernizáciu letiska Sliač. Kvôli americkým stíhačkám | periodikum = hnonline.sk | odkaz na periodikum = Hospodárske noviny | url = https://finweb.hnonline.sk/ekonomika/1999875-stat-da-55-milionov-na-modernizaciu-letiska-sliac-kvoli-americkym-stihackam | issn = 1336-1996 | vydavateľ = MAFRA Slovakia | miesto = Bratislava | dátum = 2019-09-03 | dátum prístupu = 2019-09-03 }}&lt;/ref&gt; Počas rekonštrukcie LZ Sliač budú stíhačky MiG-29 dislokované na základni Malacky-Kuchyňa.&lt;ref&gt;{{Citácia periodika | priezvisko = | meno = | autor = hdm | odkaz na autora = | titul = Príprava na americké stíhačky F-16: Letisko Sliač opravíme, za vlastné | periodikum = pravda.sk | odkaz na periodikum = Pravda (slovenský denník) | url = https://spravy.pravda.sk/domace/clanok/524761-letisko-sliac-opravime-za-vlastne/ | issn = 1336-197X | vydavateľ = Perex | miesto = Bratislava | dátum = 2019-09-04 | dátum prístupu = 2019-09-12 }}&lt;/ref&gt; Na LZ Malacky-Kuchyňa sa najskôr počas troch mesiacov v roku 2020 vykoná stredná oprava vzletovej a pristávacej dráhy za 3,8 miliónov eur.&lt;ref&gt;{{Citácia periodika | priezvisko = | meno = | autor = TASR | odkaz na autora = | titul = Medzinárodné letecké dni na Sliači pre pandémiu zrušili | periodikum = sme.sk | odkaz na periodikum = SME | url = https://domov.sme.sk/c/22417158/medzinarodne-letecke-dni-na-sliaci-pre-pandemiu-zrusili.html | issn = 1335-4418 | vydavateľ = Petit Press | miesto = Bratislava | dátum = 2020-06-02 | dátum prístupu = 2020-06-02 }}&lt;/ref&gt; Následne tam budú do 31.12.2020 redislokované letuschopné stíhačky MiG-29, ktoré odtiaľ budú lietať v rokoch 2021 – 2023.&lt;ref&gt;{{Citácia elektronického dokumentu | priezvisko = | meno = | autor = | odkaz na autora = | titul = Úrad vlády SR - Portál Otvorenej vlády | url = https://rokovania.gov.sk/RVL/Material/24888/1 | vydavateľ = rokovania.gov.sk | dátum vydania = | dátum aktualizácie = | dátum prístupu = 2020-05-28 | miesto = | jazyk = }}&lt;/ref&gt; Na LZ Sliač sa už MiGy-29 pravdepodobne nevrátia.&lt;ref&gt;{{Citácia elektronického dokumentu | priezvisko = | meno = | autor = | odkaz na autora = | titul = ZMLUVA O DIELO č. 2019/126 | url = https://www.crz.gov.sk/index.php?ID=603&amp;doc=4228012&amp;text=1 | vydavateľ = crz.gov.sk | dátum vydania = | dátum aktualizácie = | dátum prístupu = 2019-11-22 | miesto = | jazyk = }}&lt;/ref&gt;&lt;ref&gt;{{Citácia elektronického dokumentu | priezvisko = | meno = | autor = | odkaz na autora = | titul = ZMLUVA O DIELO č. 2019/129  | url = https://www.crz.gov.sk/index.php?ID=603&amp;doc=4269070&amp;text=1 | vydavateľ = crz.gov.sk | dátum vydania = | dátum aktualizácie = | dátum prístupu = 2019-11-22 | miesto = | jazyk = }}&lt;/ref&gt; Predpokladané náklady na abonentnú prevádzku (technickú údržbu firmou RSK-MiG) MiGov-29 v rokoch 2020 – 2023 sú vo výške 124,4 miliónov € (bez nákladov na palivo a platy pilotov).&lt;ref&gt;{{Citácia elektronického dokumentu | priezvisko = | meno = | autor = | odkaz na autora = | titul = Ak by sme nekúpili stíhačky, ochrana vzdušného priestoru by nás vyšla 50 miliónov ročne | url = https://www.defencenews.sk/aktuality/ak-by-sme-nekupili-stihacky-ochrana-vzdusneho-priestoru-by-nas-vysla-50-milionov-rocne/ | vydavateľ = defencenews.sk | dátum vydania = 2020-02-15 | dátum aktualizácie = | dátum prístupu = 2020-02-19 | miesto = | jazyk = }}&lt;/ref&gt;
+
+Firma Raytheon Missile Systems, Tucson, Arizona uzavrela kontrakt s vládou USA na výrobu rakiet typu [[AIM-9 Sidewinder|AIM-9X Block II]], ktoré budú vyrobené pre Slovensko v rámci programu FMS.&lt;ref&gt;{{Citácia elektronického dokumentu | priezvisko = | meno = | autor = | odkaz na autora = | titul = DoD contracts Sidewinder missiles for US, FMS customers | url = https://www.janes.com/article/95030/dod-contracts-sidewinder-missiles-for-us-fms-customers | vydavateľ = janes.com | dátum vydania = | dátum aktualizácie = | dátum prístupu = 2020-05-07 | miesto = | jazyk = }}&lt;/ref&gt; Slovenské stíhačky F-16C/D Block 70 budú mať motory typu F110-GE-129 od firmy General Electric Co., Cincinnati, Ohio.&lt;ref&gt;{{Citácia elektronického dokumentu | priezvisko = | meno = | autor = | odkaz na autora = | titul = Contracts For April 28, 2020 | url = https://www.defense.gov/Newsroom/Contracts/Contract/Article/2168478/ | vydavateľ = defense.gov | dátum vydania = | dátum aktualizácie = | dátum prístupu = 2020-04-30 | miesto = | jazyk = }}&lt;/ref&gt;
+
+Situácia súvisiaca s pandémiou COVID-19 v Spojených štátoch amerických neovplyvnila výrobu ani termín dodania stíhacích lietadiel F-16 C/D Block 70 pre Slovenskú republiku.&lt;ref&gt;https://spravy.pravda.sk/domace/clanok/560256-pandemia-neovplyvnila-vyrobu-stihaciek-f-16-pre-slovensko/&lt;/ref&gt;
+
+=== Cvičné prúdové lietadlá ===
+Po nehode lietadla [[Aero L-39 Albatros|L-39ZAM Albatros]] (reg. č. 4711) dňa 10. októbra 2018 začala byť situácia s cvičnými prúdovými lietadlami kritická a v rámci modernizácie vzdušných síl si zaslúžia osobitnú pozornosť, pretože zostávajúce kusy L-39 majú už kratšiu technickú životnosť než MiG-29.&lt;ref name=&quot;janes.com&quot;/&gt; Situáciu treba promptne riešiť buď dočasným leasingom troch [[Aero L-159 Alca|L-159T2 Alca]]&lt;ref&gt;{{Citácia elektronického dokumentu | priezvisko = | meno = | autor = | odkaz na autora = | titul = Letoun L-159T2 pro českou armádu absolvoval první let | url = http://www.aero.cz/cz/o-nas/media/novinky/letoun-l-159t2-pro-ceskou-armadu-absolvoval-prvni-let/ | vydavateľ = aero.cz | dátum vydania = | dátum aktualizácie = | dátum prístupu = 2018-10-11 | miesto = | jazyk = }}&lt;/ref&gt; alebo objednaním 8 kusov&lt;ref&gt;{{Citácia elektronického dokumentu | priezvisko = | meno = | autor = | odkaz na autora = | titul = Aero Vodochody nabídlo Slovensku strategickou spolupráci na výcviku pilotů | url = http://www.aero.cz/cz/o-nas/media/tiskove-zpravy/aero-vodochody-nabidlo-slovensku-strategickou-spolupraci-na/ | vydavateľ = aero.cz | dátum vydania = | dátum aktualizácie = | dátum prístupu = 2020-06-19 | miesto = | jazyk = }}&lt;/ref&gt; nových [[Aero L-39NG]]&lt;ref&gt;{{Citácia elektronického dokumentu | priezvisko = | meno = | autor = | odkaz na autora = | titul = Slovakia offered long-term industrial participation in L-39NG | url = https://www.flightglobal.com/fixed-wing/slovakia-offered-long-term-industrial-participation-in-l-39ng/138855.article | vydavateľ = flightglobal.com | dátum vydania = | dátum aktualizácie = | dátum prístupu = 2020-06-17 | miesto = | jazyk = }}&lt;/ref&gt;&lt;ref&gt;{{Citácia elektronického dokumentu | priezvisko = | meno = | autor = | odkaz na autora = | titul = Nový český proudový letoun L-39NG absolvoval svůj první let (VIDEO) | url = http://www.aero.cz/cz/o-nas/media/novinky/novy-cesky-proudovy-letoun-l-39ng-absolvoval-svuj-prvni-let/ | vydavateľ = aero.cz | dátum vydania = | dátum aktualizácie = | dátum prístupu = 2019-02-13 | miesto = | jazyk = }}&lt;/ref&gt; formou vláda – vláda.&lt;ref&gt;{{Citácia elektronického dokumentu | priezvisko = | meno = | autor = | odkaz na autora = | titul = První letoun L-39NG pokročil do další fáze a směřuje k roll-outu | url = http://www.aero.cz/cz/o-nas/media/novinky/prvni-letoun-l-39ng-pokrocil-do-dalsi-faze-smeruje-k-roll-ou/ | vydavateľ = aero.cz | dátum vydania = | dátum aktualizácie = | dátum prístupu = 2018-10-11 | miesto = | jazyk = }}&lt;/ref&gt; Niektoré štáty NATO ako napríklad Maďarsko využívajú Letový výcvikový program NATO v Kanade (''NATO Flying Training in Canada''; ''NFTC''). Maďarské vzdušné sily vyradili všetky lietadlá typu L-39 a MiG-29 už v roku 2010.&lt;ref&gt;{{Citácia elektronického dokumentu | priezvisko = | meno = | autor = | odkaz na autora = | titul = ARCHIVED - Hungary Joins Nato Flying Training in Canada (NFTC) Program | url = http://www.forces.gc.ca/en/news/article.page?doc=hungary-joins-nato-flying-training-in-canada-nftc-program/hnmx1bgj | vydavateľ = forces.gc.ca | dátum vydania = | dátum aktualizácie = | dátum prístupu = 2018-10-12 | miesto = | jazyk = }}&lt;/ref&gt;&lt;ref&gt;{{Citácia elektronického dokumentu | priezvisko = | meno = | autor = | odkaz na autora = | titul = Meet the Moosemen | url = http://www.rcaf-arc.forces.gc.ca/en/article-template-standard.page?doc=meet-the-moosemen/ix1xz22c | vydavateľ = rcaf-arc.forces.gc.ca | dátum vydania = | dátum aktualizácie = | dátum prístupu = 2018-10-12 | miesto = | jazyk = }}&lt;/ref&gt;&lt;ref&gt;{{Citácia elektronického dokumentu | priezvisko = | meno = | autor = | odkaz na autora = | titul = Training squadrons add instructors, students to generate more fighter pilots | url = https://www.skiesmag.com/news/training-squadrons-add-instructors-students-to-generate-more-fighter-pilots/ | vydavateľ = skiesmag.com | dátum vydania = | dátum aktualizácie = | dátum prístupu = 2018-10-12 | miesto = | jazyk = }}&lt;/ref&gt; Jednou z možností je, aby naši mladí piloti, ktorí budú vybraní na letecký výcvik v USA na stíhačky F-16 predtým prešli preškolením v Kanade, kde by si zdokonalili angličtinu a lietali na cvičných prúdových lietadlách typu [[BAE Systems Hawk|CT-155 Hawk]].&lt;ref&gt;{{Citácia elektronického dokumentu | priezvisko = | meno = | autor = | odkaz na autora = | titul = NATO Flying Training in Canada (NFTC) | url = https://www.cae.com/media/documents/Defence_Security/DM077_NATO_Flying_Training_in_Canada_NFTC_v4.pdf | vydavateľ = cae.com | dátum vydania = | dátum aktualizácie = | dátum prístupu = 2018-10-11 | miesto = | jazyk = }}&lt;/ref&gt; Ďalšou možnosťou pre našich budúcich pilotov je absolvovať letecký výcvik na [[Sheppard Air Force Base|Sheppardovej leteckej základni]] v [[Texas]]e v rámci programu Euro-NATO Joint Jet Pilot Training Program (ENJJPT).&lt;ref&gt;{{Citácia elektronického dokumentu | priezvisko = | meno = | autor = | odkaz na autora = | titul = Euro-NATO Joint Jet Pilot Training Program (ENJJPT) | url = https://www.sheppard.af.mil/Library/Fact-Sheets/Display/Article/367537/euro-nato-joint-jet-pilot-training-program-enjjpt/ | vydavateľ = sheppard.af.mil | dátum vydania = 2012-10-17 | dátum aktualizácie = | dátum prístupu = 2018-10-16 | miesto = | jazyk = }}&lt;/ref&gt; Výcvik našich nových pilotov bude trvať 40 mesiacov na lietadlách typu T-6A, T-38C a F-16D. Keď [[United States Air Force|Vzdušné sily USA]] dostanú v roku 2023 nové lietadlá typu T-7A Red Hawk výcvik sa skráti na 22 mesiacov, čo významne ušetrí čas a peniaze na výcvik nového stíhacieho pilota, v budúcnosti napríklad aj slovenského.&lt;ref&gt;{{Citácia elektronického dokumentu | priezvisko = | meno = | autor = | odkaz na autora = | titul = ACC Aims to Cut Pilot Training Time By Up to Half | url = https://www.airforcemag.com/acc-aims-to-cut-pilot-training-time-by-up-to-half/ | vydavateľ = airforcemag.com | dátum vydania = 2020-06-18 | dátum aktualizácie = | dátum prístupu = 2020-06-22 | miesto = | jazyk = }}&lt;/ref&gt; Napríklad [[belgické vzdušné sily]] sa rozhodli vyradiť cvičné prúdové lietadlá typu [[Dassault/Dornier Alpha Jet|Alpha Jet]] do decembra roku 2019.&lt;ref&gt;{{Citácia elektronického dokumentu | priezvisko = | meno = | autor = | odkaz na autora = | titul = Belga News Agency | url = http://www.belga.be/fr/news/details-96052188/ | vydavateľ = belga.be | dátum vydania = | dátum aktualizácie = | dátum prístupu = 2018-10-29 | miesto = | jazyk = }}&lt;/ref&gt; Zároveň začnú posielať svojich budúcich pilotov na Sheppardovu leteckú základňu v USA, aby tam absolvovali letecký výcvik v rámci Euro-NATO Joint Jet Pilot Training (ENJJPT).&lt;ref&gt;{{Citácia elektronického dokumentu | priezvisko = | meno = | autor = | odkaz na autora = | titul = Defense to Sell 25 Alpha Jets; Aircraft Available Next Year | url = http://www.defense-aerospace.com/articles-view/release/3/196701/transfer-of-fighter-pilot-school-hints-at-belgium%E2%80%99s-pro_f_35-bias.html | vydavateľ = defense-aerospace.com | dátum vydania = | dátum aktualizácie = | dátum prístupu = 2018-10-29 | miesto = | jazyk = }}&lt;/ref&gt; Belgická a poľská vláda sa rozhodli nakúpiť 34 resp. 32 kusov&lt;ref&gt;{{Citácia elektronického dokumentu | priezvisko = | meno = | autor = The Belgian Ministry of Defence | odkaz na autora = | titul = Belgian Defence Air Combat Capability Program Request for Government Proposal | url = https://www.vandeput.fgov.be/sites/default/files/articles/Request%20for%20Government%20Proposal_0.pdf | vydavateľ = vandeput.fgov.be | dátum vydania = | dátum aktualizácie = | dátum prístupu = 2018-11-14 | miesto = | jazyk = }}&lt;/ref&gt; amerických stíhačiek typu F-35.&lt;ref&gt;{{Citácia elektronického dokumentu | priezvisko = | meno = | autor = | odkaz na autora = | titul = Belgium to Buy US F-35 Fighters in Blow to EU Defence | url = http://www.defense-aerospace.com/articles-view/feature/5/197056/us-applauds-belgian-decision-to-buy-f_35-fighters%2C-offers-record-low-price.html | vydavateľ = defense-aerospace.com | dátum vydania = | dátum aktualizácie = | dátum prístupu = 2018-10-29 | miesto = | jazyk = }}&lt;/ref&gt;&lt;ref&gt;{{Citácia elektronického dokumentu | priezvisko = | meno = | autor = | odkaz na autora = | titul = Belgium buys 34 F-35s | url = http://www.f-16.net/f-16-news-article5129.html | vydavateľ = f-16.net | dátum vydania = | dátum aktualizácie = | dátum prístupu = 2018-10-30 | miesto = | jazyk = }}&lt;/ref&gt;&lt;ref&gt;{{Citácia elektronického dokumentu | priezvisko = | meno = | autor = | odkaz na autora = | titul = STATEMENT:  Belgium Selects F-35 Lightning II for Future Defense Needs | url = https://www.f35.com/news/detail/statement-belgium-selects-f-35-lightning-ii-for-future-defense-needs | vydavateľ = f35.com | dátum vydania = | dátum aktualizácie = | dátum prístupu = 2018-10-30 | miesto = | jazyk = }}&lt;/ref&gt;&lt;ref&gt;{{Citácia elektronického dokumentu | priezvisko = Reim | meno = Garrett | autor = | odkaz na autora = | titul = European aerospace firms lament Belgium’s F-35 purchase decision | url = https://www.flightglobal.com/news/articles/european-aerospace-firms-lament-belgiums-f-35-purch-453035/ | vydavateľ = flightglobal.com | dátum vydania = 26 October, 2018 | dátum aktualizácie = | dátum prístupu = 2018-10-30 | miesto = | jazyk = }}&lt;/ref&gt; Po Belgicku a Poľsku je vysoko pravdepodobné, že sa pre stealth stíhačku piatej generácie typu F-35 rozhodnú aj neutrálne európske krajiny Švajčiarsko&lt;ref&gt;https://www.srf.ch/news/abstimmung-27-september-2020/kampfjetbeschaffung/abstimmung-vom-27-september-streit-um-die-folgekosten-neuer-kampfjets&lt;/ref&gt;a Fínsko.&lt;ref&gt;{{Citácia periodika | priezvisko = Čaplovič | meno = Miroslav | autor = | odkaz na autora = | titul = Kto sa vyhne po Slovensku európskym zbrojovkám? | periodikum = pravda.sk | odkaz na periodikum = Pravda (slovenský denník) | url = https://spravy.pravda.sk/svet/clanok/490134-kto-sa-vyhne-po-slovensku-europskym-zbrojovkam/ | issn = 1336-197X | vydavateľ = Perex | miesto = Bratislava | dátum = 2018-11-02 | dátum prístupu = 2018-11-07 }}&lt;/ref&gt;&lt;ref&gt;{{Citácia elektronického dokumentu | priezvisko = | meno = | autor = | odkaz na autora = | titul = Tervehdys! | url = https://yle.fi/uutiset/osasto/news/weapons_expert_real_choice_for_new_finnish_air_force_fighter_between_lockheed_martin_and_saab/10181395 | vydavateľ = yle.fi | dátum vydania = | dátum aktualizácie = | dátum prístupu = 2018-11-14 | miesto = | jazyk = }}&lt;/ref&gt;&lt;ref&gt;{{Citácia elektronického dokumentu | priezvisko = | meno = | autor = swissinfo.ch | odkaz na autora = | titul = Swiss call for bids over fighter jets | url = https://www.swissinfo.ch/eng/next-step_swiss-call-for-bids-over-fighter-jets/44241880 | vydavateľ = swissinfo.ch | dátum vydania = 2018-07-06 | dátum aktualizácie = | dátum prístupu = 2018-11-14 | miesto = | jazyk = }}&lt;/ref&gt;&lt;ref&gt;{{Citácia elektronického dokumentu | priezvisko = | meno = | autor = Expertengruppe Neues Kampfflugzeug, unter der Leitung des Chefs Armeestab | odkaz na autora = | titul = LUFTVERTEIDIGUNG DER ZUKUNFT | url = https://www.vbs.admin.ch/content/vbs-internet/de/die-schweizer-armee/sicherheit-im-luftraum.download/vbs-internet/de/documents/verteidigung/sicherheitluftraum/Bericht-Luftverteidigung-der-Zukunft-d.pdf | vydavateľ = vbs.admin.ch | dátum vydania = | dátum aktualizácie = | dátum prístupu = 2018-11-14 | miesto = | jazyk = }}&lt;/ref&gt;
+
+=== Dopravné lietadlá ===
+Zmluva o nákupe dvoch lietadiel [[Alenia C-27J Spartan|C-27J Spartan]] bola s výrobcom podpísaná dňa 29. októbra 2014. Lietadlá mali byť pre potreby [[Ozbrojené sily Slovenskej republiky|ozbrojených síl]] dodané 26 až 38 mesiacov po podpise zmluvy. Prvé lietadlo C-27J Spartan (reg. č. 1931) absolvovalo svoj prvý let dňa [[7. august]]a 2017 na letisku Turín a na Slovensko bolo dodané [[24. október|24. októbra]] 2017.&lt;ref name=&quot;mosr-prve-z-dvoch-lietadiel-spartan-je-uz&quot;&gt;{{Citácia elektronického dokumentu | priezvisko = | meno = | autor = AGLO solutions (www.aglo.sk) | odkaz na autora = | titul = Prvé z dvoch lietadiel Spartan je už na Slovensku :: Ministerstvo obrany SR | url = http://www.mosr.sk/40735-sk/prve-z-dvoch-lietadiel-spartan-je-uz-na-slovensku/ | vydavateľ = mosr.sk | dátum vydania = | dátum aktualizácie = | dátum prístupu = 2017-10-24 | miesto = | jazyk = }}&lt;/ref&gt; Druhé z lietadiel (reg. č. 1962) absolvovalo svoj prvý let na letisku Turín dňa [[26. február]]a 2018.&lt;ref&gt;{{Citácia elektronického dokumentu | priezvisko = | meno = | autor = | odkaz na autora = | titul = C-27J 1962 | url = https://forum.valka.cz/topic/view/210685 | vydavateľ = forum.valka.cz | dátum vydania = | dátum aktualizácie = | dátum prístupu = 2018-04-09 | miesto = | jazyk = }}&lt;/ref&gt; Na Slovensko bolo dodané [[9. apríl]]a 2018.&lt;ref name=spartan&gt;{{Citácia elektronického dokumentu | priezvisko = | meno = | odkaz na autora = | titul = Lietadlo Spartan príde neskôr, ministerstvo si uplatní možné sankcie | url = http://www.mod.gov.sk/40055-sk/lietadlo-spartan-pride-neskor-ministerstvo-si-uplatni-mozne-sankcie/ | dátum vydania = 2017-06-27 | dátum aktualizácie = | dátum prístupu = 2017-06-27 | vydavateľ = Ministerstvo obrany SR | miesto = | jazyk = }}&lt;/ref&gt;&lt;ref&gt;{{Citácia elektronického dokumentu | priezvisko = | meno = | autor = LOMTEC.com | odkaz na autora = | titul = Zálet Spartana C-27J Slovak Air Force v Turíne | url = https://www.gonzoaviation.com/clanok/zalet-spartana-c-27j-pre-slovak-air-force-v-turine | vydavateľ = gonzoaviation.com | dátum vydania = | dátum aktualizácie = | dátum prístupu = 2017-10-23 | miesto = | jazyk = }}&lt;/ref&gt;&lt;ref name=&quot;teraz-v-letke-vzdusnych-sil-ozbrojenych-sil&quot;&gt;{{Citácia periodika | priezvisko = | meno = | autor = TASR | odkaz na autora = | titul = V letke vzdušných síl Ozbrojených síl SR je druhý Spartan | periodikum = teraz.sk | odkaz na periodikum = | url = http://www.teraz.sk/slovensko/v-letke-vzdusnych-sil-os-sr-je-druhy-spa/318392-clanok.html | issn = | vydavateľ = TASR | miesto = Bratislava | dátum = 2018-04-09 | dátum prístupu = 2018-04-09 }}&lt;/ref&gt; Od podpisu zmluvy až po dodávku prvého lietadla nakoniec uplynuli dlhé tri roky. Na druhé lietadlo čakala Dopravná letka takmer tri a pol roka. Koncom roku 2018 sme mali na Spartany preškolených na dvoch úrovniach osem pilotov, pričom štyria z nich mohli pilotovať aj prepravné lety.&lt;ref&gt;{{Citácia elektronického dokumentu | priezvisko = | meno = | autor = | odkaz na autora = | titul = Obrana 01/2019 | url = http://www.mosr.sk/obrana-012019/ | vydavateľ = Ministerstvo obrany SR | dátum vydania = | dátum aktualizácie = | dátum prístupu = 2019-01-27 | miesto = Bratislava | jazyk = }}&lt;/ref&gt;&lt;ref&gt;{{Citácia elektronického dokumentu | priezvisko = | meno = | autor = | odkaz na autora = | titul = Odlet rotácie do Lotyšska zabezpečovali aj vzdušné sily | url = http://www.vvzs.mil.sk/82289/?pg=1 | vydavateľ = Ozbrojené sily SR | dátum vydania = | dátum aktualizácie = | dátum prístupu = 2019-01-27 | miesto = | jazyk = }}&lt;/ref&gt;
+
+Podľa kapitána Jána Susányiho: ''„Spartan je nová generácia, digitalizácia, kompozitné materiály, skrátka lietadlo do tejto doby.“''&lt;ref&gt;{{Citácia elektronického dokumentu | priezvisko = | meno = | autor = | odkaz na autora = | titul = C-27J SPARTAN - THE UNRIVALLED MULTI-MISSION AIRLIFTER | url = https://www.leonardocompany.com/documents/20142/3159740/C+27J+SPARTAN_brochure.pdf?t=1543587781456 | vydavateľ = leonardocompany.com | dátum vydania = | dátum aktualizácie = | dátum prístupu = 2020-02-19 | miesto = | jazyk = }}&lt;/ref&gt;
+
+V roku 2019 Spartany Vzdušných síl OS SR nalietali spolu 730 letových hodín.
+
+=== Vrtuľníky ===
+Dňa [[29. apríl]]a [[2015]] Vláda Slovenskej republiky svojím uznesením č. 225 schválila návrh „Dohody o podmienkach predaja“ (Letter of Offer and Acceptance) LO-B-UCI Vlády Spojených štátov amerických zo dňa [[21. apríl]]a 2015 na obstaranie komplexnej dodávky systému 9 viacúčelových vrtuľníkov [[Sikorsky UH-60 Black Hawk|UH-60M Black Hawk]].&lt;ref&gt;{{Citácia periodika | priezvisko = Turček | meno = Martin | autor = | odkaz na autora = | titul = Ministerstvo obrany zverejnilo roky utajovanú zmluvu na vrtuľníky Blackhawk za 235 miliónov | periodikum = Aktuality.sk | odkaz na periodikum = | url = https://www.aktuality.sk/clanok/789861/ministerstvo-obrany-zverejnilo-roky-utajovanu-zmluvu-na-vrtulniky-blackhawk-za-235-milionov/ | issn = | vydavateľ = Ringier Axel Springer Slovakia | miesto = Bratislava | dátum = Domáce správy | dátum prístupu = 2020-05-26 }}&lt;/ref&gt; Zároveň uložila ministrovi financií a ministrovi obrany v rámci schválených limitov rozpočtu verejnej správy zabezpečiť v rokoch 2015 – 2024 financovanie obmeny viacúčelových vrtuľníkov vo výške 261 745 857 [[americký dolár|USD]] v súlade so splátkovým kalendárom uvedeným v „Dohode o podmienkach predaja“ zvýšené o súvisiace dane, clá a poplatky. Uvedená suma za vrtuľníky už bola uhradená.&lt;ref&gt;{{Citácia elektronického dokumentu | priezvisko = | meno = | autor = | odkaz na autora = | titul = 225_2015.doc | url = http://www.rokovania.sk/File.aspx/ViewDocumentHtml/Uznesenie-14802?listName=Uznesenia&amp;prefixFile=m_ | vydavateľ = rokovania.sk | dátum vydania = | dátum aktualizácie = | dátum prístupu = 2017-10-23 | miesto = | jazyk = }}&lt;/ref&gt;&lt;ref&gt;{{Citácia elektronického dokumentu | priezvisko = | meno = | autor = | odkaz na autora = | titul = Slovakia – UH-60M Black Hawk Helicopters: The Official Home of the Defense Security Cooperation Agency | url = http://www.dsca.mil/major-arms-sales/slovakia-uh-60m-black-hawk-helicopters | vydavateľ = dsca.mil | dátum vydania = | dátum aktualizácie = | dátum prístupu = 2017-10-23 | miesto = | jazyk = }}&lt;/ref&gt;
+
+Koncom [[apríl]]a [[2017]] prijala spoločnosť [[Bell Helicopter]] zmluvu na výrobu deviatich vrtuľníkov [[Bell 429 GlobalRanger]] so špeciálnymi úpravami pre [[Ozbrojené sily Slovenskej republiky]].&lt;ref&gt;{{Citácia elektronického dokumentu | priezvisko = | meno = | autor = | odkaz na autora = | titul = | url = https://slovaksecurity.org/wp-content/uploads/2016/07/SSPI_Vrtulniky_online.pdf | vydavateľ = slovaksecurity.org | dátum vydania = | dátum aktualizácie = | dátum prístupu = 2017-10-23 | miesto = | jazyk = }}&lt;/ref&gt; Systém deviatich vrtuľníkov obsahuje kamery WESCAM MX-10, výcvik, náhradné diely a logistická podpora, vybavenie misie, komunikačné a navigačné zariadenia, pozemné podporné zariadenia, náhradné diely konštrukcie a motorov, technické údaje, publikácie, údržbárske práce/navrhované elektronické úpravy, technická pomoc, oprava a následné vrátenie, tím zabezpečenia kvality a preprava strojov. Odhadovaná cena systému je približne 150 miliónov USD (cca 137 miliónov eur).&lt;ref name=17dsca&gt;{{Citácia elektronického dokumentu | priezvisko = | meno = | odkaz na autora = | titul = Government of Slovakia – Bell 429 Light Utility Helicopters | url = http://www.dsca.mil/major-arms-sales/government-slovakia-bell-429-light-utility-helicopters | dátum vydania = 2017-04-28| dátum aktualizácie = | dátum prístupu = 2017-10-06 | vydavateľ = Defense Security Cooperation Agency| miesto = Washington D.C.|jazyk = en}}&lt;/ref&gt;&lt;ref name=defenceblog17&gt;{{Citácia elektronického dokumentu | priezvisko = Malyasov | meno = Dylan | odkaz na autora = | titul = Slovakia to receive new Bell 429 light utility helicopters | url = http://defence-blog.com/news/slovakia-to-receive-new-bell-429-light-utility-helicopters.html | dátum vydania = 2017-04-28| dátum aktualizácie = | dátum prístupu = 2017-10-06 | vydavateľ = Defence Blog| miesto = |jazyk = en}}&lt;/ref&gt;&lt;ref&gt;{{Citácia elektronického dokumentu | priezvisko = | meno = | autor = | odkaz na autora = | titul = Czech Republic – UH-1Y Utility Helicopters: The Official Home of the Defense Security Cooperation Agency | url = http://www.dsca.mil/major-arms-sales/czech-republic-uh-1y-utility-helicopters | vydavateľ = dsca.mil | dátum vydania = | dátum aktualizácie = | dátum prístupu = 2018-07-02 | miesto = | jazyk = }}&lt;/ref&gt;
+
+Dňa [[26. jún]]a 2017 pristáli na [[Letecká základňa Prešov|leteckej základni v Prešove]] prvé dva z celkových deviatich objednaných viacúčelových vrtuľníkov [[Sikorsky UH-60 Black Hawk|Sikorsky UH-60M Black Hawk]].&lt;ref name=bhdosli17&gt;{{Citácia elektronického dokumentu | priezvisko = | meno = | odkaz na autora = | titul = Prvé dva vrtuľníky Black Hawk sú už na Slovensku | url = http://www.mod.gov.sk/40052-sk/prve-dva-vrtulniky-black-hawk-su-uz-na-slovensku/ | dátum vydania = 2017-06-26| dátum aktualizácie = | dátum prístupu = 2017-06-26 | vydavateľ = Ministerstvo obrany SR| miesto = |jazyk = }}&lt;/ref&gt; Ďalšie dva vrtuľníky boli dodané [[12. júl]]a 2018 a ďalšia dvojica až [[26. august]]a 2019.&lt;ref name=&quot;gov-do-vyzbroje-ozbrojenych-sil-pribudli&quot;&gt;{{Citácia elektronického dokumentu | priezvisko = | meno = | autor = | odkaz na autora = | titul = Do výzbroje ozbrojených síl pribudli ďalšie dva vrtuľníky UH-60M Black Hawk | url = https://www.mod.gov.sk/42295-sk/do-vyzbroje-ozbrojenych-sil-pribudli-dalsie-dva-vrtulniky-uh-60m-black-hawk/ | vydavateľ = Ministerstvo obrany SR | dátum vydania = 2018-07-12 | dátum aktualizácie = | dátum prístupu = 2018-07-12 | miesto = Bratislava | jazyk = }}&lt;/ref&gt;&lt;ref name=&quot;mod.gov.sk&quot;&gt;{{Citácia elektronického dokumentu | priezvisko = | meno = | autor = | odkaz na autora = | titul = Na Sliači pristáli ďalšie dva nové vrtuľníky Black Hawk | url = https://www.mod.gov.sk/45309-sk/na-sliaci-pristali-dalsie-dva-nove-vrtulniky-black-hawk/ | vydavateľ = Ministerstvo obrany SR | dátum vydania = 2019-08-26 | dátum aktualizácie = | dátum prístupu = 2019-08-26 | miesto = Bratislava | jazyk = }}&lt;/ref&gt; Zvyšné tri kusy boli dodané 11. januára 2020.&lt;ref name=dodavka2019&gt;{{Citácia elektronického dokumentu | priezvisko = | meno = | odkaz na autora = | titul = Vojaci majú dva nové vrtuľníky Black Hawk | url = https://www.facebook.com/spravy.rtvs/videos/1845798405680973/| dátum vydania = 2017-06-27| dátum aktualizácie = | dátum prístupu = 2017-06-28 | vydavateľ = RTVS | miesto = |jazyk = }}&lt;/ref&gt; Vrtuľníky budú dodatočne vyzbrojené guľometmi typu [[Minigun|M134 Gatling]].&lt;ref&gt;{{Citácia periodika | priezvisko = Kováč | meno = Peter | autor = | odkaz na autora = | titul = Armádne vrtuľníky už budú môcť strieľať, no v boji by ešte neobstáli | periodikum = sme.sk | odkaz na periodikum = SME | url = https://domov.sme.sk/c/20916193/vrtulniky-black-hawk-potrebuju-milionove-investicie.html | issn = 1335-4418 | vydavateľ = Petit Press | miesto = Bratislava | dátum = 2018-09-17 | dátum prístupu = 2018-09-18 }}&lt;/ref&gt;&lt;ref&gt;{{Citácia elektronického dokumentu | priezvisko = Grohmann | meno = Jan | autor = | odkaz na autora = | titul = Maďarsko kupuje vrtulníky H145M | url = http://www.armadninoviny.cz/madarsko-kupuje-vrtulniky-h145m.html | vydavateľ = armadninoviny.cz | dátum vydania = | dátum aktualizácie = | dátum prístupu = 2018-10-12 | miesto = | jazyk = }}&lt;/ref&gt;&lt;ref&gt;{{Citácia periodika | priezvisko = | meno = | autor = | odkaz na autora = | titul = Vrtuľníky Black Hawk budú doplnené o guľomety, minister Gajdoš hovoril aj o Slovenských brancoch | periodikum = WebNoviny.sk | odkaz na periodikum = | url = https://www.webnoviny.sk/vrtulniky-black-hawk-budu-doplnene-o-gulomety-minister-gajdos-hovoril-aj-o-slovenskych-brancoch/ | issn = | vydavateľ = iSITA | miesto = Bratislava | dátum = 2018-09-16 | dátum prístupu = 2018-12-20 }}&lt;/ref&gt;&lt;ref&gt;{{Citácia periodika | priezvisko = | meno = | autor = | odkaz na autora = | titul = Gajdoš prezradil plány ministerstva v súvislosti s viacúčelovými vrtuľníkmi typu Black Hawk | periodikum = WebNoviny.sk | odkaz na periodikum = | url = https://www.webnoviny.sk/gajdos-prezradil-plany-ministerstva-v-suvislosti-s-viacucelovymi-vrtulnikmi-typu-black-hawk/ | issn = | vydavateľ = iSITA | miesto = Bratislava | dátum = 2018-12-30 | dátum prístupu = 2019-02-07 }}&lt;/ref&gt;
+
+''„Ak sme za šesť mesiacov v roku 2017 odlietali s prvými dvomi UH-60M Black Hawk približne 230 hodín, vlani sme so štyrmi vrtuľníkmi nalietali 826 hodín, teda 146 hodín nad ročný plán,“'' konštatoval veliteľ prešovského vrtuľníkového krídla plukovník Róbert Tóth na otázku, ako sa darí rozlietavať nové vrtuľníky.&lt;ref name=&quot;mosr_obrana_5_2019&quot;&gt;{{Citácia periodika | priezvisko = | meno = | autor = | odkaz na autora = | titul = | periodikum = Obrana | odkaz na periodikum = | url = https://www.mosr.sk/data/disk/casopis/Obrana_05_2019.pdf | issn = 1336-1910 | vydavateľ = Ministerstvo obrany SR | miesto = Bratislava | dátum = | rok = | mesiac = | deň = | ročník = XXVII. | typ ročníka = ročník | číslo = 5 | typ čísla = číslo | strany = 14 – 15 | dátum prístupu = 2019-05-14 }}&lt;/ref&gt;&lt;ref&gt;{{Citácia elektronického dokumentu | priezvisko = | meno = | autor = | odkaz na autora = | titul = Vrtuľník vzdušných síl zasahoval pri požiari v Nízkych Tatrách | url = http://www.vvzs.mil.sk/85851/?pg=1 | vydavateľ = Ozbrojené sily SR | dátum vydania = | dátum aktualizácie = | dátum prístupu = 2019-07-10 | miesto = | jazyk = }}&lt;/ref&gt; Po skompletovaní dodávok nových vrtuľníkov môže ročný nálet na 9 ks vrtuľníkov UH-60M v roku 2020 dosiahnuť až 2000 hodín.
+
+UH-60M majú výhodu v tom, že v bambi vaku odvezú až 2 500 litrov vody, kým vrtuľníky Mi-17M iba 1 700 litrov. Ďalšou výhodou sú vyhrievané hlavné rotorové listy, takže v mrazivom počasí nehrozí vznik nebezpečnej námrazy. Slovensko patrí medzi krajiny, ktoré sa zaujímajú o nové bojové záchranárske vrtuľníky (CSAR) typu [[Sikorsky HH-60 Pave Hawk|HH-60W]],&lt;ref&gt;{{Citácia elektronického dokumentu | priezvisko = | meno = | autor = | odkaz na autora = | titul = Six Countries Interested in USAF’s New Combat Rescue Helicopter | url = http://www.airforcemag.com/Features/Pages/2019/September%202019/Six-Countries-Interested-in-USAFs-New-Combat-Rescue-Helicopter.aspx | vydavateľ = airforcemag.com | dátum vydania = | dátum aktualizácie = | dátum prístupu = 2019-09-11 | miesto = | jazyk = }}&lt;/ref&gt; resp. [[AgustaWestland AW139|HH-139A]].&lt;ref&gt;{{Citácia elektronického dokumentu | priezvisko = | meno = | autor = | odkaz na autora = | titul = We have taken part in a mission aboard a HH-139A multipurpose combat helicopter | url = https://theaviationist.com/2015/07/18/we-have-taken-part-in-a-mission-aboard-a-hh-139a-multipurpose-combat-helicopter/ | vydavateľ = theaviationist.com | dátum vydania = 2015-07-18 | dátum aktualizácie = | dátum prístupu = 2020-02-18 | miesto = | jazyk = }}&lt;/ref&gt;
+
+V rámci grantu ERIP3 vo výške 50 miliónov USD môže Slovensko od vlády USA získať ďalšie dva nové vrtuľníky UH-60M.&lt;ref&gt;{{Citácia elektronického dokumentu | priezvisko = Mehta | meno = Aaron | autor = | odkaz na autora = | titul = Inside America’s multimillion-dollar plan to get allies off Russian equipment | url = https://www.defensenews.com/global/europe/2019/05/29/inside-americas-multimillion-dollar-plan-to-get-allies-off-russian-equipment/ | vydavateľ = defensenews.com | dátum vydania = 2019-05-29 | dátum aktualizácie = | dátum prístupu = 2019-11-22 | miesto = | jazyk = }}&lt;/ref&gt;&lt;ref&gt;{{Citácia elektronického dokumentu | priezvisko = | meno = | autor = | odkaz na autora = | titul = European Recapitalization Incentive Program (ERIP) | url = https://www.state.gov/european-recapitalization-incentive-program-erip/ | vydavateľ = state.gov | dátum vydania = | dátum aktualizácie = | dátum prístupu = 2019-09-02 | miesto = | jazyk = }}&lt;/ref&gt;&lt;ref&gt;{{Citácia elektronického dokumentu | priezvisko = | meno = | autor = | odkaz na autora = | titul = 2019 MSPO Preview: CEE Defense Modernization Initiatives | url = http://www.defense-aerospace.com/articles-view/feature/5/205473/mspo-preview%3A-defense-modernization-in-eastern-europe.html | vydavateľ = defense-aerospace.com | dátum vydania = | dátum aktualizácie = | dátum prístupu = 2019-09-02 | miesto = | jazyk = }}&lt;/ref&gt;
+
+== Ochrana vzdušného priestoru ==
+{{Hlavný článok|Quick Reaction Alert|NATO Integrated Air and Missile Defence System}}
+[[Súbor:Slovak International Air Fest 2012 - AFRC -16.JPG|thumb|right|Vzlet [[Mikojan-Gurevič MiG-29|MiGu-29AS]] (reg. č. 0921) Vzdušných síl OS SR zo základne [[Letisko Sliač|Sliač]]]]
+
+Ochrana vlastného vzdušného priestoru je jednou z hlavných priorít Vzdušných síl Ozbrojených síl Slovenskej republiky. Vstupom do [[Organizácia Severoatlantickej zmluvy|Organizácie Severoatlantickej zmluvy]] (NATO) v roku 2004 sa Slovensko zaviazalo, že bude prispievať do [[NATO Integrated Air and Missile Defence System|Systému integrovanej protivzdušnej a protiraketovej obrany NATO]] (''NATO Integrated Air and Missile Defence System'', ''NATINAMDS''), ktorého podstatou je nepretržitá ochrana národných vzdušných priestorov [[Európa|európskych]] členských štátov NATO a [[Turecko|Turecka]]. NATINAMDS je pod kontrolou [[Allied Air Command|Spojeneckého veliteľstva vzdušných síl]] (''Allied Air Command'', ''AIRCOM'') so sídlom na leteckej základni [[Letecká základňa Ramstein|Ramstein]] v [[Nemecko|Nemecku]].&lt;ref&gt;{{Citácia elektronického dokumentu | priezvisko = | meno = | odkaz na autora = | titul = NATO Integrated Air and Missile Defence | url = http://www.nato.int/cps/en/natolive/topics_8206.htm | dátum vydania = | dátum aktualizácie = 09.02.2016 | dátum prístupu = 18.07.2017 | vydavateľ = NATO.int | miesto = Zvolen | jazyk = angličtina}}&lt;/ref&gt;
+
+Za realizáciu a výkon ochrany nedotknuteľnosti vzdušného priestoru Slovenska v systéme NATINAMDS zodpovedá veliteľ Vzdušných síl OS SR, ktorý má na starosti aj činnosť leteckej pátracej a záchrannej služby pri pátraní po posádkach a cestujúcich lietadiel, ktoré sa ocitli v stave núdze a od júna 2011 aj poskytovanie leteckých navigačných služieb na letisku [[Letisko Sliač|Sliač]] všetkým lietadlám bez rozdielu na štátnu a rezortnú príslušnosť.
+
+Tieto úlohy plnia vzdušné sily nepretržite, pričom sú v neustálej [[Quick Reaction Alert|pohotovosti]] (''Quick Reaction Alert'', ''QRA'') tri [[stíhacie lietadlo|stíhacie lietadlá]] [[Mikojan-Gurevič MiG-29|MiG-29AS]], z ktorých jedno je záložné, príslušný personál, [[radar]]y s obsluhou, velenie a komunikačné systémy. Stíhačky sú schopné vzlietnuť v krátkom čase a zasiahnuť proti prípadnému narušiteľovi vzdušného priestoru, resp. pomôcť lietadlu v núdzi.&lt;ref&gt;{{Citácia elektronického dokumentu | priezvisko = | meno = | autor = | odkaz na autora = | titul = Ochrana vzdušného priestoru - systém NATINADS | url = https://www.mod.gov.sk/ochrana-vzdusneho-priestoru-system-natinads/ | vydavateľ = Ministerstvo obrany SR | dátum vydania = | dátum aktualizácie = | dátum prístupu = 2020-02-07 | miesto = Bratislava | jazyk = }}&lt;/ref&gt; Najčastejším dôvodom pohotovostných vzletov stíhačov QRA býva strata spojenia medzi pilotmi civilného lietadla a miestom riadenia letovej prevádzky. 
+
+Od februára 2017 spolupracujú slovenské vzdušné sily so [[Vzdušné sily Armády Českej republiky|Vzdušnými silami Armády Českej republiky]] pri ochrane vzdušného priestoru nad Slovenskom a [[Česko]]m. V praxi to znamená, že pohotovostné lietadlá (QRA) môžu za účelom splnenia misie vstupovať do vzdušného priestoru susedného štátu. V prípade, že podozrivé lietadlo prelietava z územia jedného členského štátu do druhého, je nutná koordinácia lietadiel QRA takým spôsobom, aby bolo zabezpečené aj priame „odovzdanie a prevzatie“ tohto lietadla medzi jednotlivými skupinami lietadiel QRA vo vzduchu.
+
+Pokiaľ je v rámci NATINAMDS zistené vzdušné ohrozenie nevojenského charakteru (napr. civilné lietadlo, ktoré má byť zneužité ako nástroj teroristického útoku), použitie akýchkoľvek síl a prostriedkov proti tejto hrozbe nie je v právomoci velenia NATO. V takýchto situáciách dochádza k predaniu do národnej podriadenosti, čo znamená predanie velenia na poverenú národnú vládnu autoritu. Táto osoba má potom právomoc vydať rozkaz k zásahu na lietadlo označené ako [[Renegade]], čo je ohrozenie v čase mieru, a to najčastejšie civilným lietadlom, ktoré je predmetom protiprávneho činu.
+
+Stíhači QRA zasahujú samozrejme aj proti vojenským lietadlám, ktoré narušia alebo sa nebezpečne priblížia k vzdušnému priestoru niektorej z krajín NATO, pričom podobne ako u civilných lietadiel, nie vždy ide o úmyselné narušenie vzdušného priestoru, ale týmto spôsobom, môžu byť preverované aj schopnosti protivzdušnej obrany nejakej krajiny.
+
+== Štruktúra ==
+{{LocMap+ | Slovensko
+ | float = right
+ | width = 600
+ | caption = '''Bojové jednotky:'''&lt;br /&gt;[[Súbor:Fighter-jet-blue-icon.svg|15px]] Taktické krídlo generálmajora Otta Smika&lt;br /&gt;[[Súbor:Helicopter-blue-icon.svg|15px]] Vrtuľníkové krídlo generálplukovníka Jána Ambruša
+
+'''Jednotky bojovej podpory:'''&lt;br /&gt;[[Súbor:Aiga departingflights inv.svg|15px]] Dopravné krídlo generála Milana Rastislava Štefánika&lt;br /&gt;[[Súbor:Red ff0000 pog.svg|8px]] Protilietadlová raketová brigáda obrancov Tobruku&lt;br /&gt;[[Súbor:Yellow ffff00 pog.svg|8px]] Brigáda riadenia vzdušných operácií 
+ | relief = 1
+ | places =
+  {{LocMap~ | Slovensko
+    | label = [[Letisko Sliač|'''Sliač''']]
+    | position = left
+    | lat = 48.637778
+    | lon = 19.133889
+    | mark = Fighter-jet-blue-icon.svg
+    | marksize = 15
+  }}
+  {{LocMap~ | Slovensko
+    | label = [[Letecká základňa Malacky|'''Malacky''']]
+    | lat = 48.401944
+    | lon = 17.118333 
+    | mark = Aiga departingflights inv.svg
+    | marksize = 15
+  }}
+  {{LocMap~ | Slovensko
+    | label = [[Letecká základňa Prešov|'''Prešov''']]
+    | lat = 49.026944
+    | lon = 21.310833 
+    | mark = Helicopter-blue-icon.svg
+    | marksize = 15
+  }}
+  {{LocMap~ | Slovensko
+    | label = [[Brigáda riadenia vzdušných operácií Zvolen|Zvolen]]
+    | lat = 48.587368
+    | lon = 19.132007
+    | mark = Yellow ffff00 pog.svg
+    | marksize = 8
+  }}
+  {{LocMap~ | Slovensko
+    | label = [[Protilietadlová raketová brigáda Nitra|Nitra]] 
+    | lat = 48.323735
+    | lon = 18.108630
+    | mark = Red ff0000 pog.svg
+    | marksize = 8
+  }}
+}}
+
+* '''[[Veliteľstvo Vzdušných síl Ozbrojených síl Slovenskej republiky|Veliteľstvo Vzdušných síl OS SR]]''', sídlo vo [[Zvolen]]e
+**'''[[Dopravné krídlo generála Milana Rastislava Štefánika Kuchyňa|Dopravné krídlo generála Milana Rastislava Štefánika]]''', základňa [[Letecká základňa Malacky|Malacky-Kuchyňa]]
+*** Dopravná letka: 2× [[Alenia C-27J Spartan|C-27J Spartan]], 1× [[Let L-410 Turbolet|L-410FG Turbolet]], 1× [[Let L-410 Turbolet|L-410UVP-E14 Turbolet]], 4× [[Let L-410 Turbolet|L-410UVP-E20 Turbolet]]
+*** Technická letka opráv a predpísaných prác (TLOPP)
+*** Letka riadenia letovej prevádzky
+*** Prápor zabezpečenia letovej prevádzky
+*** Letecká strelnica
+*** Obväzisko
+** '''[[Taktické krídlo generálmajora Otta Smika Sliač|Taktické krídlo generálmajora Otta Smika]]''', základňa [[Letisko Sliač|Sliač]] - lietadlá sa presunú na základňu [[Letecká základňa Malacky|Malacky-Kuchyňa]] do konca roka 2020.&lt;ref name=doma&gt;{{Citácia elektronického dokumentu | priezvisko = | meno = | odkaz na autora = http://www.vvzs.mil.sk| titul = Konečne doma | url = http://www.vvzs.mil.sk/12177/konecne-doma.php?pg=1 | dátum vydania = 1.10.2011| dátum aktualizácie =  | dátum prístupu = 22.4.2011 | vydavateľ = Zmiešané krídlo Sliač | miesto = Sliač | jazyk = }}&lt;/ref&gt;
+*** 1. taktická letka: 7× [[Mikojan-Gurevič MiG-29|MiG-29AS]], 1× [[Mikojan-Gurevič MiG-29|MiG-29UBS]]
+*** 2. taktická letka: 6× [[Aero L-39 Albatros|L-39CM Albatros]], 3× [[Aero L-39 Albatros|L-39ZAM Albatros]]&lt;ref&gt;{{Citácia elektronického dokumentu | priezvisko = | meno = | autor = | odkaz na autora = | titul = Slovak Air Force boss talks modernisation with AFM | url = https://airforcesmonthly.keypublishing.com/2019/09/04/slovak-air-force-boss-talks-modernisation-with-afm/ | vydavateľ = airforcesmonthly.keypublishing.com | dátum vydania = | dátum aktualizácie = | dátum prístupu = 2019-09-09 | miesto = | jazyk = }}&lt;/ref&gt;
+*** Technická letka opráv a predpísaných prác (TLOPP)
+*** Letka riadenia letovej prevádzky
+*** Prápor zabezpečenia letovej prevádzky
+*** Prápor podpory
+*** Obväzisko
+** '''[[Vrtuľníkové krídlo generálplukovníka Jána Ambruša Prešov|Vrtuľníkové krídlo generálplukovníka Jána Ambruša]]''', základňa [[Letecká základňa Prešov|Prešov]]
+*** 1. vrtuľníková letka: 9× [[Sikorsky UH-60 Black Hawk|UH-60M Black Hawk]]&lt;ref&gt;{{Citácia elektronického dokumentu | priezvisko = | meno = | autor = | odkaz na autora = | titul = Slovak Air Force| url = https://www.scramble.nl/orbats/slovakia | vydavateľ = scramble.nl | dátum vydania = | dátum aktualizácie = | dátum prístupu = 2019-04-18 | miesto = | jazyk = }}&lt;/ref&gt;
+*** 2. vrtuľníková letka: 3× [[Mil Mi-17|Mi-17LPZS]], 4× [[Mil Mi-17|Mi-17M]]&lt;ref&gt;{{Citácia elektronického dokumentu | priezvisko = | meno = | autor = | odkaz na autora = | titul = Ročenka Ministerstva obrany Slovenskej republiky | url = https://www.mosr.sk/data/files/3805_rocenka_2018-webb.pdf | vydavateľ = Ministerstvo obrany SR | dátum vydania = | dátum aktualizácie = | dátum prístupu = 2019-11-04 | miesto = Bratislava | jazyk = }}&lt;/ref&gt;
+*** Technická letka opráv a predpísaných prác (TLOPP)
+*** Letka riadenia letovej prevádzky
+*** Prápor zabezpečenia letovej prevádzky
+*** Obväzisko
+** '''[[Protilietadlová raketová brigáda Nitra|Protilietadlová raketová brigáda obrancov Tobruku]]''', sídlo v [[Nitra|Nitre]]
+*** 1. protilietadlová raketová skupina: 1× batéria [[S-300|S-300PMU]] (SA-10B Grumble)
+*** 2. protilietadlová raketová skupina: 5× batérie [[2K12 Kub|2K12M2 Kub-M2]] (SA-6 Gainful)
+*** Protilietadlový raketový oddiel Igla: 72× [[9K38 Igla|9K38 Igla-2]] (SA-18 Grouse)
+*** Technický oddiel Viničné
+*** Prápor logistiky
+*** Prevádzková jednotka Kolíňanský vrch
+*** Obväzisko
+** '''[[Brigáda riadenia vzdušných operácií Zvolen|Brigáda riadenia vzdušných operácií]]''', sídlo vo [[Zvolen]]e
+*** Prápor rádiolokačného prieskumu: [[radar|rádiolokačná výzbroj]]
+*** Operačné centrum
+*** Rota podpory velenia vzdušných síl
+*** Obväzisko
+
+== Lietadlový park ==
+=== Prevádzkované stroje ===
+{{Hlavný článok|Zoznam lietadiel Vzdušných síl Slovenskej republiky}}
+
+{| class=&quot;wikitable&quot;
+! width=&quot;175&quot; style=&quot;text-align: left;&quot;|Lietadlo
+! style=&quot;text-align: left;&quot;|Fotografia
+! width=&quot;140&quot; style=&quot;text-align: left;&quot;|Krajina pôvodu
+! width=&quot;230&quot; style=&quot;text-align: left;&quot;|Typ
+! width=&quot;150&quot; style=&quot;text-align: left;&quot;|Verzie
+! width=&quot;60&quot; style=&quot;text-align: left;&quot;|V službe
+! style=&quot;text-align: left;&quot;|Poznámky
 |-
-| style=&quot;background:#f5fffa; font-size:90%;&quot; |
-{| style=&quot;background:none;&quot;
+! style=&quot;align: center; background: #E6E6E6;&quot; colspan=&quot;7&quot; | [[Stíhacie lietadlo|Stíhacie lietadlá]]
 |-
-| style=&quot;line-height:120%;&quot; | {{Zoznam portálov (Hlavná stránka)}}
-|}
+| [[Mikojan-Gurevič MiG-29]]
+| [[Súbor:Slovak Air Force MiG-29AS.JPG|150px]]
+| {{minivlajka|Rusko}} [[Rusko]]
+| viacúčelové stíhacie lietadlo&lt;hr&gt;cvičné/stíhacie lietadlo
+| MiG-29AS&lt;hr&gt;MiG-29UBS
+| 7&lt;hr&gt;1
+| Lietadlá boli vyrobené v Rusku v rokoch 1993 až 1995. Technický život týchto lietadiel je stanovený do obdobia rokov 2022 (tri lietadlá), 2023 (dve lietadlá) a v roku 2024 končí posledných päť lietadiel. MiGy-29 majú byť do konca roku 2023 nahradené 14 novými stíhačkami [[General Dynamics F-16 Fighting Falcon|F-16C/D Block 70]].&lt;ref name=&quot;gov-vlada-prijala-historicke-rozhodnutie&quot;/&gt;&lt;ref&gt;{{Citácia elektronického dokumentu | priezvisko = | meno = | autor = TASR | odkaz na autora = | titul = Minister obrany Gajdoš: Staré migy si necháme až do roku 2022 | url = http://www.newsbelow.sk/--minister-obrany-gajdos-stare-migy-si-nechame-az-do-roku-2022-23043/ | vydavateľ = newsbelow.sk | dátum vydania = | dátum aktualizácie = | dátum prístupu = 2018-02-16 | miesto = | jazyk = }}&lt;/ref&gt;&lt;ref&gt;{{Citácia elektronického dokumentu | priezvisko = Waldron | meno = Greg | autor = | odkaz na autora = | titul = SINGAPORE: Lockheed eyes long future for F-16 production | url = https://www.flightglobal.com/news/articles/singapore-lockheed-eyes-long-future-for-f-16-produ-445717/ | vydavateľ = flightglobal.com | dátum vydania = 08 February, 2018 | dátum aktualizácie = | dátum prístupu = 2018-02-16 | miesto = | jazyk = }}&lt;/ref&gt;&lt;ref&gt;{{Citácia periodika | priezvisko = | meno = | autor = TASR | odkaz na autora = | titul = Nákup stíhačiek F-16 je dlhodobo výhodnejší ako Gripeny | periodikum = sme.sk | odkaz na periodikum = SME | url = https://domov.sme.sk/c/20868977/nakup-stihaciek-f-16-je-dlhodobo-vyhodnejsi-ako-gripeny.html | issn = 1335-4418 | vydavateľ = Petit Press | miesto = Bratislava | dátum = 2018-07-12 | dátum prístupu = 2018-07-12 }}&lt;/ref&gt; Okrem 8 prevádzkovaných stíhačiek MiG-29AS/UBS je vyčlenený ďalší MiG-29A ako záloha. Záložný stroj (reg. č. 0820) je ale nepoužiteľný, pretože nebol modernizovaný na štandard MiG-29AS, a preto už roky nelietal, navyše sa kanibalizuje a čaká na vyradenie. Kanibalizované na náhradné diely sú i nedávno vyradené stroje. V súčasnosti je jedno lietadlo (reg. č. 5304) odstavené. V priebehu roka 2020 sa na ňom budú vykonávať kontrolné a obnovovacie práce v zmysle abonentnej zmluvy. Počet letuschopných lietadiel je však príliš nízky a dosiahol kritickú hranicu. Celkový ročný nálet na uvedenom type činí okolo 400 hodín.
 |-
-&lt;!---------- KATEGÓRIE ----------&gt;
-| height=&quot;5px&quot; |
+! style=&quot;align: center; background: #E6E6E6;&quot; colspan=&quot;7&quot; | [[Cvičné lietadlo|Cvičné lietadlá]]
 |-
-| &lt;div style=&quot;position:relative;&quot;&gt;
-[[Súbor:Greenbg_right.png|280px|right|link=]]
-&lt;div style=&quot;font-size:115%; position:absolute; right:45px; top:0px;&quot;&gt;'''Kategórie'''&lt;/div&gt;
-&lt;div style=&quot;position:absolute; right:10px; top:2px;&quot;&gt;[[Súbor:Vista-xmag.png|30px|link=]]&lt;/div&gt;&lt;/div&gt;
+| [[Aero L-39 Albatros]]
+| [[Súbor:Aero L-39CM Albatros, Slovakia - Air Force AN2279352.jpg|150px]]
+| {{minivlajka|Česko-Slovensko}} [[Česko-Slovensko]]
+| cvičné prúdové lietadlo&lt;hr&gt;cvičné prúdové/ľahké bojové lietadlo
+| L-39CM Albatros&lt;hr&gt;L-39ZAM Albatros
+| 6&lt;hr&gt;3&lt;ref&gt;{{Citácia elektronického dokumentu | priezvisko = | meno = | autor = 2nd Squadron Sliač | odkaz na autora = | titul = 2nd SQN TFW Sliač | url = http://www.2sqn.sk/sk/albatros#albatrosy | vydavateľ = 2sqn.sk | dátum vydania = | dátum aktualizácie = | dátum prístupu = 2017-10-23 | miesto = | jazyk = }}&lt;/ref&gt;
+| Lietadlá boli vyrobené v rokoch 1972 až 1989. Väčšina z nich potrebuje GO, nakoľko niektorým končí v roku 2020 technická životnosť.&lt;ref&gt;{{Citácia elektronického dokumentu | priezvisko = | meno = | autor = | odkaz na autora = | titul = | url = http://www.telecom.gov.sk/index/open_file.php?file=doprava/uvlni/ZS_SKS2016001_web.pdf | vydavateľ = telecom.gov.sk | dátum vydania = | dátum aktualizácie = | dátum prístupu = 2017-10-23 | miesto = | jazyk = }}&lt;/ref&gt;&lt;ref&gt;{{Citácia elektronického dokumentu | priezvisko = | meno = | autor = | odkaz na autora = | titul = | url = http://www.leonardocompany.com/documents/63265270/66626649/WEB_Brochure_M_345_.pdf?download_file | vydavateľ = leonardocompany.com | dátum vydania = | dátum aktualizácie = | dátum prístupu = 2017-10-30 | miesto = | jazyk = }}&lt;/ref&gt; Vzdušné sily OS SR sa zaujímajú o nové L-39NG&lt;ref&gt;{{Citácia elektronického dokumentu | priezvisko = | meno = | autor = EuroZprávy.cz | odkaz na autora = | titul = Slovensko bude nahrazovat cvičné L-39. Šanci má i Aero Vodochody, oznámil Metnar | url = https://eurozpravy.cz/domaci/armada-a-policie/slovensko-bude-nahrazovat-cvicne-l-39-sanci-ma-i-aero-vodochody-oznamil-metnar.8ca6ca9c/ | vydavateľ = eurozpravy.cz | dátum vydania = | dátum aktualizácie = | dátum prístupu = 2020-06-12 | miesto = | jazyk = }}&lt;/ref&gt; ako náhradu za lietadlá L-39 Albatros.&lt;ref&gt;{{Citácia periodika | priezvisko = Vlková | meno = Jitka | autor = | odkaz na autora = | titul = Šéf Aera Vodochody vede firmu novou cestou. Začne opět vyrábět letadla | periodikum = iDNES.cz | odkaz na periodikum = | url = https://ekonomika.idnes.cz/aero-vodochody-giuseppe-giordo-reditel-tryskace-letouny-vyroba-p8b-/ekonomika.aspx?c=A180413_204928_ekonomika_pmk | issn = | vydavateľ = MAFRA | miesto = Praha | dátum = 2018-04-15 | dátum prístupu = 2018-04-16 }}&lt;/ref&gt;
 |-
-| style=&quot;background:#f5fffa; font-size:90%;&quot; |
-{| style=&quot;background:none;&quot;
+! style=&quot;align: center; background: #E6E6E6;&quot; colspan=&quot;7&quot; | [[Prieskumné lietadlo|Prieskumné lietadlá]]
 |-
-|style=&quot;line-height:120%;&quot; | {{Hlavná stránka/Kategórie}}
-|}
+| [[Let L-410 Turbolet]]
+| [[Súbor:L-410FG Turbolet of the Slovak Air Force.jpg|150px]]
+| {{minivlajka|Česko-Slovensko}} [[Česko-Slovensko]]
+| [[fotogrametria|fotogrametrické lietadlo]]
+| L-410FG Turbolet
+| 1
+| Používa sa na fotografické mapovanie.
 |-
-&lt;!---------- CUDZOJAZYČNÉ WIKIPÉDIE ----------&gt;
-| height=&quot;5px&quot; |
+! style=&quot;align: center; background: #E6E6E6;&quot; colspan=&quot;7&quot; | [[Dopravné lietadlo|Dopravné lietadlá]]
 |-
-| &lt;div style=&quot;position:relative;&quot;&gt;
-[[Súbor:Greenbg_right.png|280px|right|link=]]
-&lt;div style=&quot;font-size:115%; position:absolute; right:45px; top:0px;&quot;&gt;'''Cudzojazyčné Wikipédie'''&lt;/div&gt;
-&lt;div style=&quot;position:absolute; right:10px; top:2px;&quot;&gt;[[Súbor:Gnome-globe.svg|26px|link=]]&lt;/div&gt;&lt;/div&gt;
+| [[Alenia C-27J Spartan|Leonardo C-27J Spartan]]
+| [[Súbor:2019 Royal International Air Tattoo 1P4A8310 (48387127226).jpg|150px]]
+| {{minivlajka|Taliansko}} [[Taliansko]]
+| taktické dopravné lietadlo
+| C-27J Spartan
+| 2
+| Prvé lietadlo C-27J Spartan bolo dodané 24. októbra 2017 a druhé dňa 9. apríla 2018.&lt;ref name=&quot;mosr-prve-z-dvoch-lietadiel-spartan-je-uz&quot; /&gt;&lt;ref name=&quot;teraz-v-letke-vzdusnych-sil-ozbrojenych-sil&quot;/&gt;
 |-
-| style=&quot;background:#f5fffa; font-size:90%;&quot; |
-{| style=&quot;background:none;&quot;
+| [[Let L-410 Turbolet]]
+| [[Súbor:L-410UVP Slovak Air Force.JPG|150px]]
+| {{minivlajka|Česko-Slovensko}} [[Česko-Slovensko]]&lt;br /&gt;{{minivlajka|Česko}} [[Česko]]
+| viacúčelové dopravné lietadlo
+| L-410UVP-E14 Turbolet&lt;hr&gt;L-410UVP-E20 Turbolet
+| 1&lt;hr&gt;4
+| Používa sa na dopravu ľahkého nákladu, výcvik parašutistov a dopravu VIP.
 |-
-| {{Cudzojazyčné wikipédie2}}
-|}
+! style=&quot;align: center; background: #E6E6E6;&quot; colspan=&quot;7&quot; | [[Helikoptéra|Vrtuľníky]]
+|- 
+| [[Mil Mi-17]]
+| [[Súbor:Mil Mi-17, Slovakia - Air Force AN2224387.jpg|150px]]
+| {{minivlajka|Sovietsky zväz}} [[Sovietsky zväz|ZSSR]]
+| dopravný vrtuľník&lt;hr&gt;záchranný vrtuľník
+| Mi-17M&lt;hr&gt;Mi-17LPZS 
+| 4&lt;ref name=&quot;mosr_obrana_5_2019&quot;/&gt;&lt;hr&gt;3&lt;ref&gt;{{Citácia periodika | priezvisko = | meno = | autor = | odkaz na autora = | titul = The first two Black Hawks land in Slovakia | periodikum = sme.sk | odkaz na periodikum = SME | url = https://spectator.sme.sk/c/20569222/the-first-two-black-hawks-land-in-slovakia.html | issn = 1335-4418 | vydavateľ = Petit Press | miesto = Bratislava | dátum = 27. Jun 2017 at 14:18 | dátum prístupu = 2017-10-23 }}&lt;/ref&gt;
+| Vrtuľníky boli vyrobené v rokoch 1985 až 1989. Väčšine z nich končí do roku 2024 technická životnosť. Celkovo päť vrtuľníkov je v úprave Search and Rescue (SAR) – LPZS (Letecká pátracia a záchranná služba), ale dva z nich sú odstavené. Od roku 2020 ich v službe dopĺňa 9 nových vrtuľníkov [[Sikorsky UH-60 Black Hawk|UH-60M Black Hawk]].&lt;ref name=&quot;:0&quot;&gt;{{Citácia elektronického dokumentu|autor=SITA|titul=Kúpime deväť vrtuľníkov Black Hawk. Cena je vynikajúca, hovorí Glváč|url=http://www.sme.sk/c/7779200/kupime-devat-vrtulnikov-black-hawk-cena-je-vynikajuca-hovori-glvac.html|dátum vydania=29.04.2015|dátum aktualizácie=|dátum prístupu=19.08.2015|vydavateľ=Petit Press|miesto=|jazyk=}}&lt;/ref&gt;&lt;ref name=&quot;:1&quot;&gt;{{Citácia periodika | priezvisko = | meno = | autor = ČTK | odkaz na autora = | titul = Slovensko kúpi americké vrtuľníky Black Hawk za 261 miliónov dolárov | periodikum = pravda.sk | odkaz na periodikum = Pravda (slovenský denník) | url = https://spravy.pravda.sk/domace/clanok/353558-slovensko-kupi-americke-vrtulniky-black-hawk-za-261-milionov-eur/ | issn = 1336-197X | vydavateľ = Perex | miesto = Bratislava | dátum = 2015-04-29 | dátum prístupu = 2017-10-23 }}&lt;/ref&gt;&lt;ref name=&quot;:2&quot;&gt;{{Citácia periodika | priezvisko = Petrovič | meno = Ján | autor = | odkaz na autora = | titul = Armádu čaká výmena vrtuľníkov. Porovnali sme končiaceho Hrocha s Čiernym jastrabom | periodikum = Aktuality.sk | odkaz na periodikum = | url = https://www.aktuality.sk/clanok/275120/armadu-caka-vymena-vrtulnikov-porovnali-sme-konciaceho-hrocha-s-ciernym-jastrabom/ | issn = | vydavateľ = Ringier Axel Springer Slovakia | miesto = Bratislava | dátum = 2015-05-04 | dátum prístupu = 2017-10-23 }}&lt;/ref&gt;
 |-
-&lt;!---------- O PROJEKTE ----------&gt;
-| height=&quot;5px&quot; |
-|-
-| &lt;div style=&quot;position:relative;&quot;&gt;
-[[Súbor:Greenbg_right.png|280px|right|link=]]
-&lt;div style=&quot;font-size:115%; position:absolute; right:45px; top:0px;&quot;&gt;'''O projekte'''&lt;/div&gt;
-&lt;div style=&quot;position:absolute; right:10px; top:2px;&quot;&gt;[[Súbor:Wikipedia-logo.png|26px|link=]]&lt;/div&gt;&lt;/div&gt;
-|-
-| style=&quot;background:#f5fffa; font-size:90%;&quot; |
-{| style=&quot;background:none;&quot;
-|-
-| {{Hlavná stránka/O projekte}}
-|}
-|}
-|}
-&lt;!---------- SESTERSKÉ PROJEKTY ----------&gt;
-{| id=&quot;mp-tfp&quot; style=&quot;margin:4px 0 0 0; width:100%; background:none;&quot;
-| class=&quot;MainPageBG&quot; style=&quot;width:100%; border:1px solid #cef2e0; background:#f5faff; vertical-align:top; color:#000;&quot;|
-{| cellpadding=&quot;2&quot; cellspacing=&quot;5&quot; style=&quot;vertical-align:top; background:#f5faff; color:#000; width:100%&quot;
-|&lt;div style=&quot;text-align:left; position:relative; margin-top:-5px;&quot;&gt;
-[[Súbor:Bluebg.png|link=]]
-&lt;div style=&quot;position:absolute; left:5px; top:4px;&quot;&gt;[[Súbor:Wikimedia-logo.svg|27px|link=]]&lt;/div&gt;
-&lt;div style=&quot;position:absolute; left:50px; top:4px; font-size:120%;&quot;&gt;'''Ďalšie projekty'''&lt;/div&gt;
-&lt;div clear=&quot;all&quot; style=&quot;margin:1em; padding-right:6px; padding-top:12px;overflow:auto;&quot;&gt;{{Sesterské projekty}}
-|}
+| [[Sikorsky UH-60 Black Hawk]]
+| [[Súbor:Slovenský UH-60M 7449.jpg|150px]]
+| {{minivlajka|Spojené štáty}} [[Spojené štáty|USA]]
+| viacúčelový vrtuľník
+| UH-60M Black Hawk
+| 9
+| Prvé dva vrtuľníky boli dodané dňa 26. júna 2017.&lt;ref name=bhdosli17/&gt; Do služby u 1. vrtuľníkovej letky v Prešove boli prvé dva kusy odovzdané dňa 3. augusta 2017.&lt;ref&gt;{{Citácia elektronického dokumentu
+  | autor = Ministerstvo obrany Slovenskej republiky
+  | titul = Minister Gajdoš odovzdal vzdušným silám prvé dva vrtuľníky Black Hawk
+  | url = http://www.mod.gov.sk/40252-sk/minister-gajdos-odovzdal-vzdusnym-silam-prve-dva-vrtulniky-black-hawk/
+  | dátum vydania = 03.08.2017
+  | dátum aktualizácie = 
+  | dátum prístupu = 03.08.2017
+  | vydavateľ = MO SR
+  | miesto = 
+  | jazyk = 
+}}&lt;/ref&gt; Ďalšie dva vrtuľníky boli dodané 12. júla 2018 a do služby odovzdané dňa 20. júla 2018.&lt;ref name=&quot;gov-do-vyzbroje-ozbrojenych-sil-pribudli&quot;/&gt;&lt;ref&gt;{{Citácia elektronického dokumentu | priezvisko = | meno = | autor = | odkaz na autora = | titul = Minister Gajdoš odovzdal vojakom ďalšie dva vrtuľníky Black Hawk, využívať ich budú aj na pomoc v krízových situáciách | url = https://www.mod.gov.sk/42339-sk/minister-gajdos-odovzdal-vojakom-dalsie-dva-vrtulniky-black-hawk-vyuzivat-ich-budu-aj-na-pomoc-v-krizovych-situaciach/ | vydavateľ = Ministerstvo obrany SR | dátum vydania = 2018-07-20 | dátum aktualizácie = | dátum prístupu = 2018-07-20 | miesto = Bratislava | jazyk = }}&lt;/ref&gt; Ďalšie dva kusy boli dodané a odovzdané do služby 26. augusta 2019.&lt;ref name=&quot;mod.gov.sk&quot;/&gt; Posledné tri kusy boli dodané 11. januára 2020.&lt;ref name=&quot;hnonline-vrtulniky-black-hawk-pridu-na&quot;&gt;{{Citácia periodika | priezvisko = | meno = | autor = TASR | odkaz na autora = | titul = Vrtuľníky Black Hawk prídu na Slovensko neskôr, potvrdil minister Gajdoš | periodikum = hnonline.sk | odkaz na periodikum = Hospodárske noviny | url = https://slovensko.hnonline.sk/2057404-vrtulniky-black-hawk-pridu-na-slovensko-neskor-potvrdil-minister-gajdos | issn = 1336-1996 | vydavateľ = MAFRA Slovakia | miesto = Bratislava | dátum = 2019-12-12 | dátum prístupu = 2020-01-14 }}&lt;/ref&gt;&lt;ref&gt;{{Citácia periodika | priezvisko = | meno = | autor = SITA | odkaz na autora = | titul = Vrtuľníky Black Hawk pristanú ešte v tomto roku, rezort obrany ich plánuje dodatočne vyzbrojiť | periodikum = pravda.sk | odkaz na periodikum = Pravda (slovenský denník) | url = https://spravy.pravda.sk/domace/clanok/519489-vrtulniky-black-hawk-pristanu-este-v-tomto-roku-rezort-obrany-ich-planuje-dodatocne-vyzbrojit/ | issn = 1336-197X | vydavateľ = Perex | miesto = Bratislava | dátum = 2019-07-17 | dátum prístupu = 2019-07-24 }}&lt;/ref&gt;
 |}
 
-&lt;div class=&quot;toccolours&quot; style=&quot;font-size: smaller; text-align: center;&quot;&gt;
-Ak pokladáte Wikipédiu alebo sesterské projekty za užitočné, prosím zvážte [https://donate.wikimedia.org poskytnutie daru]. Dary sú primárne určené na nákup vybavenia serverov.
-&lt;/div&gt;</text>
-      <sha1>c00oehe2jqn4gev0juydp3eyo2imfsm</sha1>
-    </revision>
-  </page>
-  <page>
-    <title>Main Page</title>
-    <ns>0</ns>
-    <id>2</id>
-    <redirect title="Hlavná stránka" />
-    <revision>
-      <id>89777</id>
-      <timestamp>2003-08-31T12:01:53Z</timestamp>
-      <contributor>
-        <username>Andre Engels</username>
-        <id>2</id>
-      </contributor>
-      <model>wikitext</model>
-      <format>text/x-wiki</format>
-      <text bytes="30" xml:space="preserve">#REDIRECT [[Hlavná stránka]]</text>
-      <sha1>gj4ij44roeqj42e06ryb2oj86hae6f8</sha1>
-    </revision>
-  </page>
-  <page>
-    <title>Wikipédia:Upload log</title>
-    <ns>4</ns>
-    <id>4</id>
-    <restrictions>sysop</restrictions>
-    <revision>
-      <id>89779</id>
-      <timestamp>2004-07-25T20:08:25Z</timestamp>
-      <contributor>
-        <username>Liso</username>
-        <id>40</id>
-      </contributor>
-      <comment>uploaded &quot;550px-Solar_system_scale.jpg&quot;: slnecna sustava 9pomer velkosti0</comment>
-      <model>wikitext</model>
-      <format>text/x-wiki</format>
-      <text bytes="7518" xml:space="preserve">&lt;ul&gt;&lt;li&gt;20:08, 25 Júl 2004 [[Redaktor:Liso|Liso]] uploaded &quot;[[:Obrázok:550px-Solar_system_scale.jpg|550px-Solar_system_scale.jpg]]&quot; &lt;em&gt;(slnecna sustava 9pomer velkosti0)&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;23:02, 22 Júl 2004 [[Redaktor:Valasek|Valasek]] uploaded &quot;[[:Obrázok:Wiki.png|Wiki.png]]&quot; &lt;em&gt;(Wiki logo poslovenčené)&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;09:54, 21 Júl 2004 [[Redaktor:Liso|Liso]] uploaded &quot;[[:Obrázok:Go-small.png|Go-small.png]]&quot; &lt;em&gt;(obrazok go)&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;13:43, 12 Júl 2004 [[Redaktor:Ujo Ivo|Ujo Ivo]] uploaded &quot;[[:Obrázok:Cad.jpg|Cad.jpg]]&quot; &lt;em&gt;(Cad_republik)&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;13:37, 8 Júl 2004 [[Redaktor:Ujo Ivo|Ujo Ivo]] uploaded &quot;[[:Obrázok:Boole.jpg|Boole.jpg]]&quot; &lt;em&gt;(George Boole)&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;14:26, 7 Júl 2004 [[Redaktor:Ujo Ivo|Ujo Ivo]] uploaded &quot;[[:Obrázok:Turing.jpg|Turing.jpg]]&quot; &lt;em&gt;(Alan Turing)&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;17:38, 23 Jún 2004 [[Redaktor:Kuba G|Kuba G]] uploaded &quot;[[:Obrázok:125px-Slovakia_flag_large.png|125px-Slovakia_flag_large.png]]&quot; &lt;em&gt;(Slovensko flag from WP-En)&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;17:37, 23 Jún 2004 [[Redaktor:Kuba G|Kuba G]] uploaded &quot;[[:Obrázok:Slovakia_coa.png|Slovakia_coa.png]]&quot; &lt;em&gt;(Slovensko coat of arms from WP-En)&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;08:20, 25 Feb 2004 [[Redaktor:Valasek|Valasek]] uploaded &quot;[[:Obrázok:Wiki-plain.PNG|Wiki-plain.PNG]]&quot; &lt;em&gt;(Logo Wikipedie bez textu &amp;quot;The Free Encyclopedia&amp;quot;)&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;21:42, 31 Aug 2003 [[User:Beno|Beno]] uploaded &quot;[[:Image:Nb-TableImage.png|Nb-TableImage.png]]&quot;&lt;/li&gt;
-&lt;li&gt;21:42, 31 Aug 2003 [[User:Beno|Beno]] uploaded &quot;[[:Image:Nb-TableImage.png|Nb-TableImage.png]]&quot;&lt;/li&gt;
-&lt;li&gt;21:42, 31 Aug 2003 [[User:Beno|Beno]] uploaded &quot;[[:Image:Be-TableImage.png|Be-TableImage.png]]&quot;&lt;/li&gt;
-&lt;li&gt;21:25, 31 Aug 2003 [[User:Beno|Beno]] uploaded &quot;[[:Image:Zr-TableImage.png|Zr-TableImage.png]]&quot;&lt;/li&gt;
-&lt;li&gt;21:25, 31 Aug 2003 [[User:Beno|Beno]] uploaded &quot;[[:Image:Zn-TableImage.png|Zn-TableImage.png]]&quot;&lt;/li&gt;
-&lt;li&gt;21:25, 31 Aug 2003 [[User:Beno|Beno]] uploaded &quot;[[:Image:Y-TableImage.png|Y-TableImage.png]]&quot;&lt;/li&gt;
-&lt;li&gt;21:25, 31 Aug 2003 [[User:Beno|Beno]] uploaded &quot;[[:Image:Xe-TableImage.png|Xe-TableImage.png]]&quot;&lt;/li&gt;
-&lt;li&gt;21:25, 31 Aug 2003 [[User:Beno|Beno]] uploaded &quot;[[:Image:V-TableImage.png|V-TableImage.png]]&quot;&lt;/li&gt;
-&lt;li&gt;21:25, 31 Aug 2003 [[User:Beno|Beno]] uploaded &quot;[[:Image:Ti-TableImage.png|Ti-TableImage.png]]&quot;&lt;/li&gt;
-&lt;li&gt;21:25, 31 Aug 2003 [[User:Beno|Beno]] uploaded &quot;[[:Image:Te-TableImage.png|Te-TableImage.png]]&quot;&lt;/li&gt;
-&lt;li&gt;21:24, 31 Aug 2003 [[User:Beno|Beno]] uploaded &quot;[[:Image:Tc-TableImage.png|Tc-TableImage.png]]&quot;&lt;/li&gt;
-&lt;li&gt;21:24, 31 Aug 2003 [[User:Beno|Beno]] uploaded &quot;[[:Image:Tc-TableImage.png|Tc-TableImage.png]]&quot;&lt;/li&gt;
-&lt;li&gt;21:24, 31 Aug 2003 [[User:Beno|Beno]] uploaded &quot;[[:Image:S-TableImage.png|S-TableImage.png]]&quot;&lt;/li&gt;
-&lt;li&gt;21:24, 31 Aug 2003 [[User:Beno|Beno]] uploaded &quot;[[:Image:Sr-TableImage.png|Sr-TableImage.png]]&quot;&lt;/li&gt;
-&lt;li&gt;21:24, 31 Aug 2003 [[User:Beno|Beno]] uploaded &quot;[[:Image:Sn-TableImage.png|Sn-TableImage.png]]&quot;&lt;/li&gt;
-&lt;li&gt;21:24, 31 Aug 2003 [[User:Beno|Beno]] uploaded &quot;[[:Image:Si-TableImage.png|Si-TableImage.png]]&quot;&lt;/li&gt;
-&lt;li&gt;21:24, 31 Aug 2003 [[User:Beno|Beno]] uploaded &quot;[[:Image:Se-TableImage.png|Se-TableImage.png]]&quot;&lt;/li&gt;
-&lt;li&gt;21:23, 31 Aug 2003 [[User:Beno|Beno]] uploaded &quot;[[:Image:Sc-TableImage.png|Sc-TableImage.png]]&quot;&lt;/li&gt;
-&lt;li&gt;21:23, 31 Aug 2003 [[User:Beno|Beno]] uploaded &quot;[[:Image:Sb-TableImage.png|Sb-TableImage.png]]&quot;&lt;/li&gt;
-&lt;li&gt;21:23, 31 Aug 2003 [[User:Beno|Beno]] uploaded &quot;[[:Image:Ru-TableImage.png|Ru-TableImage.png]]&quot;&lt;/li&gt;
-&lt;li&gt;21:23, 31 Aug 2003 [[User:Beno|Beno]] uploaded &quot;[[:Image:Rh-TableImage.png|Rh-TableImage.png]]&quot;&lt;/li&gt;
-&lt;li&gt;21:23, 31 Aug 2003 [[User:Beno|Beno]] uploaded &quot;[[:Image:Rb-TableImage.png|Rb-TableImage.png]]&quot;&lt;/li&gt;
-&lt;li&gt;21:23, 31 Aug 2003 [[User:Beno|Beno]] uploaded &quot;[[:Image:P-TableImage.png|P-TableImage.png]]&quot;&lt;/li&gt;
-&lt;li&gt;21:23, 31 Aug 2003 [[User:Beno|Beno]] uploaded &quot;[[:Image:Pd-TableImage.png|Pd-TableImage.png]]&quot;&lt;/li&gt;
-&lt;li&gt;21:23, 31 Aug 2003 [[User:Beno|Beno]] uploaded &quot;[[:Image:O-TableImage.png|O-TableImage.png]]&quot;&lt;/li&gt;
-&lt;li&gt;21:22, 31 Aug 2003 [[User:Beno|Beno]] uploaded &quot;[[:Image:N-TableImage.png|N-TableImage.png]]&quot;&lt;/li&gt;
-&lt;li&gt;21:22, 31 Aug 2003 [[User:Beno|Beno]] uploaded &quot;[[:Image:Ni-TableImage.png|Ni-TableImage.png]]&quot;&lt;/li&gt;
-&lt;li&gt;21:22, 31 Aug 2003 [[User:Beno|Beno]] uploaded &quot;[[:Image:Ne-TableImage.png|Ne-TableImage.png]]&quot;&lt;/li&gt;
-&lt;li&gt;21:22, 31 Aug 2003 [[User:Beno|Beno]] uploaded &quot;[[:Image:Nb-TableImage.png|Nb-TableImage.png]]&quot;&lt;/li&gt;
-&lt;li&gt;21:22, 31 Aug 2003 [[User:Beno|Beno]] uploaded &quot;[[:Image:Na-TableImage.png|Na-TableImage.png]]&quot;&lt;/li&gt;
-&lt;li&gt;21:22, 31 Aug 2003 [[User:Beno|Beno]] uploaded &quot;[[:Image:Mo-TableImage.png|Mo-TableImage.png]]&quot;&lt;/li&gt;
-&lt;li&gt;21:22, 31 Aug 2003 [[User:Beno|Beno]] uploaded &quot;[[:Image:Mn-TableImage.png|Mn-TableImage.png]]&quot;&lt;/li&gt;
-&lt;li&gt;21:22, 31 Aug 2003 [[User:Beno|Beno]] uploaded &quot;[[:Image:Mg-TableImage.png|Mg-TableImage.png]]&quot;&lt;/li&gt;
-&lt;li&gt;21:21, 31 Aug 2003 [[User:Beno|Beno]] uploaded &quot;[[:Image:Li-TableImage.png|Li-TableImage.png]]&quot;&lt;/li&gt;
-&lt;li&gt;21:21, 31 Aug 2003 [[User:Beno|Beno]] uploaded &quot;[[:Image:K-TableImage.png|K-TableImage.png]]&quot;&lt;/li&gt;
-&lt;li&gt;21:21, 31 Aug 2003 [[User:Beno|Beno]] uploaded &quot;[[:Image:Kr-TableImage.png|Kr-TableImage.png]]&quot;&lt;/li&gt;
-&lt;li&gt;21:21, 31 Aug 2003 [[User:Beno|Beno]] uploaded &quot;[[:Image:I-TableImage.png|I-TableImage.png]]&quot;&lt;/li&gt;
-&lt;li&gt;21:21, 31 Aug 2003 [[User:Beno|Beno]] uploaded &quot;[[:Image:In-TableImage.png|In-TableImage.png]]&quot;&lt;/li&gt;
-&lt;li&gt;21:21, 31 Aug 2003 [[User:Beno|Beno]] uploaded &quot;[[:Image:H-TableImage.png|H-TableImage.png]]&quot;&lt;/li&gt;
-&lt;li&gt;21:20, 31 Aug 2003 [[User:Beno|Beno]] uploaded &quot;[[:Image:He-TableImage.png|He-TableImage.png]]&quot;&lt;/li&gt;
-&lt;li&gt;21:20, 31 Aug 2003 [[User:Beno|Beno]] uploaded &quot;[[:Image:Ge-TableImage.png|Ge-TableImage.png]]&quot;&lt;/li&gt;
-&lt;li&gt;21:20, 31 Aug 2003 [[User:Beno|Beno]] uploaded &quot;[[:Image:Ga-TableImage.png|Ga-TableImage.png]]&quot;&lt;/li&gt;
-&lt;li&gt;21:20, 31 Aug 2003 [[User:Beno|Beno]] uploaded &quot;[[:Image:F-TableImage.png|F-TableImage.png]]&quot;&lt;/li&gt;
-&lt;li&gt;21:19, 31 Aug 2003 [[User:Beno|Beno]] uploaded &quot;[[:Image:Fe-TableImage.png|Fe-TableImage.png]]&quot;&lt;/li&gt;
-&lt;li&gt;21:19, 31 Aug 2003 [[User:Beno|Beno]] uploaded &quot;[[:Image:Cu-TableImage.png|Cu-TableImage.png]]&quot;&lt;/li&gt;
-&lt;li&gt;21:19, 31 Aug 2003 [[User:Beno|Beno]] uploaded &quot;[[:Image:C-TableImage.png|C-TableImage.png]]&quot;&lt;/li&gt;
-&lt;li&gt;21:19, 31 Aug 2003 [[User:Beno|Beno]] uploaded &quot;[[:Image:Cs-TableImage.png|Cs-TableImage.png]]&quot;&lt;/li&gt;
-&lt;li&gt;21:19, 31 Aug 2003 [[User:Beno|Beno]] uploaded &quot;[[:Image:Cr-TableImage.png|Cr-TableImage.png]]&quot;&lt;/li&gt;
-&lt;li&gt;21:19, 31 Aug 2003 [[User:Beno|Beno]] uploaded &quot;[[:Image:Co-TableImage.png|Co-TableImage.png]]&quot;&lt;/li&gt;
-&lt;li&gt;21:19, 31 Aug 2003 [[User:Beno|Beno]] uploaded &quot;[[:Image:Cl-TableImage.png|Cl-TableImage.png]]&quot;&lt;/li&gt;
-&lt;li&gt;21:18, 31 Aug 2003 [[User:Beno|Beno]] uploaded &quot;[[:Image:Cd-TableImage.png|Cd-TableImage.png]]&quot;&lt;/li&gt;
-&lt;li&gt;21:18, 31 Aug 2003 [[User:Beno|Beno]] uploaded &quot;[[:Image:Ca-TableImage.png|Ca-TableImage.png]]&quot;&lt;/li&gt;
-&lt;li&gt;21:18, 31 Aug 2003 [[User:Beno|Beno]] uploaded &quot;[[:Image:B-TableImage.png|B-TableImage.png]]&quot;&lt;/li&gt;
-&lt;li&gt;21:18, 31 Aug 2003 [[User:Beno|Beno]] uploaded &quot;[[:Image:Br-TableImage.png|Br-TableImage.png]]&quot;&lt;/li&gt;
-&lt;li&gt;21:18, 31 Aug 2003 [[User:Beno|Beno]] uploaded &quot;[[:Image:Be-TableImage.png|Be-TableImage.png]]&quot;&lt;/li&gt;
-&lt;li&gt;21:17, 31 Aug 2003 [[User:Beno|Beno]] uploaded &quot;[[:Image:As-TableImage.png|As-TableImage.png]]&quot;&lt;/li&gt;
-&lt;li&gt;21:17, 31 Aug 2003 [[User:Beno|Beno]] uploaded &quot;[[:Image:Ar-TableImage.png|Ar-TableImage.png]]&quot;&lt;/li&gt;
-&lt;li&gt;21:17, 31 Aug 2003 [[User:Beno|Beno]] uploaded &quot;[[:Image:Al-TableImage.png|Al-TableImage.png]]&quot;&lt;/li&gt;
-&lt;li&gt;21:16, 31 Aug 2003 [[User:Beno|Beno]] uploaded &quot;[[:Image:Ag-TableImage.png|Ag-TableImage.png]]&quot;&lt;/li&gt;
+=== Objednané stroje ===
+{| class=&quot;wikitable&quot;
+! width=&quot;240&quot; style=&quot;text-align: left;&quot;|Lietadlo
+! style=&quot;text-align: left;&quot;|Fotografia
+! width=&quot;80&quot; style=&quot;text-align: left;&quot;|Krajina pôvodu
+! width=&quot;175&quot; style=&quot;text-align: left;&quot;|Typ
+! width=&quot;200&quot; style=&quot;text-align: left;&quot;|Verzie
+! width=&quot;50&quot; style=&quot;text-align: left;&quot;|Počet objednaných
+! style=&quot;text-align: left;&quot;|Poznámky
+|-
+! style=&quot;align: center; background: #E6E6E6;&quot; colspan=&quot;7&quot; | [[Stíhacie lietadlo|Stíhacie lietadlá]]
+|-
+| [[General Dynamics F-16 Fighting Falcon|Lockheed Martin F-16 Fighting Falcon]]
+| [[Súbor:USAF F-16C Profile.jpg|150px]]
+| {{minivlajka|Spojené štáty}} [[Spojené štáty|USA]]
+| viacúčelové stíhacie lietadlo&lt;hr&gt;cvičné/stíhacie lietadlo
+| F-16C Block 70 Fighting Falcon&lt;hr&gt;F-16D Block 70 Fighting Falcon
+| 12&lt;hr&gt;2
+| O nákupe stíhacích lietadiel rozhodla vláda SR na rokovaní vlády dňa 11. júla 2018.&lt;ref name=&quot;gov-vlada-prijala-historicke-rozhodnutie&quot;/&gt; Prvé štyri stíhačky môžu Vzdušné sily OS SR prevziať postupne od septembra do decembra 2022, pričom prvé dva stroje sú určené na výcvik slovenského vojenského personálu v USA. Zvyšných desať kusov bude vyrobených do augusta 2023. Prvé štyri F-16 vyrobené pre SR majú na leteckú základňu Sliač priletieť v apríli 2023. Na Slovensko by mali všetky lietadlá priletieť do konca roku 2023.&lt;ref name=&quot;leteckymagazin-vlada-schvalila-nakup-f-16&quot;/&gt;&lt;ref name=&quot;armadninoviny-udalosti&quot;/&gt;
+|-
+! style=&quot;align: center; background: #E6E6E6;&quot; colspan=&quot;7&quot; | [[Helikoptéra|Vrtuľníky]]
+|-
+| [[Bell 429 GlobalRanger]]
+| [[Súbor:Bell 429 Slovak police (cropped).jpg|150px]]
+| {{minivlajka|Spojené štáty}} [[Spojené štáty|USA]]&lt;br /&gt;{{minivlajka|Kanada}} [[Kanada]]
+| ľahký viacúčelový vrtuľník
+| Bell 429 GlobalRanger
+| 9&lt;ref&gt;{{Citácia elektronického dokumentu | priezvisko = Malyasov | meno = Dylan | autor = | odkaz na autora = | titul = Slovakia to receive new Bell 429 light utility helicopters | url = http://defence-blog.com/news/slovakia-to-receive-new-bell-429-light-utility-helicopters.html | vydavateľ = defence-blog.com | dátum vydania = 2017-05-01 | dátum aktualizácie = | dátum prístupu = 2017-10-23 | miesto = | jazyk = }}&lt;/ref&gt;
+| Podľa strategických dokumentov MO SR sa nákup uskutoční v rokoch 2020 až 2022. Vrtuľníky budú používané na LPZS.&lt;ref&gt;{{Citácia elektronického dokumentu | priezvisko = | meno = | autor = | odkaz na autora = | titul = | url = http://www.telecom.gov.sk/index/open_file.php?file=doprava/uvlni/ZS_SKA2016007_web.pdf | vydavateľ = telecom.gov.sk | dátum vydania = | dátum aktualizácie = | dátum prístupu = 2017-10-23 | miesto = | jazyk = }}&lt;/ref&gt; Obstarávanie je ale pozastavené kvôli neukončenému vyšetrovaniu leteckej nehody vrtuľníka Bell 429 (OM-BYM) Leteckého útvaru MV SR dňa 10. mája 2017. Podľa ostatných správ príde k zmene typu vrtuľníka na UH-72B Lakota.&lt;ref&gt;{{Citácia periodika | priezvisko = | meno = | autor = | odkaz na autora = | titul = Slovensko môže čerpať milióny z grantu USA na novú vojenskú techniku, musí splniť podmienku | periodikum = WebNoviny.sk | odkaz na periodikum = | url = https://www.webnoviny.sk/slovensko-moze-cerpat-miliony-z-grantu-usa-na-novu-vojensku-techniku-musi-splnit-podmienku/ | issn = | vydavateľ = iSITA | miesto = Bratislava | dátum = 2019-06-30 | dátum prístupu = 2020-01-14 }}&lt;/ref&gt;&lt;ref&gt;{{Citácia elektronického dokumentu | priezvisko = | meno = | autor = | odkaz na autora = | titul = Čo sa stalo v kabíne pri páde vrtuľníka Bell 429 v Prešove? | url = http://www.tvnoviny.sk/domace/1869609_co-sa-stalo-v-kabine-pri-pade-vrtulnika-bell-429-v-presove | vydavateľ = tvnoviny.sk | dátum vydania = | dátum aktualizácie = | dátum prístupu = 2018-07-06 | miesto = | jazyk = }}&lt;/ref&gt;&lt;ref&gt;{{Citácia periodika | priezvisko = Macko | meno = Boris | autor = | odkaz na autora = | titul = Prečo sa vrtuľník zrútil. Môže za to sedem anomálií letu | periodikum = sme.sk | odkaz na periodikum = SME | url = https://kosice.korzar.sme.sk/c/20795973/preco-sa-vrtulnik-zrutil-moze-za-to-sedem-anomalii-letu.html | issn = 1335-4418 | vydavateľ = Petit Press | miesto = Bratislava | dátum = 2018-04-05 | dátum prístupu = 2018-07-06 }}&lt;/ref&gt;
+|}
 
-&lt;/ul&gt;</text>
-      <sha1>89gjj0fok0czn5uo016j9qiat5vzcv2</sha1>
+=== Vyradené lietadlá Vzdušných síl SR ===
+{{main|Zoznam lietadiel Vzdušných síl Slovenskej republiky}}
+{| class=&quot;wikitable&quot;
+! style=&quot;text-align: left;&quot;|Lietadlo
+! style=&quot;text-align: left;&quot;|Fotografia
+! style=&quot;text-align: left;&quot;|Krajina pôvodu
+! style=&quot;text-align: left;&quot;|Typ
+! style=&quot;text-align: left;&quot;|Verzie
+! style=&quot;text-align: left;&quot;|Počet získaných kusov
+! style=&quot;text-align: left;&quot;|Obdobie služby
+|-
+! style=&quot;align: center; background: #E6E6E6;&quot; colspan=&quot;7&quot; | [[Stíhacie lietadlo|Stíhacie lietadlá]]
+|-
+| [[Mikojan-Gurevič MiG-21]]
+| [[Súbor:MiG-21 (12891131583).jpg|150px]]
+| {{minivlajka|Sovietsky zväz}} [[Sovietsky zväz|ZSSR]]
+| stíhacie lietadlo&lt;hr&gt;prieskumné lietadlo&lt;hr&gt;cvičné/stíhacie lietadlo
+| MiG-21MA&lt;hr&gt;MiG-21MF&lt;hr&gt;MiG-21R&lt;hr&gt;MiG-21UM&lt;hr&gt;MiG-21US
+| 13&lt;hr&gt;36&lt;hr&gt;8&lt;hr&gt;11&lt;hr&gt;2
+| 1993 – 2003
+|-
+! style=&quot;align: center; background: #E6E6E6;&quot; colspan=&quot;7&quot; | [[Bojové lietadlo|Bojové lietadlá]]
+|-
+| [[Suchoj Su-17 (Su-20, Su-22)|Suchoj Su-22]]
+| [[Súbor:Su-22M4 Slovakia (21986303628).jpg|150px]]
+| {{minivlajka|Sovietsky zväz}} [[Sovietsky zväz|ZSSR]]
+| stíhací bombardér&lt;hr&gt;cvičné/bojové lietadlo
+| Su-22M4&lt;hr&gt;Su-22UM-3K
+| 18&lt;hr&gt;3
+| 1993 – 2002
+|-
+| [[Suchoj Su-25]]
+| [[Súbor:Su-25 Slovakia (21553040383).jpg|150px]]
+| {{minivlajka|Sovietsky zväz}} [[Sovietsky zväz|ZSSR]]
+| lietadlo priamej podpory pozemných vojsk&lt;hr&gt;cvičné/bojové lietadlo
+| Su-25K&lt;hr&gt;Su-25UBK
+| 12&lt;hr&gt;1
+| 1993 – 2002
+|-
+! style=&quot;align: center; background: #E6E6E6;&quot; colspan=&quot;7&quot; | [[Dopravné lietadlo|Dopravné lietadlá]]
+|-
+| [[Antonov An-12]]
+| [[Súbor:Antonov An-12BP, Slovakia - Air Force AN1357099.jpg|150px]]
+| {{minivlajka|Sovietsky zväz}} [[Sovietsky zväz|ZSSR]]
+| taktické dopravné lietadlo
+| An-12BP
+| 1
+| 1993 – 1999
+|-
+| [[Antonov An-24]]
+| [[Súbor:Slovak Air Force Antonov An-24 Goetting-1.jpg|150px]]
+| {{minivlajka|Sovietsky zväz}} [[Sovietsky zväz|ZSSR]]
+| taktické dopravné lietadlo
+| An-24V
+| 2
+| 1993 – 2006
+|-
+| [[Antonov An-26]]
+| [[Súbor:Slovak Air Force Antonov An-26 Bidini-1.jpg|150px]]
+| {{minivlajka|Sovietsky zväz}} [[Sovietsky zväz|ZSSR]]
+| taktické dopravné lietadlo
+| An-26B-100
+| 2
+| 1993 – 2016
+|-
+| [[Jakovlev Jak-40]]
+| [[Súbor:Slovak Air Force Yakovlev Yak-40 Lebeda-1.jpg|150px]]
+| {{minivlajka|Sovietsky zväz}} [[Sovietsky zväz|ZSSR]]
+| dopravné lietadlo (pre cestujúcich)
+| Jak-40
+| 1
+| 1993 – 1999
+|-
+| [[Tupolev Tu-154]]
+| [[Súbor:122ai - Slovak Republic Tupolev 154M, OM-BYR@ZRH,28.01.2001 - Flickr - Aero Icarus.jpg|150px]]
+| {{minivlajka|Sovietsky zväz}} [[Sovietsky zväz|ZSSR]]
+| dopravné lietadlo (VIP)
+| Tu-154B-2
+| 1
+| 1993 – 1995
+|-
+! style=&quot;align: center; background: #E6E6E6;&quot; colspan=&quot;7&quot; | [[Cvičné lietadlo|Cvičné lietadlá]]
+|-
+| [[Aero L-29 Delfín]]
+| [[Súbor:L-29 Sovakia (22211294871).jpg|150px]]
+| {{minivlajka|Česko-Slovensko}} [[Česko-Slovensko]]
+| cvičné prúdové lietadlo
+| L-29 Delfín
+| 16
+| 1993 – 2003
+|-
+! style=&quot;align: center; background: #E6E6E6;&quot; colspan=&quot;7&quot; | [[Helikoptéra|Vrtuľníky]]
+|-
+| [[Mil Mi-2]]
+| [[Súbor:Mi-2 Slovakia (22589902916).jpg|150px]]
+| {{minivlajka|Sovietsky zväz}} [[Sovietsky zväz|ZSSR]]&lt;br /&gt;{{minivlajka|Poľsko}} [[Poľsko]]
+| ľahký cvičný vrtuľník
+| Mi-2 
+| 17
+| 1993 – 2013
+|-
+| [[Mil Mi-8]]
+| [[Súbor:Slovak Air Force Mil Mi-8P Potters-1.jpg|150px]]
+| {{minivlajka|Sovietsky zväz}} [[Sovietsky zväz|ZSSR]]
+| vrtuľník pre rádioelektronický boj&lt;hr&gt;dopravný vrtuľník
+| Mi-8PPA&lt;hr&gt;Mi-8PS&lt;hr&gt;Mi-8T
+| 1&lt;hr&gt;2&lt;hr&gt;6
+| 1993 – 2011
+|-
+| [[Mil Mi-24]]
+| [[Súbor:Slovak Air Force Mil Mi-24V Kral-1.jpg|150px]]
+| {{minivlajka|Sovietsky zväz}} [[Sovietsky zväz|ZSSR]]
+| bojový/dopravný vrtuľník&lt;hr&gt;cvičný/bojový/dopravný vrtuľník
+| Mi-24D&lt;hr&gt;Mi-24V&lt;hr&gt;Mi-24DU
+| 8&lt;hr&gt;10&lt;hr&gt;1
+| 1993 – 2011
+|}
+
+== Pozemná protivzdušná obrana ==
+{{Hlavný článok|Protilietadlová raketová brigáda Nitra}}
+
+Úlohou zabezpečenia protivzdušnej obrany (PVO) bojových jednotiek, vzdušného priestoru [[Slovensko|Slovenskej republiky]] a objektov štátneho významu je poverená [[Protilietadlová raketová brigáda Nitra|Protilietadlová raketová brigáda obrancov Tobruku]] sídliaca v [[Nitra|Nitre]].
+
+{| class=&quot;wikitable&quot;
+! width=&quot;65&quot; style=&quot;text-align: left;&quot;|Systém
+! style=&quot;text-align: left;&quot;|Fotografia
+! width=&quot;70&quot; style=&quot;text-align: left;&quot;|Krajina pôvodu
+! width=&quot;345&quot; style=&quot;text-align: left;&quot;|Typ
+! width=&quot;110&quot; style=&quot;text-align: left;&quot;|Verzie
+! width=&quot;60&quot; style=&quot;text-align: left;&quot;|V službe
+! style=&quot;text-align: left;&quot;|Poznámky
+|-
+! style=&quot;align: center; background: #E6E6E6;&quot; colspan=&quot;7&quot; | Protilietadlové systémy
+|-
+| [[S-300]]
+| [[Súbor:Slovak S-300.jpg|150px]]
+| {{minivlajka|Sovietsky zväz}} [[Sovietsky zväz|ZSSR]]&lt;br /&gt;{{minivlajka|Rusko}} [[Rusko]]
+| protilietadlový raketový komplet veľkého dosahu
+| S-300PMU
+| 1 batéria
+| Dodané v roku 1987. Maximálna diaľka ničenia cieľa je do {{km|75|m}} a maximálna výška do {{km|27|m}}. Batéria má 45 rakiet typu 5V55KD.&lt;ref&gt;{{Citácia elektronického dokumentu | priezvisko = | meno = | autor = AGLO solutions (www.aglo.sk) | odkaz na autora = | titul = Druhy techniky | url = http://www.plrb.mil.sk/300/ | vydavateľ = plrb.mil.sk | dátum vydania = | dátum aktualizácie = | dátum prístupu = 2017-10-23 | miesto = | jazyk = }}&lt;/ref&gt;&lt;ref&gt;{{Citácia elektronického dokumentu | priezvisko = | meno = | autor = AGLO solutions (www.aglo.sk) | odkaz na autora = | titul = Slovenské premiérové streľby na polygóne Šabla | url = http://www.vvzs.mil.sk/56349/?pg=1 | vydavateľ = vvzs.mil.sk | dátum vydania = | dátum aktualizácie = | dátum prístupu = 2017-10-23 | miesto = | jazyk = }}&lt;/ref&gt;
+|-
+| [[2K12 Kub]]
+| [[Súbor:Slovak 2K12M2 Kub-M2 at SIAF 2017.jpg|150px]]
+| {{minivlajka|Sovietsky zväz}} [[Sovietsky zväz|ZSSR]]
+| protilietadlový raketový komplet stredného dosahu
+| 2K12M2 Kub-M2
+| 5 batérií
+| Dodané v roku 1980. Maximálna diaľka ničenia cieľa je do {{km|24|m}} a maximálna výška do {{km|7|m}}. Jedna batéria má 12 rakiet typu 2K12M3.&lt;ref&gt;{{Citácia elektronického dokumentu | priezvisko = | meno = | autor = AGLO solutions (www.aglo.sk) | odkaz na autora = | titul = M. Glváč: Ostré bojové streľby sú pre vojakov najlepšou príležitosťou vyskúšať si to, čo doma cvičia | url = http://www.vvzs.mil.sk/35257/?pg=1 | vydavateľ = vvzs.mil.sk | dátum vydania = | dátum aktualizácie = | dátum prístupu = 2017-10-23 | miesto = | jazyk = }}&lt;/ref&gt;&lt;ref&gt;https://www.idnes.cz/zpravy/nato/rafael-kub-obrana-armada-izrael-rakety-protivzdusna-metnar.A200925_111038_zpr_nato_inc&lt;/ref&gt;
+|-
+| [[9K38 Igla]]
+| [[Súbor:Slovakian MANPADS during a training exercise, 2012, Nitra, Slovakia -02.jpg|150px]]
+| {{minivlajka|Sovietsky zväz}} [[Sovietsky zväz|ZSSR]]
+| protilietadlový raketový komplet veľmi krátkeho dosahu
+| 9K38 Igla-2
+| 72 kusov
+| Prenosný protilietadlový raketový komplet (MANPADS).
+|-
+! style=&quot;align: center; background: #E6E6E6;&quot; colspan=&quot;7&quot; | [[Radar|Rádiolokátory]]
+|-
+| [[ST-68 (radar)|ST-68]]
+| [[Súbor:3D radiolokátor ST-68U CZ.JPG|150px]]
+| {{minivlajka|Sovietsky zväz}} [[Sovietsky zväz|ZSSR]]
+| mobilný prehľadový 3D rádiolokátor
+| ST-68MSK
+| 2
+| Diaľkový dosah radaru je {{km|360|m}}. Rádiolokátor je súčasťou systému S-300PMU.
+|}
+
+Vyradený systém PVO typu [[9K35 Strela-10|Strela-10M3]] (SA-13) bol odpredaný v roku 2018 za sumu 2 240 880 €.&lt;ref&gt;{{Citácia elektronického dokumentu | priezvisko = | meno = | autor = | odkaz na autora = | titul = Kúpna zmluva na odpredaj prebytočného hnuteľného majetku štátu - vojenský materiál, munícia | url = https://www.crz.gov.sk/index.php?ID=3750420&amp;l=sk | vydavateľ = crz.gov.sk | dátum vydania = | dátum aktualizácie = | dátum prístupu = 2018-11-13 | miesto = | jazyk = }}&lt;/ref&gt;
+
+== Rádiotechnické vojsko ==
+{{Hlavný článok|Brigáda riadenia vzdušných operácií Zvolen}}
+
+Rádiotechnické vojsko zabezpečuje nepretržité rádiolokačné pokrytie vzdušného priestoru do výšky 30 km. Túto úlohu zabezpečuje predovšetkým [[Brigáda riadenia vzdušných operácií Zvolen|Brigáda riadenia vzdušných operácií]] s veliteľstvom vo [[Zvolen]]e, ktorému je podriadený prápor rádiolokačného prieskumu monitorujúci celé územie Slovenskej republiky. Výstupy z vojenských i civilných rádiolokátorov a vojenských pasívnych sledovacích systémov [[pasívny rádiolokátor Věra|Věra]] sú spracovávané vo Zvolene v Operačnom centre (OPCEN) a výsledné informácie o vzdušnej situácii sú posielané na nadradené stupne velenia vrátane aliančného systému [[NATO Integrated Air and Missile Defence System|NATINAMDS]].
+
+Vzdušné sily OS SR majú v súčasnosti šesť 3D radarov stredného dosahu typu [[P-37 (radar)|P-37MSK]],&lt;ref&gt;{{Citácia elektronického dokumentu | priezvisko = | meno = | autor = | odkaz na autora = | titul = SVK - P-37MSK (1RL139MSK, 3D rádiolokátor) | url = https://forum.valka.cz/topic/view/58460/SVK-P-37MSK-1RL139MSK-3D-radiolokator | vydavateľ = forum.valka.cz | dátum vydania = | dátum aktualizácie = | dátum prístupu = 2018-07-10 | miesto = | jazyk = }}&lt;/ref&gt; dva 3D radary stredného dosahu [[ST-68 (radar)|ST-68MSK]], štyri 2D radary [[RL-4 (radar)|RL-4AM Morad-L]] malého dosahu, tri výškomery typu [[PRV-17 (radar)|PRV-17]] a pasívny sledovací systém [[pasívny rádiolokátor Věra|VERA-NG]]. Ich úlohou je detekcia, identifikácia a sledovanie vzdušných objektov. Okrem toho sa využívajú aj pri kontrole letovej prevádzky a na navádzanie letectva. Z 15 kusov je však už 13 po technickej životnosti a zvyšným dvom radarom ST-68MSK sa technická životnosť skončí v roku 2021.&lt;ref&gt;{{Citácia elektronického dokumentu | priezvisko = | meno = | autor = | odkaz na autora = | titul = | url = https://rokovania.gov.sk/RPO/Material/Download?id=1698&amp;version=1 | vydavateľ = rokovania.gov.sk | dátum vydania = | dátum aktualizácie = | dátum prístupu = 2018-07-11 | miesto = | jazyk = }}&lt;/ref&gt; Navyše nie sú úplne kompatibilné so systémami NATO.&lt;ref&gt;{{Citácia periodika | priezvisko = Hutko | meno = Dominik | autor = | odkaz na autora = | titul = S nákupom radarov prišli aj pochybnosti | periodikum = pravda.sk | odkaz na periodikum = Pravda (slovenský denník) | url = https://spravy.pravda.sk/domace/clanok/475872-s-nakupom-radarov-prisli-aj-pochybnosti/ | issn = 1336-197X | vydavateľ = Perex | miesto = Bratislava | dátum = 2018-07-06 | dátum prístupu = 2018-07-06 }}&lt;/ref&gt; Mobilný prehľadový 3D rádiolokátor typu ST-68MSK je súčasťou systému [[S-300|S-300PMU]].&lt;ref&gt;{{Citácia elektronického dokumentu | priezvisko = | meno = | autor = | odkaz na autora = | titul = Slovenské rakety nad Baltom | url = https://www.mosr.sk/44852-sk/slovenske-rakety-nad-baltom/ | vydavateľ = Ministerstvo obrany SR | dátum vydania = 2019-06-18 | dátum aktualizácie = | dátum prístupu = 2019-06-19 | miesto = Bratislava | jazyk = }}&lt;/ref&gt;
+
+Nové 3D rádiolokátory stredného, malého a blízkeho dosahu obstará Ministerstvo obrany SR formou vláda – vláda. Návrh tohto riešenia schválila Bezpečnostná rada a vláda SR dňa 11. júla 2018. Ministerstvo obrany plánuje v časovom horizonte rokov 2019 až 2025 zakúpiť 17 kusov 3D rádiolokátorov, z toho 6 kusov 3D rádiolokátorov stredného dosahu, 5 kusov 3D rádiolokátorov malého dosahu a 6 kusov 3D rádiolokátorov blízkeho dosahu.&lt;ref&gt;{{Citácia elektronického dokumentu | priezvisko = | meno = | autor = | odkaz na autora = | titul = Rezort obrany obstará 3D rádiolokátory formou vláda - vláda | url = http://www.mosr.sk/42279-sk/rezort-obrany-obstara-3d-radiolokatory-formou-vlada-vlada/ | vydavateľ = Ministerstvo obrany SR | dátum vydania = 2018-07-11 | dátum aktualizácie = | dátum prístupu = 2018-07-11 | miesto = Bratislava | jazyk = }}&lt;/ref&gt;&lt;ref&gt;{{Citácia periodika | priezvisko = | meno = | autor = TASR | odkaz na autora = | titul = S obstaraním 3D radarov sa obrátil rezort obrany na vlády 12 krajín | periodikum = pravda.sk | odkaz na periodikum = Pravda (slovenský denník) | url = https://spravy.pravda.sk/domace/clanok/480479-s-obstaranim-3d-radarov-sa-obratil-rezort-na-vlady-12-krajin/ | issn = 1336-197X | vydavateľ = Perex | miesto = Bratislava | dátum = 2018-08-15 | dátum prístupu = 2018-08-15 }}&lt;/ref&gt;&lt;ref&gt;{{Citácia elektronického dokumentu | priezvisko = | meno = | autor = | odkaz na autora = | titul = Ponuku na obstaranie 3D rádiolokátorov stredného, malého a blízkeho dosahu predložilo 10 krajín | url = http://www.mosr.sk/43538-sk/ponuku-na-obstaranie-3d-radiolokatorov-stredneho-maleho-a-blizkeho-dosahu-predlozilo-10-krajin/ | vydavateľ = Ministerstvo obrany SR | dátum vydania = 2019-01-22 | dátum aktualizácie = | dátum prístupu = 2019-01-22 | miesto = Bratislava | jazyk = }}&lt;/ref&gt;&lt;ref&gt;{{Citácia elektronického dokumentu | priezvisko = | meno = | autor = | odkaz na autora = | titul = AN/FPS-117 LONG-RANGE AIR SURVEILLANCE RADARS | url = https://www.lockheedmartin.com/content/dam/lockheed-martin/rms/documents/ground-based-air-surveillance-radars/FPS-117-fact-sheet.pdf | vydavateľ = lockheedmartin.com | dátum vydania = | dátum aktualizácie = | dátum prístupu = 2019-02-08 | miesto = | jazyk = }}&lt;/ref&gt;&lt;ref&gt;{{Citácia elektronického dokumentu | priezvisko = | meno = | autor = | odkaz na autora = | titul = TPS-77 MRR MULTI-ROLE RADAR | url = https://www.lockheedmartin.com/content/dam/lockheed-martin/rms/documents/ground-based-air-surveillance-radars/TPS-77_MRR_SPEC_sheet.pdf | vydavateľ = lockheedmartin.com | dátum vydania = | dátum aktualizácie = | dátum prístupu = 2019-02-08 | miesto = | jazyk = }}&lt;/ref&gt;&lt;ref&gt;{{Citácia elektronického dokumentu | priezvisko = | meno = | autor = | odkaz na autora = | titul = AIR DEFENCE GROUND MASTER 400 Mobile Long Range Air Surveillance Radar | url = https://www.thalesgroup.com/sites/default/files/database/document/2018-08/GM400.pdf | vydavateľ = thalesgroup.com | dátum vydania = | dátum aktualizácie = | dátum prístupu = 2019-02-13 | miesto = | jazyk = }}&lt;/ref&gt;&lt;ref&gt;{{Citácia elektronického dokumentu | priezvisko = | meno = | autor = | odkaz na autora = | titul = Ministerstvo obrany bude rokovať o obstaraní 3D rádiolokátorov s Francúzskom, s Izraelom a so Spojenými štátmi americkými | url = http://www.mosr.sk/43744-sk/ministerstvo-obrany-bude-rokovat-o-obstarani-3d-radiolokatorov-s-francuzskom-s-izraelom-a-so-spojenymi-statmi-americkymi/ | vydavateľ = Ministerstvo obrany SR | dátum vydania = 2019-04-05 | dátum aktualizácie = | dátum prístupu = 2019-03-05 | miesto = Bratislava | jazyk = }}&lt;/ref&gt;&lt;ref&gt;{{Citácia elektronického dokumentu | priezvisko = | meno = | autor = | odkaz na autora = | titul = Projekt - Rádiolokátor prehľadový letiskový (SRE/SSR/PAR) | url = http://www.rokovania.sk/File.aspx/ViewDocumentHtml/Mater-Dokum-224682?prefixFile=m_ | vydavateľ = rokovania.sk | dátum vydania = | dátum aktualizácie = | dátum prístupu = 2019-03-05 | miesto = | jazyk = }}&lt;/ref&gt;
+
+Ministerstvo obrany SR odporučí vláde SR, aby uzatvorila medzivládnu dohodu na obstaranie 17 kusov 3D rádiolokátorov stredného, malého a blízkeho dosahu so štátom [[Izrael]]. Návrh už bol predložený do medzirezortného pripomienkového konania.&lt;ref&gt;{{Citácia elektronického dokumentu | priezvisko = | meno = | autor = | odkaz na autora = | titul = Ministerstvo obrany navrhne vláde obstarať 3D rádiolokátory z Izraela | url = https://www.mosr.sk/44851-sk/ministerstvo-obrany-navrhne-vlade-obstarat-3d-radiolokatory-z-izraela/ | vydavateľ = Ministerstvo obrany SR | dátum vydania = 2019-06-18 | dátum aktualizácie = | dátum prístupu = 2019-06-18 | miesto = Bratislava | jazyk = }}&lt;/ref&gt;&lt;ref&gt;{{Citácia elektronického dokumentu | priezvisko = | meno = | autor = | odkaz na autora = | titul = Ground-Based Radars | url = https://www.iai.co.il/defense/land/ground-based-radars | vydavateľ = iai.co.il | dátum vydania = | dátum aktualizácie = | dátum prístupu = 2019-06-19 | miesto = | jazyk = }}&lt;/ref&gt; Slovensko má záujem o šesť radarov stredného dosahu typu [[EL/M-2084|EL/M-2084 MMR]] (dosah do 400&amp;nbsp;km), päť radarov malého dosahu typu [[EL/M-2084|EL/M-2084 MS-MMR]] (150&amp;nbsp;km) a šesť radarov blízkeho dosahu typu [[EL/M-2026|EL/M-2026B]] (50&amp;nbsp;km). Ministerstvo obrany dostalo potvrdenie z NATO, že izraelské radary môžu byť prepojené s aliančným systémom protivzdušnej ochrany NATINAMDS. Tieto radary sú technologicky absolútnou svetovou špičkou rovnako ako z hľadiska rozsiahlych bojových skúseností, keďže ide o radary, ktoré dennodenne chránia Izrael.&lt;ref&gt;{{Citácia periodika | priezvisko = Hutko | meno = Dominik | autor = | odkaz na autora = | titul = Radary za 155 miliónov chce armáda kúpiť od Izraela | periodikum = pravda.sk | odkaz na periodikum = Pravda (slovenský denník) | url = https://spravy.pravda.sk/domace/clanok/516408-radary-za-155-milionov-chce-armada-kupit-od-izraela/ | issn = 1336-197X | vydavateľ = Perex | miesto = Bratislava | dátum = 2019-06-19 | dátum prístupu = 2019-06-20 }}&lt;/ref&gt;&lt;ref&gt;{{Citácia elektronického dokumentu | priezvisko = | meno = | autor = | odkaz na autora = | titul = IAI ELTA Introduces Next Generation Multi-Sensor ELM-2084 MMR Radar | url = https://www.edrmagazine.eu/iai-elta-introduces-next-generation-multi-sensor-elm-2084-mmr-radar | vydavateľ = edrmagazine.eu | dátum vydania = 2019-06-13 | dátum aktualizácie = | dátum prístupu = 2019-06-20 | miesto = | jazyk = }}&lt;/ref&gt;
+
+{| class=&quot;wikitable&quot;
+! width=&quot;50&quot; style=&quot;text-align: left;&quot;|Radar
+! style=&quot;text-align: left;&quot;|Fotografia
+! width=&quot;140&quot; style=&quot;text-align: left;&quot;|Krajina pôvodu
+! width=&quot;225&quot; style=&quot;text-align: left;&quot;|Typ
+! width=&quot;110&quot; style=&quot;text-align: left;&quot;|Verzie
+! width=&quot;60&quot; style=&quot;text-align: left;&quot;|V službe
+! style=&quot;text-align: left;&quot;|Poznámky
+|-
+! style=&quot;align: center; background: #E6E6E6;&quot; colspan=&quot;7&quot; | [[Radar|Rádiolokátory]]
+|-
+| [[P-37 (radar)|P-37]]
+| [[Súbor:P-37 in the Technical museum Togliatti.jpg|150px]]
+| {{minivlajka|Sovietsky zväz}} [[Sovietsky zväz|ZSSR]]
+| mobilný 3D rádiolokátor
+| P-37MSK
+| 6
+| Maximálna diaľka zistenia cieľov vo výškach od 12 000 do {{m|28 000|m}} je {{km|320|m}}.
+|-
+| [[RL-4 (radar)|RL-4]]
+| [[Súbor:LKCV radar.jpg|150px]]
+| {{minivlajka|Česko-Slovensko}} [[Česko-Slovensko]]
+| mobilný prehľadový 2D rádiolokátor
+| RL-4AM Morad-L
+| 4
+| Diaľkový dosah radaru je {{km|200|m}}.
+|-
+| [[PRV-17 (radar)|PRV-17]]
+| [[Súbor:PRW17.jpg|150px]]
+| {{minivlajka|Sovietsky zväz}} [[Sovietsky zväz|ZSSR]]
+| mobilný rádiolokačný výškomer 
+| PRV-17
+| 3  
+| Mobilný rádiolokačný výškomer, ktorý umožňuje v spolupráci s diaľkomerom vytvárať 3D obraz vzdušnej situácie. Diaľkový dosah výškomera je {{km|600|m}} a výškový {{km|85|m}}.
+|-
+| [[pasívny rádiolokátor Věra|Věra]]
+| [[Súbor:ILA Berlin 2012 PD 042.JPG|80px|center]]
+| {{minivlajka|Česko}} [[Česko]]
+| pasívny sledovací systém
+| VERA-NG
+| 1
+| Pasívny sledovací systém, ktorý funguje na princípe prijímania a spracovania signálov. Senzor nie je zamerateľný. Presnosť systému je lepšia ako v prípade mikrovlného prehľadového radaru. 
+|}
+
+== Hodnosti ==
+=== Dôstojníci ===
+{| style=&quot;border:1px solid #8888aa; background-color:#f7f8ff; padding:5px; font-size:95%; margin: 0px 12px 12px 0px;&quot;
+|- style=&quot;text-align:center;&quot; bgcolor=&quot;#dadada&quot;
+!colspan=4 bgcolor=&quot;#dadada&quot;| Nižší !!colspan=4 bgcolor=&quot;#dadada&quot;| Vyšší
+|- style=&quot;text-align:center;&quot;
+|rowspan=3| {{flagicon|Slovakia}}&lt;br /&gt;'''VzS OS SR'''
+|- style=&quot;text-align:center;&quot;
+|[[Súbor:SVK-Air Force-OF-01a.svg|60px]]
+|[[Súbor:SVK-Air Force-OF-01b.svg|60px]]
+|[[Súbor:SVK-Air Force-OF-02.svg|60px]]
+|[[Súbor:SVK-Air Force-OF-03.svg|60px]]
+|[[Súbor:SVK-Air Force-OF-04.svg|60px]]
+|[[Súbor:SVK-Air Force-OF-05.svg|60px]]
+|
+|- style=&quot;text-align:center;&quot;
+! [[poručík]] !! [[nadporučík]] !! [[Kapitán (vojenská a policajná hodnosť)|kapitán]] 
+! [[major]] !! [[podplukovník]] !! [[plukovník]] !! [[Plukovník generálneho štábu|plukovník]]&lt;br /&gt;[[Plukovník generálneho štábu|generálneho štábu]]
+|- bgcolor=&quot;#dadada&quot; &quot;style=&quot;text-align:center;&quot;
+|[[Súbor:NATO flag.svg|25px|center]]
+!colspan=2 |OF-1 !! OF-2 !! OF-3 !! OF-4 !!colspan=2| OF-5
+|}
+
+=== Generáli ===
+{| style=&quot;border:1px solid #8888aa; background-color:#f7f8ff; padding:5px; font-size:95%; margin: 0px 12px 12px 0px;&quot;
+|- style=&quot;text-align:center;&quot; bgcolor=&quot;#dadada&quot;
+!colspan=6 &quot;|Generáli
+|- style=&quot;text-align:center;&quot;
+|rowspan=2| {{flagicon|Slovakia}}&lt;br /&gt;'''VzS OS SR'''
+|[[Súbor:SVK-Air Force-OF-06.svg|60px]]
+|[[Súbor:SVK-Air Force-OF-07.svg|60px]]
+|[[Súbor:SVK-Air Force-OF-08.svg|60px]]
+|[[Súbor:SVK-Air Force-OF-09.svg|60px]]
+|- style=&quot;text-align:center;&quot;
+![[brigádny generál]] !! [[generálmajor]] !! [[generálporučík]] !! [[generál]]
+|- bgcolor=&quot;#dadada&quot; &quot;style=&quot;text-align:center;&quot;
+|[[Súbor:NATO flag.svg|25px|border|center]]
+! OF-6 !! OF-7 !! OF-8 !! OF-9
+|}
+
+== Poznámky ==
+&lt;references group=&quot;pozn.&quot;/&gt;
+
+== Referencie ==
+{{Referencie|2}}
+
+== Pozri aj ==
+* [[Letecké nešťastie slovenského An-24]]
+* [[Slovenské vzdušné zbrane]]
+* [[Letecký útvar Ministerstva vnútra Slovenskej republiky]]
+* [[Česko-slovenské vojenské letectvo]]
+* [[Kombinovaná letka (Slovenské povstalecké letectvo)|Kombinovaná letka]]
+* [[Vzdušné sily Armády Českej republiky]]
+
+== Iné projekty ==
+{{projekt|commons=Category:Air force of Slovakia}}
+
+== Externé odkazy ==
+* [https://vvzs.mil.sk/ Oficiálna stránka]
+* [http://forum.valka.cz/viewtopic.php/t/91146 Prehľad rozdelenia vojenských lietadiel po rozpade ČSFR]
+* [http://forum.valka.cz/viewtopic.php/t/88662 Prehľad lietadiel používaných v Ozbrojených silách SR (ASR)]
+
+{{Portál|Letectvo|Letecký|Slovensko|Slovenský}}
+{{Ozbrojené sily Slovenskej republiky}}
+
+[[Kategória:Vzdušné sily Slovenskej republiky| ]]
+[[Kategória:Vojenské letectvo podľa štátu|Slovensko]]</text>
+      <sha1>tgutcu1df1fftw7tiaellyzjxwmskz2</sha1>
     </revision>
   </page>
