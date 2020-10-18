@@ -2,7 +2,7 @@
 
 ##Necessary components
 
-[Python 3.7.3 or Above](https://www.python.org/downloads/)
+[Python 3.7.3 or Above](https://www.python.org/downloads/) <br>
 [Pip](https://pip.pypa.io/en/stable/installing/)
 
 
