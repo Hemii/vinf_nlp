@@ -8,11 +8,11 @@
 
 **Installation 
 
-1. Install Libraries
+1. Install Libraries <br>
 	```bash pip install -r ../imports.txt ```
 
 2. Run Jupyter Notebook
-```bash
-	jupyter notebook
-```
+	```bash 	jupyter notebook
+	```
+
 	or run IDE
