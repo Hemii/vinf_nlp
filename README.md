@@ -1,18 +1,21 @@
 # vinf_nlp
 
-**Necessary components
+##Necessary components
 
-[Python 3.7.3 or Above](https://www.python.org/downloads/)
+[Python 3.7.3 or Above](https://www.python.org/downloads/) <br>
 [Pip](https://pip.pypa.io/en/stable/installing/)
 
 
-**Installation 
+##Installation 
 
-1. Install Libraries
-	```bash pip install -r ../imports.txt ```
+1. Install Libraries <br>
+	```bash 
+	pip install -r ../imports.txt
+	```
 
 2. Run Jupyter Notebook
-```bash
+
+	```bash
 	jupyter notebook
-```
+	```
 	or run IDE
