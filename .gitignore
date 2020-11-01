@@ -1,0 +1,4 @@
+data/skwiki-latest-pages-articles.xml
+data/*.csv
+**/.ipynb_checkpoints
+.idea
