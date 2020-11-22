@@ -1,4 +1,5 @@
 data/skwiki-latest-pages-articles.xml
 data/*.csv
+data/*.json
 **/.ipynb_checkpoints
 .idea
